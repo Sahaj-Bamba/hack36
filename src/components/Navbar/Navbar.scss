@@ -1,0 +1,29 @@
+.NavBar {
+	height: 50px;
+	width: 100%;
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: unset;
+	justify-content: center;
+}
+
+.NavItem {
+	display: inline-block;
+	flex: 1 1 150px;
+	border: 2px solid red;
+	margin: auto;
+	font-size: 2em;
+}
+
+.NavHeader {
+	display: inline-block;
+	justify-content: center;
+	flex: 0 1 200px;
+	border: 2px solid blue;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}

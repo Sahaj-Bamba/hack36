@@ -1,0 +1,6 @@
+.MainContainer {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	border: 2px solid skyblue;
+	min-height: 100vh;
+}
