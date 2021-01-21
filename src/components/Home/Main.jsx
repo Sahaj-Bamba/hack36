@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
+import Navbar1 from "../Navbar1/Navbar1";
 import Footer from "../Footer/Footer";
 import Content from "./Content";
 import "./Main.scss";
@@ -22,8 +23,11 @@ class Main extends Component {
 
 		return (
 			<div className="MainContainer">
-				<Navbar changeMenu={this.changeMenu} activeMenu={activeMenu} />
-				<Content activeMenu={activeMenu} />
+				<Navbar1 changeMenu={this.changeMenu} activeMenu={activeMenu} />
+				<main>
+					<Navbar changeMenu={this.changeMenu} activeMenu={activeMenu} />
+					<Content activeMenu={activeMenu} />					
+				</main>
 				<Footer />
 			</div>
 		);
