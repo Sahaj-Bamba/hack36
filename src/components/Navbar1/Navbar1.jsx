@@ -8,7 +8,7 @@ class Navbar1 extends Component {
 	}
 
 	render() {
-		const { changeMenu } = this.props;
+		const { changeMenu, activeMenu } = this.props;
 		
 		return (
 			<header>
