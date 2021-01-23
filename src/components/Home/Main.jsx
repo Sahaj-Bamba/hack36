@@ -41,17 +41,17 @@ class Main extends Component {
                     </div>
                 ) : (
                     <div className="MainContainer">
-                        <Navbar1
+                        <Navbar
                             changeMenu={this.changeMenu}
                             activeMenu={activeMenu}
                         />
-                        <main>
-                            <Navbar
+                        <div className="MainContent">
+                            <Navbar1
                                 changeMenu={this.changeMenu}
                                 activeMenu={activeMenu}
                             />
                             <Content activeMenu={activeMenu} />
-                        </main>
+                        </div>
                         <Footer />
                     </div>
                 )}

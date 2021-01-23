@@ -17,7 +17,7 @@ class Content extends Component {
 		const { activeMenu } = this.props;
 
 		return (
-			<div>
+			<div className="Content">
 				{activeMenu==="Home" && <Base />}
 				{activeMenu==="About" && <About />}
 				{activeMenu==="Timeline" && <Timeline />}
