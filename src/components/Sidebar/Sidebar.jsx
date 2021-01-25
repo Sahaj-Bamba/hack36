@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Navbar1.scss";
+import "./Sidebar.scss";
 
-class Navbar1 extends Component {
+class Sidebar extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -11,8 +11,8 @@ class Navbar1 extends Component {
         const { changeMenu, activeMenu } = this.props;
 
         return (
-                <nav className="navbar">
-                    <ul className="navbar-nav">
+                <nav className="Sidebar">
+                    <ul className="Sidebar-nav">
                         <li className="nav-item">
                             <a
                                 href="#about"
@@ -88,4 +88,4 @@ class Navbar1 extends Component {
     }
 }
 
-export default Navbar1;
+export default Sidebar;

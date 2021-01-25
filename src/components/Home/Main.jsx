@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
-import Navbar1 from "../Navbar1/Navbar1";
+import Sidebar from "../Sidebar/Sidebar";
 import Footer from "../Footer/Footer";
 import Content from "./Content";
 import "./Main.scss";
@@ -46,7 +46,7 @@ class Main extends Component {
                             activeMenu={activeMenu}
                         />
                         <div className="MainContent">
-                            <Navbar1
+                            <Sidebar
                                 changeMenu={this.changeMenu}
                                 activeMenu={activeMenu}
                             />
