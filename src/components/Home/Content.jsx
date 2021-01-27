@@ -5,6 +5,7 @@ import Timeline from "../Pages/Timeline/Timeline";
 import Sponsor from "../Pages/Sponsor/Sponsor";
 import FAQ from "../Pages/FAQ/FAQ";
 import Theme from "../Pages/Theme/Theme";
+import Team from "../Pages/Team/Team";
 
 class Content extends Component {
 	constructor(props) {
@@ -24,6 +25,7 @@ class Content extends Component {
 				{activeMenu==="Sponsor" && <Sponsor />}
 				{activeMenu==="FAQ" && <FAQ />}
 				{activeMenu==="Theme" && <Theme />}
+				{activeMenu==="Team" && <Team />}
 			</div>
 		);
 	}

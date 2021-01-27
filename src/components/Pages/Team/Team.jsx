@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Team.scss";
 
-class Sponsor extends Component {
+class Team extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
