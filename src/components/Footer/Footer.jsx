@@ -9,7 +9,11 @@ class Footer extends Component {
 	}
 
 	render() {
-		return <div className="FooterContainer"> I am Footer sort of.</div>;
+		return (
+			<div className="FooterContainer"> 
+                Copyright © Hack36 2021 	
+            </div>
+		);
 	}
 }
 

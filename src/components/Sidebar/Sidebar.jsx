@@ -15,7 +15,18 @@ class Sidebar extends Component {
                     <ul className="Sidebar-nav">
                         <li className="nav-item">
                             <a
-                                href="#about"
+                                href="#Home"
+                                className="nav-link"
+                                onClick={(event) => changeMenu(event, "Home")}
+                            >
+                                <i className="lni lni-home"></i>
+                                <span className="link-text about">Home</span>
+                            </a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a
+                                href="#ComingSoon"
                                 className="nav-link"
                                 onClick={(event) => changeMenu(event, "About")}
                             >
@@ -26,7 +37,7 @@ class Sidebar extends Component {
 
                         <li className="nav-item">
                             <a
-                                href="#stats"
+                                href="#ComingSoon"
                                 className="nav-link"
                                 onClick={(event) => changeMenu(event, "Stats")}
                             >
@@ -37,7 +48,7 @@ class Sidebar extends Component {
 
                         <li className="nav-item">
                             <a
-                                href="#sponsors"
+                                href="#ComingSoon"
                                 className="nav-link"
                                 onClick={(event) =>
                                     changeMenu(event, "Sponsor")
@@ -50,7 +61,7 @@ class Sidebar extends Component {
 
                         <li className="nav-item">
                             <a
-                                href="#faqs"
+                                href="#ComingSoon"
                                 className="nav-link"
                                 onClick={(event) => changeMenu(event, "FAQ")}
                             >
@@ -61,7 +72,7 @@ class Sidebar extends Component {
 
                         <li className="nav-item">
                             <a
-                                href="#team"
+                                href="#ComingSoon"
                                 className="nav-link"
                                 onClick={(event) => changeMenu(event, "Team")}
                             >
@@ -72,7 +83,7 @@ class Sidebar extends Component {
 
                         <li className="nav-item">
                             <a
-                                href="#contact"
+                                href="#ComingSoon"
                                 className="nav-link"
                                 onClick={(event) =>
                                     changeMenu(event, "Contact")

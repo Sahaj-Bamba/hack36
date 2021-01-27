@@ -1,0 +1,24 @@
+.Base {
+	width: 100%;
+	height: auto;
+	display: grid;
+	place-items: center;
+}
+
+#myVideo {
+	// position: fixed;
+	// right: 0;
+	// bottom: 0;
+	max-width: calc(100vw - 40px);
+	//   min-height: 100%;
+}
+
+.ScrambledTextBase {
+	position: relative;
+	text-align: center;
+	margin: auto;
+	top: -85vh;
+	// left: 25%;
+	// top: 50%;
+	font-size: 2em;
+}
