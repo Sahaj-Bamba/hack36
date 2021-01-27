@@ -41,10 +41,10 @@ class Main extends Component {
                     </div>
                 ) : (
                     <div className="MainContainer">
-                        <Navbar
+                        {/* <Navbar
                             changeMenu={this.changeMenu}
                             activeMenu={activeMenu}
-                        />
+                        /> */}
                         <div className="MainContent">
                             <Sidebar
                                 changeMenu={this.changeMenu}

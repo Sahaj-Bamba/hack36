@@ -26,4 +26,6 @@
 .Content {
 	// min-height: 100%;
 	margin-left: 40px;
+	max-width: calc(100vw - 40px);
+	min-height: calc(100vh - 30px);
 }
