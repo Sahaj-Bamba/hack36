@@ -21,6 +21,7 @@ class Content extends Component {
 		return (
 			<div className="Content">
 				<Base />
+				{/* <Team /> */}
 				<ComingSoon />
 				{/* <About /> */}
 				{/* {activeMenu==="Home" && <Base />} */}
