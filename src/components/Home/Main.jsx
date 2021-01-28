@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import Footer from "../Footer/Footer";
 import Content from "./Content";
 import "./Main.scss";
-import loader from "../../loader.gif";
+import loader from "../../files/loader.gif";
 
 class Main extends Component {
     constructor(props) {
