@@ -28,8 +28,13 @@ class Base extends Component {
 
 	componentDidMount(){
 		
+		setTimeout(() => {
+            var element = document.getElementById("loader");
+            element && element. parentNode && element. parentNode .removeChild(element);
+        }, 500);
+
 		var video = document.getElementById("myVideo");
-		video.play();
+		video && video.play();
 		this.interval = setInterval(() => {
 			var vid = document.getElementById("myVideo");
 			vid.currentTime = 0;
@@ -55,13 +60,6 @@ class Base extends Component {
 	}
 
 	render() {
-
-		const { Background } = this.state;
-
-		// var sectionStyle = {
-		// 	backgroundImage: "url(" + { Background } + ")",
-		// 	height: 500
-		// };
 
 		return (
 			<div className="Base" id="Home" >
