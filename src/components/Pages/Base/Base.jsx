@@ -68,6 +68,9 @@ class Base extends Component {
                 <video autoplay muted loop id="myVideo">
 					<source src={ land } type="video/mp4" />
 				</video>
+				<div class="Heading">
+					<h1 class="h">Hack36</h1>
+				</div>
 				<div className="ScrambledTextBase">
 					{this.state.text}
 				</div>

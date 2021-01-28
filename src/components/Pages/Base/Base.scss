@@ -1,24 +1,49 @@
 .Base {
-	width: 100%;
-	height: auto;
-	display: grid;
-	place-items: center;
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
 }
 
 #myVideo {
-	// position: fixed;
-	// right: 0;
-	// bottom: 0;
-	max-width: calc(100vw - 40px);
-	//   min-height: 100%;
+    // position: fixed;
+    // right: 0;
+    // bottom: 0;
+    max-width: calc(100vw - 40px);
+    //   min-height: 100%;
 }
 
 .ScrambledTextBase {
-	position: relative;
-	text-align: center;
-	margin: auto;
-	top: -85vh;
-	// left: 25%;
-	// top: 50%;
-	font-size: 2em;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    top: -85vh;
+    // left: 25%;
+    // top: 50%;
+    font-size: 2em;
+}
+
+.h {
+    position: absolute;
+    width: 100%;
+    text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%), 0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, .05), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
+    font-size: 100%;
+}
+
+.Heading {
+    font: 900 120px/1 'Source Sans Pro', Arial, sans-serif;
+    background: #becccc;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 15px;
+    padding-top: 10%;
+    position: relative;
+    text-align: center;
+    // font-size: 10rem;
+    margin: auto;
+    top: -100vh;
+    transform-style: preserve-3d;
+    transform: rotateX(45deg);
+    transform: rotateY(30deg);
 }
