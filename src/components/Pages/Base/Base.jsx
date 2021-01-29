@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./Base.scss";
 import land from '../../../files/Landing/Land.mp4';
 import {TextScramble} from "../About/scrambler";
-
+// import {  } from "https://cdn.jsdelivr.net/npm/typed.js@2.0.11"
+// ";
 class Base extends Component {
 	constructor(props) {
 		super(props);
@@ -62,14 +63,18 @@ class Base extends Component {
 	render() {
 
 		return (
+			
+			
 			<div className="Base" id="Home" >
                 <video autoplay muted loop id="myVideo">
 					<source src={ land } type="video/mp4" />
 				</video>
-				<div class="Heading">
-					<h1 class="h">Hack36</h1>
-				</div>
-				<div className="ScrambledTextBase">
+				<h1 class="h">Hack36</h1>
+    
+    			{/* <div id="typo">36 hours of <span class="primary" id="type"></span> </div> */}
+
+
+    			<div className="ScrambledTextBase" id="typo">
 					{this.state.text}
 				</div>
             </div>
