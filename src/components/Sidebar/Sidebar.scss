@@ -17,6 +17,7 @@
 	height: 100vh;
 	position: fixed;
 	background-color: var(--bg-primary);
+	z-index: 1000;
 }
 
 .Sidebar-nav {
