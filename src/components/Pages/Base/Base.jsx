@@ -82,7 +82,7 @@ class Base extends Component {
 						<div id="Hacklogo">
 							<img src={logo} className="hackl"/>
 						</div>
-						<br />
+						<br className="noMob"/>
 						{/* <div id="typo">36 hours of <span class="primary" id="type"></span> </div> */}
 						<div className="ScrambledTextBase" id="typo">
 							{this.state.text}

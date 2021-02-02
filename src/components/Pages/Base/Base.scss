@@ -118,15 +118,13 @@
 @media only screen and (max-width: 700px) {
 	.Base {
 		grid-template-columns: 1fr;
-		grid-template-rows: auto auto;
-		grid-template-areas:
-			" r1 "
-			" r2 ";
+		grid-template-rows: auto;
+		grid-template-areas: " r1 ";
 	}
 
 	.vid {
 		width: 100%;
-		grid-area: r2;
+		grid-area: r1;
 	}
 
 	#myVideo {
@@ -135,6 +133,7 @@
 	}
 
 	.cnt {
+		position: absolute;
 		height: auto;
 		width: calc((100vw - 50px));
 		grid-area: r1;
@@ -142,6 +141,8 @@
 
 	.cntcnt {
 		width: calc((100vw - 50px));
+		display: grid;
+		place-items: center;
 	}
 
 	.h {
@@ -150,7 +151,15 @@
 	}
 
 	#typo {
-		font: 900 50px/1 "Source Sans Pro", Arial, sans-serif;
+		font: 900 30px/1 "Source Sans Pro", Arial, sans-serif;
+	}
+
+	.hackl {
+		width: 45%;
+	}
+
+	.noMob {
+		display: none;
 	}
 }
 
