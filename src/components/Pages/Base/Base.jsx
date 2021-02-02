@@ -67,9 +67,11 @@ class Base extends Component {
 			
 			<div className="Base" id="Home" >
 				<div className="vid">
+					<div className="back1"></div>
 					<video autoplay muted loop id="myVideo">
 						<source src={ land } type="video/mp4" />
 					</video>
+					<div className="back2"></div>
 				</div>
 				<div className="cnt">
 					<div className="cntcnt">

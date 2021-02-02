@@ -8,7 +8,7 @@
 	width: 100%;
 	display: grid;
 	place-items: center;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: auto auto;
 	z-index: 80;
 	grid-template-areas: " r1 r2 ";
 	//	background-color: aqua;
@@ -19,6 +19,7 @@
 	height: auto;
 	z-index: 100;
 	grid-area: r1;
+	max-height: 100vh;
 }
 
 #myVideo {
@@ -34,13 +35,34 @@
 
 	width: calc(500 * ((100vw - 40px) / 2) / 200);
 	left: calc(-150 * ((100vw - 40px) / 2) / 200);
+	max-height: 100vh;
+}
+
+.back1 {
+	z-index: 300;
+	position: absolute;
+	background-color: #4a5a7d;
+	height: 100%;
+	left: 40px;
+	width: calc((((100vw - 40px) / 2) - 495px) / 1.1);
+}
+
+.back2 {
+	z-index: 300;
+	position: absolute;
+	background-color: #4a5a7d;
+	height: 100%;
+	top: 0px;
+	left: calc(40px + ((((100vw - 40px) / 2) - 495px) / 2.5) + 495px);
+	width: calc((((100vw - 40px) / 2) - 495px) / 1.1);
 }
 
 .cnt {
 	//	min-width: calc((100vw - 40px) / 2);
 	width: calc((100vw - 40px) / 2);
 	height: 100%;
-	background-color: aqua;
+	max-height: 100vh;
+	background-color: #4a5a7d;
 	z-index: 200;
 	display: grid;
 	place-items: center;
