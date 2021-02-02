@@ -35,11 +35,9 @@ class Base extends Component {
 		var d = document.getElementById('typo');
 		var e = d.parentNode.parentNode.parentNode;
 		d.style.top = (e.offsetHeight-10) +'px';
-		
-		setTimeout(() => {
-            var element = document.getElementById("loader");
-            element && element. parentNode && element. parentNode .removeChild(element);
-        }, 2500);
+
+		var x = document.getElementById('root');
+		x.style.display = "none";
 
 		var video = document.getElementById("myVideo");
 		video && video.play();

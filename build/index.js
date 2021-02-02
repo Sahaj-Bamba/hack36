@@ -4,3 +4,9 @@ var scrollEventHandler = function()
 }
 
 window.addEventListener("scroll", scrollEventHandler, false);
+
+setTimeout(() => {
+    var element = document.getElementById("loader");
+    element && element. parentNode && element. parentNode .removeChild(element);
+    $("#root").fadeIn(3000);
+}, 2500);
