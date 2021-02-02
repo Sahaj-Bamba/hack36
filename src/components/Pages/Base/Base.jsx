@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Base.scss";
-import land from '../../../files/Landing/Land.mp4';
+import land from '../../../files/LandingPageMobile.mp4';
 import {TextScramble} from "../About/scrambler";
 // import {  } from "https://cdn.jsdelivr.net/npm/typed.js@2.0.11"
 // ";
@@ -39,7 +39,7 @@ class Base extends Component {
 		this.interval = setInterval(() => {
 			var vid = document.getElementById("myVideo");
 			vid.currentTime = 0;
-        }, 7500);
+        }, 4100);
 
 		const phrases = [
 		'36 hours of excitement',
@@ -66,18 +66,23 @@ class Base extends Component {
 			
 			
 			<div className="Base" id="Home" >
-                <video autoplay muted loop id="myVideo">
-					<source src={ land } type="video/mp4" />
-				</video>
-				<h1 class="h">Hack36</h1>
-    
-    			{/* <div id="typo">36 hours of <span class="primary" id="type"></span> </div> */}
-
-
-    			<div className="ScrambledTextBase" id="typo">
-					{this.state.text}
+				<div className="vid">
+					<video autoplay muted loop id="myVideo">
+						<source src={ land } type="video/mp4" />
+					</video>
 				</div>
+				<div className="cnt">
+					<div className="cntcnt">
+						<h1 class="h">Hack36</h1>
+						<br />
+						{/* <div id="typo">36 hours of <span class="primary" id="type"></span> </div> */}
+						<div className="ScrambledTextBase" id="typo">
+							{this.state.text}
+						</div>	
+					</div>			
+				</div>	
             </div>
+
 		);
 	}
 }
