@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import "./Base.scss";
 import land from '../../../files/LandingPageMobile.mp4';
 import {TextScramble} from "../About/scrambler";
+import logo from '../../../files/logo.png';
+
 // import {  } from "https://cdn.jsdelivr.net/npm/typed.js@2.0.11"
 // ";
+
 class Base extends Component {
 	constructor(props) {
 		super(props);
@@ -32,7 +35,7 @@ class Base extends Component {
 		setTimeout(() => {
             var element = document.getElementById("loader");
             element && element. parentNode && element. parentNode .removeChild(element);
-        }, 500);
+        }, 1000);
 
 		var video = document.getElementById("myVideo");
 		video && video.play();
@@ -75,7 +78,10 @@ class Base extends Component {
 				</div>
 				<div className="cnt">
 					<div className="cntcnt">
-						<h1 class="h">Hack36</h1>
+						{/* <h1 class="h">Hack36</h1> */}
+						<div id="Hacklogo">
+							<img src={logo} className="hackl"/>
+						</div>
 						<br />
 						{/* <div id="typo">36 hours of <span class="primary" id="type"></span> </div> */}
 						<div className="ScrambledTextBase" id="typo">
