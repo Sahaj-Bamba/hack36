@@ -34,8 +34,8 @@ class Base extends Component {
 		
 		if(window.innerWidth < 700){
 			var d = document.getElementById('typo');
-			var e = d.parentNode.parentNode;
-			d.style.top = (e.offsetHeight-40) +'px';
+			var e = d.parentNode;
+			d.style.top = (((e.offsetWidth*450)/320)-60) +'px';
 		}
 
 		var x = document.getElementById('root');

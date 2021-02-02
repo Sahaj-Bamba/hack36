@@ -33,8 +33,9 @@
 	//	background: rgba(0, 0, 0, 1);
 	//	opacity: 0.5;
 
-	width: calc(500 * ((100vw - 50px) / 2) / 200);
-	left: calc(-150 * ((100vw - 50px) / 2) / 200);
+	width: calc((100vw - 50px) / 2);
+	height: auto;
+	// left: calc(-150 * ((100vw - 50px) / 2) / 200);
 	max-height: 100vh;
 }
 
@@ -128,8 +129,8 @@
 	}
 
 	#myVideo {
-		width: calc(500 * (100%) / 200);
-		left: calc(-150 * (100%) / 200);
+		width: 100%;
+		//		left: calc(-150 * (100%) / 200);
 	}
 
 	.cnt {
