@@ -5,6 +5,7 @@
 	min-height: 100vh;
 	width: 100vw;
 	background-color: aqua;
+	overflow: hidden;
 }
 
 .MainContent {
@@ -13,6 +14,7 @@
 	// border: 2px solid goldenrod;
 	min-height: auto;
 	width: 100vw;
+	overflow: hidden;
 }
 
 // .loader {

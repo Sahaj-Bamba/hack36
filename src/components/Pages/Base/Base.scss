@@ -134,15 +134,17 @@
 
 	.cnt {
 		position: absolute;
-		height: auto;
+		height: 100%;
 		width: calc((100vw - 50px));
 		grid-area: r1;
+		background-color: #92b5f900;
 	}
 
 	.cntcnt {
 		width: calc((100vw - 50px));
 		display: grid;
 		place-items: center;
+		height: 100%;
 	}
 
 	.h {
@@ -152,6 +154,13 @@
 
 	#typo {
 		font: 900 30px/1 "Source Sans Pro", Arial, sans-serif;
+		position: absolute;
+		bottom: 20px;
+	}
+
+	#Hacklogo {
+		position: absolute;
+		top: 10px;
 	}
 
 	.hackl {

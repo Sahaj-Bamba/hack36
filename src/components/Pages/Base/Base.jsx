@@ -32,6 +32,10 @@ class Base extends Component {
 
 	componentDidMount(){
 		
+		var d = document.getElementById('typo');
+		var e = d.parentNode.parentNode.parentNode;
+		d.style.top = (e.offsetHeight-10) +'px';
+		
 		setTimeout(() => {
             var element = document.getElementById("loader");
             element && element. parentNode && element. parentNode .removeChild(element);
