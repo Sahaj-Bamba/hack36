@@ -35,7 +35,7 @@ class Base extends Component {
 		setTimeout(() => {
             var element = document.getElementById("loader");
             element && element. parentNode && element. parentNode .removeChild(element);
-        }, 1000);
+        }, 2500);
 
 		var video = document.getElementById("myVideo");
 		video && video.play();
