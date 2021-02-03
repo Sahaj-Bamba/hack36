@@ -30,8 +30,34 @@ class Base extends Component {
 		})
 	}
 
-	componentDidMount(){
+	animate = () => {
 		
+		var x = 0;
+		var k = 2;
+		var speedx = (Math.random()*2) - 1;
+		var speedy = (Math.random()*2) - 1;
+		var e = document.getElementById('a');
+		if(e){
+			e.style.top = window.innerHeight/2 + 'px';
+			e.style.left = window.innerWidth/2 + 'px';
+		}
+		setInterval(()=>{
+			x++;
+			if(x%100 === 0){
+				speedx = (Math.random()*2) - 1;
+				speedy = (Math.random()*2) - 1;
+			}
+			var e = document.getElementById('a');
+			if(e){
+				e.style.top = e.getBoundingClientRect().top - (speedy*k) + 'px';
+				e.style.left = e.getBoundingClientRect().left - (speedx*k) + 'px';
+			}
+			
+		},100);
+	}
+
+	componentDidMount(){
+		this.animate();
 		if(window.innerWidth < 700){
 			var d = document.getElementById('typo');
 			var e = d.parentNode;
@@ -73,6 +99,7 @@ class Base extends Component {
 			
 			
 			<div className="Base" id="Home" >
+				<div id='a'></div>
 				<div className="vid">
 					<div className="back1"></div>
 					<video autoplay muted loop id="myVideo">
