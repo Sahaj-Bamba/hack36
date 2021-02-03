@@ -1,25 +1,15 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
-import Navbar1 from "../Navbar1/Navbar1";
+import Sidebar from "../Sidebar/Sidebar";
 import Footer from "../Footer/Footer";
 import Content from "./Content";
 import "./Main.scss";
-import loader from "../../loader.gif";
+import loader from "../../files/loader.gif";
 
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = { activeMenu: "Home", loading: true };
-    }
-
-    componentDidMount() {
-        this.isLoading = setTimeout(() => {
-            this.setState({ loading: false });
-        }, 1000);
-    }
-
-    componentWillUnmount() {
-        clearTimeout(this.isLoading);
+        this.state = { activeMenu: "Home" };
     }
 
     changeMenu = (event, item) => {
@@ -33,28 +23,17 @@ class Main extends Component {
         const { activeMenu } = this.state;
 
         return (
-            <div className="App">
-                {this.state.loading ? (
-                    <div>
-                        <img src={loader} className="loader" />
-                        {/* <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" /> */}
-                    </div>
-                ) : (
-                    <div className="MainContainer">
-                        <Navbar
+            <div className="App">                
+                <div className="MainContainer">
+                    <div className="MainContent">
+                        <Sidebar
                             changeMenu={this.changeMenu}
                             activeMenu={activeMenu}
                         />
-                        <div className="MainContent">
-                            <Navbar1
-                                changeMenu={this.changeMenu}
-                                activeMenu={activeMenu}
-                            />
-                            <Content activeMenu={activeMenu} />
-                        </div>
-                        <Footer />
+                        <Content activeMenu={activeMenu} />
                     </div>
-                )}
+                    <Footer />
+                </div>
             </div>
         );
     }

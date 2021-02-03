@@ -5,6 +5,8 @@ import Timeline from "../Pages/Timeline/Timeline";
 import Sponsor from "../Pages/Sponsor/Sponsor";
 import FAQ from "../Pages/FAQ/FAQ";
 import Theme from "../Pages/Theme/Theme";
+import Team from "../Pages/Team/Team";
+import ComingSoon from "../Pages/ComingSoon/ComingSoon";
 
 class Content extends Component {
 	constructor(props) {
@@ -18,12 +20,19 @@ class Content extends Component {
 
 		return (
 			<div className="Content">
-				{activeMenu==="Home" && <Base />}
-				{activeMenu==="About" && <About />}
-				{activeMenu==="Timeline" && <Timeline />}
-				{activeMenu==="Sponsor" && <Sponsor />}
-				{activeMenu==="FAQ" && <FAQ />}
-				{activeMenu==="Theme" && <Theme />}
+				<Base />
+				{/* <Team /> */}
+				<ComingSoon />
+				{/* <About /> */}
+				{/* {activeMenu==="Home" && <Base />} */}
+				{/* {activeMenu==="ComingSoon" && <ComingSoon />} */}
+				{/* {activeMenu==="About" && <About />} */}
+				{/* {activeMenu==="Timeline" && <Timeline />} */}
+				{/* {activeMenu==="Sponsor" && <Sponsor />} */}
+				{/* {activeMenu==="FAQ" && <FAQ />} */}
+				{/* {activeMenu==="Theme" && <Theme />} */}
+				{/* {activeMenu==="Team" && <Team />} */}
+				
 			</div>
 		);
 	}

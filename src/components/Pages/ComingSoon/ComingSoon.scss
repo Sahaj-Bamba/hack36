@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+	opacity: 0;
+}
+
+.ComingSoon {
+	background-color: #92b5f9;
+}
+
+.console-container {
+	font-family: Khula;
+	font-size: 3em;
+	text-align: center;
+	height: auto;
+	// width: 600px;
+	display: block;
+	color: white;
+	margin: auto;
+	background-color: #92b5f9;
+}
+
+.console-underscore {
+	display: inline-block;
+	position: relative;
+	top: -0.14em;
+	left: 10px;
+}

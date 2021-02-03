@@ -3,7 +3,7 @@
   	<head>
 		<title>Hack 36</title>
 		
-		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<link rel="icon" href="%PUBLIC_URL%/logo.png" />
 		
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,12 +13,15 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
-
+		<link rel="stylesheet" href="index.css">
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 	
 	</head>
   	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="loader" style="display: block; min-width: 100vw; min-height: 100vh;">
+			<img src="Files/loader.gif" id="loader" />
+		</div>
 		<div id="root"></div>
   
 	
@@ -33,6 +36,8 @@
 		
 		<!-- Fancy Box js -->
 		<script src="jquery.fancybox.min.js"></script>
+
+		<script src="index.js"></script>
 	
 	</body>
 	
