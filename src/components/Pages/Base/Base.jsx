@@ -3,7 +3,7 @@ import "./Base.scss";
 import land from '../../../files/LandingPageMobile.mp4';
 import {TextScramble} from "../About/scrambler";
 import logo from '../../../files/logo.png';
-import $ from "jquery";
+
 // import {  } from "https://cdn.jsdelivr.net/npm/typed.js@2.0.11"
 // ";
 
@@ -14,43 +14,7 @@ class Base extends Component {
 			text : ""
 		};
 	}
-	makeNewPosition= () =>{
-    
-		// Get viewport dimensions (remove the dimension of the div)
-		var h = window.screen.height - 50;
-		var w = window.screen.width - 50;
-		
-		var nh = Math.floor(Math.random() * h);
-		var nw = Math.floor(Math.random() * w);
-		
-		return [nh,nw];    
-		
-	}
-	 myMove = (el) => {
-		var elem = document.getElementsByClassName(el);
-		var pos = 0;
-		var id = setInterval(frame, 5);
-		function frame() {
-		  if (pos == 350) {
-			clearInterval(id);
-		  } else {
-			pos++;
-			elem.style.top = pos + 'px';
-			elem.style.left = pos + 'px';
-		  }
-		}
-	  }
-	animateDiv = (myclass)=>{
-		var newq = this.makeNewPosition();
-		console.log(document.getElementsByClassName(myclass)[0]);
-		
-		document.getElementsByClassName(myclass)[0].animate({ top: newq[0], left: newq[1] }, 5000,   function(){
-			
-			// console.log('dkjdsjgiuds');
-			this.animateDiv(myclass);
 
-		  });
-	};
 	componentWillUnmount() {
 		clearInterval(this.interval);
 	}
@@ -100,11 +64,6 @@ class Base extends Component {
 			})
 			counter = (counter + 1) % phrases.length
 		}
-		this.animateDiv('a');
-		this.animateDiv('b');
-		this.animateDiv('c');
-		this.animateDiv('d');
-
 		begin();
 	}
 
@@ -134,11 +93,7 @@ class Base extends Component {
 						</div>	
 					</div>			
 				</div>	
-				<div class='a'></div>
-				<div class='b'></div>
-				<div class='c'></div>
-				<div class='d'></div>
-			</div>
+            </div>
 
 		);
 	}
