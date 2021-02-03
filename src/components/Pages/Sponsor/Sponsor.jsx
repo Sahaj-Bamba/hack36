@@ -10,9 +10,10 @@ class Sponsor extends Component {
 	render() {
 
 		return (
-			<div>
-                I am Sponsor.
-            </div>
+			<div>	
+	            <h5 style={{marginTop:"3rem"}}>If you are interested in sponsoring Hack36 2021, <a href={"mailto:hackathon@mnnit.ac.in"}>email us</a> for more details!</h5>
+				<h2>Past Sponsors</h2>
+			</div>
 		);
 	}
 }
