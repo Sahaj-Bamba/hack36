@@ -3,7 +3,14 @@ import "./Base.scss";
 import land from '../../../files/LandingPageMobile.mp4';
 import {TextScramble} from "../About/scrambler";
 import logo from '../../../files/logo.png';
+import vir1 from '../../../files/virus/Virus1.png'
+import vir2 from '../../../files/virus/Virus2.png'
+import vir3 from '../../../files/virus/Virus3.png'
+import vir4 from '../../../files/virus/Virus4.png'
+import vir5 from '../../../files/virus/Virus5.png'
 
+
+import $ from "jquery";
 // import {  } from "https://cdn.jsdelivr.net/npm/typed.js@2.0.11"
 // ";
 
@@ -30,34 +37,78 @@ class Base extends Component {
 		})
 	}
 
-	animate = () => {
+	// animate = (ele) => {
 		
-		var x = 0;
-		var k = 2;
-		var speedx = (Math.random()*2) - 1;
-		var speedy = (Math.random()*2) - 1;
-		var e = document.getElementById('a');
-		if(e){
-			e.style.top = window.innerHeight/2 + 'px';
-			e.style.left = window.innerWidth/2 + 'px';
-		}
-		setInterval(()=>{
-			x++;
-			if(x%100 === 0){
-				speedx = (Math.random()*2) - 1;
-				speedy = (Math.random()*2) - 1;
-			}
-			var e = document.getElementById('a');
-			if(e){
-				e.style.top = e.getBoundingClientRect().top - (speedy*k) + 'px';
-				e.style.left = e.getBoundingClientRect().left - (speedx*k) + 'px';
-			}
+	// 	var x = 0;
+	// 	var k = 2;
+	// 	var speedx = (Math.random()*2) - 1;
+	// 	var speedy = (Math.random()*2) - 1;
+	// 	var e =ele ;
+	// 	if(e){
+	// 		e.style.top = window.innerHeight/2 + 'px';
+	// 		e.style.left = window.innerWidth/2 + 'px';
+	// 	}
+	// 	setInterval(()=>{
+	// 		x++;
+	// 		if(x%100 === 0){
+	// 			speedx = (Math.random()*2) - 1;
+	// 			speedy = (Math.random()*2) - 1;
+	// 		}
+	// 		var e = ele;
+	// 		if(e){
+	// 			e.style.top = e.getBoundingClientRect().top - (speedy*k) + 'px';
+	// 			e.style.left = e.getBoundingClientRect().left - (speedx*k) + 'px';
+	// 		}
 			
-		},100);
+	// 	},50);
+	// }
+	makeNewPosition = () =>{
+    
+		// Get viewport dimensions (remove the dimension of the div)
+		var h = window.screen.height - 50;
+		var w = window.screen.width - 50;
+		
+		var nh = Math.floor(Math.random() * h);
+		var nw = Math.floor(Math.random() * w);
+		
+		return [nh,nw];    
+		
 	}
+	
+	animateDiv = (id,tm)=>{
+		setInterval(() => {
+			var newq = this.makeNewPosition();
+			
+			var postop = $("#myVideo").position().top;
+			var posleft = $("#myVideo").position().left;
+			var vidheight = $("#myVideo").height();
+			var vidwidth = $("#myVideo").width();
 
+			if((posleft<newq[1]&&newq[1]<(posleft+vidwidth))==false) {
+
+				document.getElementById(id).style.left=newq[1]+'px';
+				document.getElementById(id).style.top=newq[0]+'px';
+				
+				$("#"+id).fadeIn(500);
+				$("#"+id).fadeOut(tm-500);
+					
+			} 
+		}, tm);		
+		
+	};
 	componentDidMount(){
-		this.animate();
+		// this.fadeOutEffect(document.getElementById('a'));
+		this.animateDiv('a',3000);
+		this.animateDiv('b',4000);
+		this.animateDiv('c',5000);
+		this.animateDiv('d',2000);
+		this.animateDiv('e',2500);
+
+		// this.animate(document.getElementById('c'));
+
+		// this.animate(document.getElementById('d'));
+
+
 		if(window.innerWidth < 700){
 			var d = document.getElementById('typo');
 			var e = d.parentNode;
@@ -99,7 +150,8 @@ class Base extends Component {
 			
 			
 			<div className="Base" id="Home" >
-				<div id='a'></div>
+		
+
 				<div className="vid">
 					<div className="back1"></div>
 					<video autoplay muted loop id="myVideo">
@@ -120,7 +172,13 @@ class Base extends Component {
 						</div>	
 					</div>			
 				</div>	
-            </div>
+            
+				<div id='a' ><img src={vir1} alt="" srcset=""/> </div>
+				<div id='b' ><img src={vir2} alt="" srcset=""/> </div>
+				<div id='c' ><img src={vir3} alt="" srcset=""/> </div>
+				<div id='d' ><img src={vir4} alt="" srcset=""/> </div>
+				<div id='e' ><img src={vir5} alt="" srcset=""/> </div>
+			</div>
 
 		);
 	}
