@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: gentona;
+  src: local('gentona'), url(./font/Gentona\ Book.otf) format('opentype');
+}
+
+@font-face {
+  font-family: gentona;
+  src: url(./font/Gentona\ Book\ Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: futura;
+  src: local('futura'), url(./font/Futura\ Book\ font.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: kgSummerSunShine;
+  src: local('kgSummerSunShine'), url(./font/KGSummerSunshine.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: kgSummerSunShineShadow;
+  src: local('kgSummerSunShineShadow'), url(./font/KGSummerSunshineShadow.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: kgSummerSunShineBlackout;
+  src: local('kgSummerSunShineBlackout'), url(./font/KGSummerSunshineBlackout.ttf) format('truetype');
+}
