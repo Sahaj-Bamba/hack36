@@ -82,11 +82,11 @@ class Base extends Component {
 		
 
             
-				<div id='a' ><img src={vir1} alt="" srcset=""/> </div>
-				<div id='b' ><img src={vir2} alt="" srcset=""/> </div>
-				<div id='c' ><img src={vir3} alt="" srcset=""/> </div>
-				<div id='d' ><img src={vir4} alt="" srcset=""/> </div>
-				<div id='e' ><img src={vir5} alt="" srcset=""/> </div>
+				<div id='a' ><img src={vir1} alt="" srcSet=""/> </div>
+				<div id='b' ><img src={vir2} alt="" srcSet=""/> </div>
+				<div id='c' ><img src={vir3} alt="" srcSet=""/> </div>
+				<div id='d' ><img src={vir4} alt="" srcSet=""/> </div>
+				<div id='e' ><img src={vir5} alt="" srcSet=""/> </div>
 			</div>
 
 		);
