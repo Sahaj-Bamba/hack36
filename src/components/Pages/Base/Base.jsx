@@ -4,6 +4,11 @@ import land from '../../../files/LandingPageMobile.mp4';
 import {TextScramble} from "../About/scrambler";
 import logo from '../../../files/logo.png';
 
+import vir1 from '../../../files/virus/Virus1.png'
+import vir2 from '../../../files/virus/Virus2.png'
+import vir3 from '../../../files/virus/Virus3.png'
+import vir4 from '../../../files/virus/Virus4.png'
+import vir5 from '../../../files/virus/Virus5.png'
 // import {  } from "https://cdn.jsdelivr.net/npm/typed.js@2.0.11"
 // ";
 
@@ -14,7 +19,44 @@ class Base extends Component {
 			text : ""
 		};
 	}
+	makeNewPosition = () =>{
+    
+		// Get viewport dimensions (remove the dimension of the div)
+		var vidheight = $("#myVideo").height();
+		var vidwidth = $("#myVideo").width();
+		var h = window.screen.height - 50;
+		var w = window.screen.width - 50 ;
+		console.log(w);
+		var nh = Math.floor(Math.random() * h);
+		var nw = Math.floor(Math.random() * w);
+		
+		return [nh,nw];    
+		
+	}
+	
+	animateDiv = (id,tm)=>{
+		setInterval(() => {
+			var newq = this.makeNewPosition();
+			
+			var postop = $("#myVideo").position().top;
+			var posleft = $("#myVideo").position().left;
+			var vidheight = $("#myVideo").height();
+			var vidwidth = $("#myVideo").width();
+			var w = window.screen.width - 50 ;
 
+			if(w > 310 && (posleft<newq[1]&&newq[1]<(posleft+vidwidth))==false   ) {
+
+				document.getElementById(id).style.left=newq[1]+'px';
+				document.getElementById(id).style.top=newq[0]+'px';
+				
+				$("#"+id).fadeIn(500);
+				$("#"+id).fadeOut(tm-500);
+					
+			} 
+		}, tm);		
+		
+	};
+	
 	componentWillUnmount() {
 		clearInterval(this.interval);
 	}
@@ -64,6 +106,12 @@ class Base extends Component {
 			})
 			counter = (counter + 1) % phrases.length
 		}
+		this.animateDiv('a',3000);
+		this.animateDiv('b',4000);
+		this.animateDiv('c',5000);
+		this.animateDiv('d',2000);
+		this.animateDiv('e',2500);
+
 		begin();
 	}
 
@@ -93,7 +141,14 @@ class Base extends Component {
 						</div>	
 					</div>			
 				</div>	
-            </div>
+				<div id='a' ><img src={vir1} alt="" srcset=""/> </div>
+				<div id='b' ><img src={vir2} alt="" srcset=""/> </div>
+				<div id='c' ><img src={vir3} alt="" srcset=""/> </div>
+				<div id='d' ><img src={vir4} alt="" srcset=""/> </div>
+				<div id='e' ><img src={vir5} alt="" srcset=""/> </div>
+				<div id='f' ><img src={vir5} alt="" srcset=""/> </div>
+		
+		    </div>
 
 		);
 	}

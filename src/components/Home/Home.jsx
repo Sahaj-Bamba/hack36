@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
 import Content from "./Content"
+import Base from "./Base";
 import './Home.scss';
 
 class Home extends Component {
@@ -15,6 +16,7 @@ class Home extends Component {
 			<div className="home-bg">
 				<Navbar></Navbar>
 				<Content></Content>
+				<Base></Base>
 			</div>
 		);
 	}
