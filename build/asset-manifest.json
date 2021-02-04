@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.98a2d568.chunk.css",
-    "main.js": "/static/js/main.ffbbe311.chunk.js",
-    "main.js.map": "/static/js/main.ffbbe311.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.683d1e81.js",
-    "runtime-main.js.map": "/static/js/runtime-main.683d1e81.js.map",
-    "static/js/2.31eb5ab4.chunk.js": "/static/js/2.31eb5ab4.chunk.js",
-    "static/js/2.31eb5ab4.chunk.js.map": "/static/js/2.31eb5ab4.chunk.js.map",
-    "static/js/3.4fb70b3e.chunk.js": "/static/js/3.4fb70b3e.chunk.js",
-    "static/js/3.4fb70b3e.chunk.js.map": "/static/js/3.4fb70b3e.chunk.js.map",
+    "main.css": "/static/css/main.6b419468.chunk.css",
+    "main.js": "/static/js/main.3eede8e4.chunk.js",
+    "main.js.map": "/static/js/main.3eede8e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2859daeb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2859daeb.js.map",
+    "static/js/2.83b1406e.chunk.js": "/static/js/2.83b1406e.chunk.js",
+    "static/js/2.83b1406e.chunk.js.map": "/static/js/2.83b1406e.chunk.js.map",
+    "static/js/3.6e9a6729.chunk.js": "/static/js/3.6e9a6729.chunk.js",
+    "static/js/3.6e9a6729.chunk.js.map": "/static/js/3.6e9a6729.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.98a2d568.chunk.css.map": "/static/css/main.98a2d568.chunk.css.map",
-    "static/js/2.31eb5ab4.chunk.js.LICENSE.txt": "/static/js/2.31eb5ab4.chunk.js.LICENSE.txt",
+    "static/css/main.6b419468.chunk.css.map": "/static/css/main.6b419468.chunk.css.map",
+    "static/js/2.83b1406e.chunk.js.LICENSE.txt": "/static/js/2.83b1406e.chunk.js.LICENSE.txt",
     "static/media/LandingPageMobile.a45356a5.mp4": "/static/media/LandingPageMobile.a45356a5.mp4",
+    "static/media/Virus1.d50ed1bb.png": "/static/media/Virus1.d50ed1bb.png",
+    "static/media/Virus2.f7f91436.png": "/static/media/Virus2.f7f91436.png",
+    "static/media/Virus3.11bf0324.png": "/static/media/Virus3.11bf0324.png",
+    "static/media/Virus4.f11c9206.png": "/static/media/Virus4.f11c9206.png",
+    "static/media/Virus5.6f55291e.png": "/static/media/Virus5.6f55291e.png",
     "static/media/blue_arrow.7846f6e0.svg": "/static/media/blue_arrow.7846f6e0.svg",
     "static/media/loader.cc57ace3.gif": "/static/media/loader.cc57ace3.gif",
     "static/media/logo.1a97265f.png": "/static/media/logo.1a97265f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.683d1e81.js",
-    "static/js/2.31eb5ab4.chunk.js",
-    "static/css/main.98a2d568.chunk.css",
-    "static/js/main.ffbbe311.chunk.js"
+    "static/js/runtime-main.2859daeb.js",
+    "static/js/2.83b1406e.chunk.js",
+    "static/css/main.6b419468.chunk.css",
+    "static/js/main.3eede8e4.chunk.js"
   ]
 }

@@ -1,3 +1,78 @@
+#a {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    left: 50vw;
+    top: 50vh;
+    animation: mymove 5s infinite;
+}
+
+#a img {
+    width: 80px;
+    height: 80px;
+}
+
+#b {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    left: 50vw;
+    top: 50vh;
+    animation: mymove 5s infinite;
+}
+
+#c {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 2000;
+    left: 50vw;
+    top: 50vh;
+    animation: mymove 5s infinite;
+}
+
+#d {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 2000;
+    left: 50vw;
+    top: 50vh;
+    animation: mymove 5s infinite;
+}
+
+#e {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 2000;
+    left: 50vw;
+    top: 50vh;
+    animation: mymove 5s infinite;
+}
+
+#b img {
+    width: 60px;
+    height: 60px;
+}
+
+#c img {
+    width: 90px;
+    height: 90px;
+}
+
+#d img {
+    width: 30px;
+    height: 30px;
+}
+
+#e img {
+    width: 80px;
+    height: 80px;
+}
+
 .Base {
     font: 900 50px/1 "Source Sans Pro", Arial, sans-serif;
     text-transform: uppercase;
@@ -36,6 +111,7 @@
     height: auto;
     // left: calc(-150 * ((100vw - 50px) / 2) / 200);
     max-height: 100vh;
+    z-index: +1;
 }
 
 .back1 {
@@ -178,91 +254,6 @@
 // 	// top: 50%;
 // 	font-size: 2em;
 // }
-#a {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    z-index: 2000;
-    left: 50vw;
-    top: 50vh;
-    animation: mymove 5s infinite;
-}
-
-#a img {
-    width: 80px;
-    height: 80px;
-}
-
-#b {
-    width: 80px;
-    height: 80px;
-    position: fixed;
-    z-index: 2000;
-    left: 50vw;
-    top: 50vh;
-    animation: mymove 5s infinite;
-}
-
-#c {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    z-index: 2000;
-    left: 50vw;
-    top: 50vh;
-    animation: mymove 5s infinite;
-}
-
-#d {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    z-index: 2000;
-    left: 50vw;
-    top: 50vh;
-    animation: mymove 5s infinite;
-}
-
-#e {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    z-index: 2000;
-    left: 50vw;
-    top: 50vh;
-    animation: mymove 5s infinite;
-}
-
-#f {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    z-index: 2000;
-    left: 50vw;
-    top: 50vh;
-    background-color: red;
-}
-
-#b img {
-    width: 60px;
-    height: 60px;
-}
-
-#c img {
-    width: 90px;
-    height: 90px;
-}
-
-#d img {
-    width: 30px;
-    height: 30px;
-}
-
-#e img {
-    width: 80px;
-    height: 80px;
-}
-
 @keyframes mymove {
     60% {
         transform: rotate(90deg);
