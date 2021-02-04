@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import Navbar from "../Navbar/Navbar";
-import Sidebar from "../Sidebar/Sidebar";
-import Footer from "../Footer/Footer";
-import Content from "./Content";
+// import Navbar from "../Navbar/Navbar";
 import "./Main.scss";
-import loader from "../../files/loader.gif";
+import Home from './Home';
 
 class Main extends Component {
     constructor(props) {
@@ -20,20 +17,11 @@ class Main extends Component {
     };
 
     render() {
-        const { activeMenu } = this.state;
 
         return (
-            <div className="App">                
-                <div className="MainContainer">
-                    <div className="MainContent">
-                        <Sidebar
-                            changeMenu={this.changeMenu}
-                            activeMenu={activeMenu}
-                        />
-                        <Content activeMenu={activeMenu} />
-                    </div>
-                    <Footer />
-                </div>
+            <div>                
+                <Home></Home>
+                
             </div>
         );
     }

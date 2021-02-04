@@ -1,0 +1,67 @@
+.content-main {
+    margin-top: 4rem;
+}
+
+.content-hack36 {
+    font-family: "kgSummerSunShineBlackout";
+    color: #203246;
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.content-c3 {
+    font-family: "gentona";
+    color: #203246;
+    font-size: 1.5rem;
+}
+
+.content-dates {
+    font-family: "jura", sans-serif;
+    color: #203246;
+    font-size: 2.5rem;
+}
+
+.content-milo {
+    padding: 5%;
+    animation-name: change-in-milo;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    // animation-direction: alternate;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+}
+
+@keyframes change-in-milo {
+    0% {
+        background: url(../../files/Landing/LandingPage_mobile3.svg) no-repeat 100% center/cover;
+    }
+    28% {
+        background: url(../../files/Landing/LandingPage_mobile3.svg) no-repeat 100% center/cover;
+    }
+    34% {
+        background: url(../../files/Landing/LandingPage_mobile2.svg) no-repeat 100% center/cover;
+    }
+    60% {
+        background: url(../../files/Landing/LandingPage_mobile2.svg) no-repeat 100% center/cover;
+    }
+    68% {
+        background: url(../../files/Landing/LandingPage_mobile1.svg) no-repeat 100% center/cover;
+    }
+    100% {
+        background: url(../../files/Landing/LandingPage_mobile1.svg) no-repeat 100% center/cover;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .content-main {
+        margin-top: 6px;
+    }
+
+    .content-milo {
+        padding: 0%;
+        max-width: 400px;
+        height: 400px;
+    }    
+}
