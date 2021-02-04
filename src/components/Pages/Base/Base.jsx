@@ -65,11 +65,13 @@ class Base extends Component {
 	makeNewPosition = () =>{
     
 		// Get viewport dimensions (remove the dimension of the div)
+		var vidheight = $("#myVideo").height();
+		var vidwidth = $("#myVideo").width();
 		var h = window.screen.height - 50;
-		var w = window.screen.width - 50;
-		
+		var w = window.screen.width - 50 -vidwidth;
+
 		var nh = Math.floor(Math.random() * h);
-		var nw = Math.floor(Math.random() * w);
+		var nw = Math.floor(Math.random() * w)+vidwidth;
 		
 		return [nh,nw];    
 		
