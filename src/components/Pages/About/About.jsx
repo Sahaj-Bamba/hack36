@@ -40,10 +40,12 @@ class About extends Component {
 	render() {
 
 		return (
-			<div className="About">
-				<div className="ScrambledText">
+			<div>
+				{/* <div className="ScrambledText">
 					{this.state.text}
-				</div>
+					
+				</div> */}
+				<h1>hello</h1>
 			</div>
 		);
 	}
