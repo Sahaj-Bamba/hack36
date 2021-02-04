@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6b419468.chunk.css",
-    "main.js": "/static/js/main.72d8aea5.chunk.js",
-    "main.js.map": "/static/js/main.72d8aea5.chunk.js.map",
+    "main.js": "/static/js/main.3eede8e4.chunk.js",
+    "main.js.map": "/static/js/main.3eede8e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2859daeb.js",
     "runtime-main.js.map": "/static/js/runtime-main.2859daeb.js.map",
-    "static/js/2.ea238f55.chunk.js": "/static/js/2.ea238f55.chunk.js",
-    "static/js/2.ea238f55.chunk.js.map": "/static/js/2.ea238f55.chunk.js.map",
+    "static/js/2.83b1406e.chunk.js": "/static/js/2.83b1406e.chunk.js",
+    "static/js/2.83b1406e.chunk.js.map": "/static/js/2.83b1406e.chunk.js.map",
     "static/js/3.6e9a6729.chunk.js": "/static/js/3.6e9a6729.chunk.js",
     "static/js/3.6e9a6729.chunk.js.map": "/static/js/3.6e9a6729.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.6b419468.chunk.css.map": "/static/css/main.6b419468.chunk.css.map",
-    "static/js/2.ea238f55.chunk.js.LICENSE.txt": "/static/js/2.ea238f55.chunk.js.LICENSE.txt",
+    "static/js/2.83b1406e.chunk.js.LICENSE.txt": "/static/js/2.83b1406e.chunk.js.LICENSE.txt",
     "static/media/LandingPageMobile.a45356a5.mp4": "/static/media/LandingPageMobile.a45356a5.mp4",
     "static/media/Virus1.d50ed1bb.png": "/static/media/Virus1.d50ed1bb.png",
     "static/media/Virus2.f7f91436.png": "/static/media/Virus2.f7f91436.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2859daeb.js",
-    "static/js/2.ea238f55.chunk.js",
+    "static/js/2.83b1406e.chunk.js",
     "static/css/main.6b419468.chunk.css",
-    "static/js/main.72d8aea5.chunk.js"
+    "static/js/main.3eede8e4.chunk.js"
   ]
 }
