@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./About.scss";
 import {TextScramble} from "./scrambler";
+import milo from '../../../files/aboutus/milo.svg';
 
 class About extends Component {
 	constructor(props) {
@@ -44,6 +45,7 @@ class About extends Component {
 				<div className="ScrambledText">
 					{this.state.text}
 				</div>
+				<img src={milo}/>
 			</div>
 		);
 	}
