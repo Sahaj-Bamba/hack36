@@ -91,7 +91,7 @@ class Base extends Component {
 				document.getElementById(id).style.top=newq[0]+'px';
 				
 				$("#"+id).fadeIn(500);
-				$("#"+id).fadeOut(500);
+				// $("#"+id).fadeOut(500);
 			}
 	}
 	componentDidMount(){
