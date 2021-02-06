@@ -1,26 +1,63 @@
-import React, { Component } from "react";
-import "./Navbar.scss";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+import './Navbar.scss'
+import logo from '../../files/logo-13.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTimes, faBars } from '@fortawesome/free-solid-svg-icons'
 
-class Navbar extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
+const iconFaTimes = <FontAwesomeIcon icon={faTimes} />
+const iconFaBars = <FontAwesomeIcon icon={faBars} />
 
-	render() {
-		const { changeMenu} = this.props;
-		
-		return (
-			<div className="NavBar">
-				<span className="NavItem" onClick={(event)=>changeMenu(event,"Home")} >Home</span>
-				<span className="NavItem" onClick={(event)=>changeMenu(event,"About")} >About</span>
-				<span className="NavItem" onClick={(event)=>changeMenu(event,"Timeline")} >Timeline</span>
-				<span className="NavItem" onClick={(event)=>changeMenu(event,"Theme")} >Theme</span>
-				<span className="NavItem" onClick={(event)=>changeMenu(event,"Sponsor")} >Sponsor</span>
-				<span className="NavItem" onClick={(event)=>changeMenu(event,"FAQ")} >FAQ</span>
-			</div>
-		);
-	}
+function Navbar() {
+    const [click, setClick] = useState(false);
+    const handleClick = () =>setClick(!click);
+    const closeMobileMenu = () =>setClick(false);
+
+    return(
+        <>
+            <nav className='navbar'>
+                <Link to='/'>
+                    <img src={logo} alt="Hack 36" height='100px'/>
+                </Link>
+                <div className='menu-icon' onClick={handleClick}>
+                    {/* <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> */}
+					{ click? iconFaTimes: iconFaBars }
+                </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                        <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+                            About
+                        </Link>
+                    </li>
+					<li className='nav-item'>
+                        <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+                            Sponsors
+                        </Link>
+                    </li>
+					<li className='nav-item'>
+                        <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+                            FAQs
+                        </Link>
+                    </li>
+					<li className='nav-item'>
+                        <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+                            Team
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to='#' className='nav-links' onClick={closeMobileMenu}>
+                            Contact
+                        </Link>
+                    </li>  
+                </ul>
+            </nav> 
+        </>
+    )
 }
 
 export default Navbar;
