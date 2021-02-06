@@ -23,40 +23,40 @@
     font-size: 2.5rem;
 }
 
-.content-milo {
-    padding: 5%;
-    animation-name: change-in-milo;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 8s;
-    // animation-direction: alternate;
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-    z-index: 3000;
-    position: relative;
-}
+// .content-milo {
+//     padding: 5%;
+//     animation-name: change-in-milo;
+//     animation-timing-function: ease-in-out;
+//     animation-iteration-count: infinite;
+//     animation-duration: 8s;
+//     // animation-direction: alternate;
+//     width: 100%;
+//     max-width: 500px;
+//     height: 500px;
+//     z-index: 1;
+//     position: relative;
+// }
 
-@keyframes change-in-milo {
-    0% {
-        background: url(../../files/Landing/LandingPage_mobile3.svg) no-repeat 100% center/cover;
-    }
-    28% {
-        background: url(../../files/Landing/LandingPage_mobile3.svg) no-repeat 100% center/cover;
-    }
-    34% {
-        background: url(../../files/Landing/LandingPage_mobile2.svg) no-repeat 100% center/cover;
-    }
-    60% {
-        background: url(../../files/Landing/LandingPage_mobile2.svg) no-repeat 100% center/cover;
-    }
-    68% {
-        background: url(../../files/Landing/LandingPage_mobile1.svg) no-repeat 100% center/cover;
-    }
-    100% {
-        background: url(../../files/Landing/LandingPage_mobile1.svg) no-repeat 100% center/cover;
-    }
-}
+// @keyframes change-in-milo {
+//     0% {
+//         background: url(../../files/Landing/LandingPage_mobile3.svg) no-repeat 100% center/cover;
+//     }
+//     28% {
+//         background: url(../../files/Landing/LandingPage_mobile3.svg) no-repeat 100% center/cover;
+//     }
+//     34% {
+//         background: url(../../files/Landing/LandingPage_mobile2.svg) no-repeat 100% center/cover;
+//     }
+//     60% {
+//         background: url(../../files/Landing/LandingPage_mobile2.svg) no-repeat 100% center/cover;
+//     }
+//     68% {
+//         background: url(../../files/Landing/LandingPage_mobile1.svg) no-repeat 100% center/cover;
+//     }
+//     100% {
+//         background: url(../../files/Landing/LandingPage_mobile1.svg) no-repeat 100% center/cover;
+//     }
+// }
 
 @media screen and (max-width: 960px) {
     .content-main {
