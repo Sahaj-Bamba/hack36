@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cd0720a.chunk.css",
-    "main.js": "/static/js/main.e51203bf.chunk.js",
-    "main.js.map": "/static/js/main.e51203bf.chunk.js.map",
+
+    "main.css": "/static/css/main.5220ac21.chunk.css",
+    "main.js": "/static/js/main.d9f0aa83.chunk.js",
+    "main.js.map": "/static/js/main.d9f0aa83.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cbfc313e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cbfc313e.js.map",
-    "static/js/2.02465fa9.chunk.js": "/static/js/2.02465fa9.chunk.js",
-    "static/js/2.02465fa9.chunk.js.map": "/static/js/2.02465fa9.chunk.js.map",
+    "static/js/2.a5a3dfa3.chunk.js": "/static/js/2.a5a3dfa3.chunk.js",
+    "static/js/2.a5a3dfa3.chunk.js.map": "/static/js/2.a5a3dfa3.chunk.js.map",
     "static/js/3.1e2ae349.chunk.js": "/static/js/3.1e2ae349.chunk.js",
     "static/js/3.1e2ae349.chunk.js.map": "/static/js/3.1e2ae349.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3cd0720a.chunk.css.map": "/static/css/main.3cd0720a.chunk.css.map",
-    "static/js/2.02465fa9.chunk.js.LICENSE.txt": "/static/js/2.02465fa9.chunk.js.LICENSE.txt",
+    "static/css/main.5220ac21.chunk.css.map": "/static/css/main.5220ac21.chunk.css.map",
+    "static/js/2.a5a3dfa3.chunk.js.LICENSE.txt": "/static/js/2.a5a3dfa3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/KGSummerSunshineShadow.aed00ff2.ttf",
     "static/media/Content.scss": "/static/media/LandingPage_mobile3.e9bd3a9c.svg",
     "static/media/Virus1.d50ed1bb.png": "/static/media/Virus1.d50ed1bb.png",
@@ -24,8 +25,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cbfc313e.js",
-    "static/js/2.02465fa9.chunk.js",
-    "static/css/main.3cd0720a.chunk.css",
-    "static/js/main.e51203bf.chunk.js"
+    "static/js/2.a5a3dfa3.chunk.js",
+    "static/css/main.5220ac21.chunk.css",
+    "static/js/main.d9f0aa83.chunk.js"
+
   ]
 }
