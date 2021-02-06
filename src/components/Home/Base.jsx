@@ -36,12 +36,30 @@ class Base extends Component {
 	makeNewPosition = () =>{
     
 
+		var miloWidth = $('.content-milo').width();
+		var miloLeft = $('.content-milo').position().left;
+		var miloHeight = $('.content-milo').height();
+		var miloTop = $('.content-milo').position().top;
 		var h = window.screen.height - 50;
-		var w = window.screen.width - 50 ;
-		console.log(w);
+		var w = window.screen.width - 50;
 		var nh = Math.floor(Math.random() * h);
 		var nw = Math.floor(Math.random() * w);
-		
+		if(window.screen.width<500 ) {
+			if(nh%2 == 0) {
+				nh = Math.floor(Math.random() * miloTop);
+			} else {
+				nh = Math.floor(Math.random() * (h-miloHeight-miloTop))+miloHeight+miloTop;
+			}
+		} else {
+			nw = Math.floor(Math.random() * w) + miloLeft + miloWidth;
+			if(nw%2 == 0 ){
+				nw = Math.floor(Math.random() * miloLeft)
+			}	
+		}
+// // 		var rect = document.getElementById('myvideo').getBoundingClientRect();
+// // console.log(rect.top, rect.right, rect.bottom, rect.left)
+// 		var vidTop = $('#myvideo').position().top;
+		console.log(miloWidth);
 		return [nh,nw];    
 		
 	}
@@ -63,10 +81,29 @@ class Base extends Component {
 		}, tm);		
 		
 	};
+	MountVirus(id) {
+		var newq = this.makeNewPosition();
+			
+			
+			if(true   ) {
+
+				document.getElementById(id).style.left=newq[1]+'px';
+				document.getElementById(id).style.top=newq[0]+'px';
+				
+				$("#"+id).fadeIn(500);
+				$("#"+id).fadeOut(500);
+			}
+	}
 	componentDidMount(){
-		this.animateDiv('a',3000);
+		this.MountVirus('a',5000);
+		this.MountVirus('b',4000);
+		this.MountVirus('c',7000);
+		this.MountVirus('d',2000);
+		this.MountVirus('e',2500);
+
+		this.animateDiv('a',5000);
 		this.animateDiv('b',4000);
-		this.animateDiv('c',5000);
+		this.animateDiv('c',7000);
 		this.animateDiv('d',2000);
 		this.animateDiv('e',2500);
 
