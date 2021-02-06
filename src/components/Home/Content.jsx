@@ -75,7 +75,7 @@ function Content() {
         {/* <Base /> */}
         {/* <ComingSoon /> */}
         <Grid container direction="row" justify="center" alignItems="center">
-          <Grid item md={5} xs={10}>
+          <Grid item md={5} xs={10} className="content-milo">
             <div className={classes.contentMilo}></div>
           </Grid>
           <Grid item md={5} xs={10}>
