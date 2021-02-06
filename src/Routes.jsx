@@ -21,6 +21,7 @@ class Routes extends Component {
 						<React.Fragment>
 							<Main />
 							<About />
+							<Contact />
 						</React.Fragment>
 					)}
 				/>
