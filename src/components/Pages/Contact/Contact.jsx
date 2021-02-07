@@ -6,7 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import fbimg from "../../../files/ContactUs/fb.jpg"
 import instaimg from "../../../files/ContactUs/insta.jpg"
-
+import twitimg from "../../../files/ContactUs/twitimg.jpg"
+import mailimg from "../../../files/ContactUs/mailimg.jpg"
+import linkedInimg from "../../../files/ContactUs/linkedInimg.jpg"
+import wwwimg from "../../../files/ContactUs/wwwimg.jpg"
 class Contact extends Component  {	
 	
 	componentDidMount(){
@@ -86,19 +89,19 @@ class Contact extends Component  {
 			{/* <FontAwesomeIcon icon={fab} /> */}
 			
 
-			<a href="http://www.google.com" class="social_img">			<img src={fbimg} alt="" class="social_img" srcset=""/>
+			<a href="https://www.facebook.com/hack36mnnit/" class="social_img">			<img src={fbimg} alt="" class="social_img" srcset=""/>
 </a>
-			<a href="http://www.google.com" class="social_img"><img src={instaimg} alt="" class="social_img" srcset=""/></a>
+			<a href="https://www.instagram.com/hack36_/" class="social_img"><img src={instaimg} alt="" class="social_img" srcset=""/></a>
 			
-			<a href="http://www.google.com"><img src={fbimg} alt="" class="social_img" srcset=""/></a>
+			<a href="https://www.linkedin.com/company/hack36/"><img src={linkedInimg} alt="" class="social_img" srcset=""/></a>
 		
 		</div>
 		<div className="socials right">
-		<a href="http://www.google.com">			<img src={fbimg} alt="" class="social_img" srcset=""/>
+		<a href="https://twitter.com/hack36mnnit">			<img src={twitimg} alt="" class="social_img" srcset=""/>
 </a>
-			<a href="http://www.google.com"><img src={fbimg} alt="" class="social_img" srcset=""/></a>
+			<a href="hackathon@mnnit.ac.in"><img src={mailimg} alt="" class="social_img" srcset=""/></a>
 			
-			<a href="http://www.google.com"><img src={fbimg} alt="" class="social_img" srcset=""/></a>
+			<a href="http://www.hack36.com"><img src={wwwimg} alt="" class="social_img" srcset=""/></a>
 	
 		</div>				
 		</div>
