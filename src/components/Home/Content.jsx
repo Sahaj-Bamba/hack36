@@ -1,12 +1,12 @@
+import landing2 from "../../files/Landing/LandingPage_mobile2.svg";
+import landing3 from "../../files/Landing/LandingPage_mobile1.svg";
 import React from "react";
 // import Base from "../Pages/Base/Base";
-// import ComingSoon from "../Pages/ComingSoon/ComingSoon";
+import About from "../Pages/About/About";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Content.scss";
 import landing1 from "../../files/Landing/LandingPage_mobile3.svg";
-import landing2 from "../../files/Landing/LandingPage_mobile2.svg";
-import landing3 from "../../files/Landing/LandingPage_mobile1.svg";
 
 const useStyles = makeStyles({
   "@keyframes changeInMilo": {
@@ -75,7 +75,7 @@ function Content() {
         {/* <Base /> */}
         {/* <ComingSoon /> */}
         <Grid container direction="row" justify="center" alignItems="center">
-          <Grid item md={5} xs={10}>
+          <Grid item md={5} xs={10} className="content-milo">
             <div className={classes.contentMilo}></div>
           </Grid>
           <Grid item md={5} xs={10}>
@@ -86,6 +86,7 @@ function Content() {
           </Grid>
         </Grid>
       </div>
+      <About />      
     </div>
   );
 }

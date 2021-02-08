@@ -37,22 +37,22 @@ class Base extends Component {
     
 
 		var miloWidth = $('.content-milo').width();
-		var miloLeft = $('.content-milo').position().left;
 		var miloHeight = $('.content-milo').height();
-		var miloTop = $('.content-milo').position().top;
 		var h = window.screen.height - 50;
 		var w = window.screen.width - 50;
 		var nh = Math.floor(Math.random() * h);
 		var nw = Math.floor(Math.random() * w);
+		var miloTop = $('.content-milo').position() ? $('.content-milo').position().top : Math.floor(Math.random() * h);
+		var miloLeft = $('.content-milo').position() ? $('.content-milo').position().left : Math.floor(Math.random() * w);
 		if(window.screen.width<500 ) {
-			if(nh%2 == 0) {
+			if(nh%2 === 0) {
 				nh = Math.floor(Math.random() * miloTop);
 			} else {
 				nh = Math.floor(Math.random() * (h-miloHeight-miloTop))+miloHeight+miloTop;
 			}
 		} else {
 			nw = Math.floor(Math.random() * w) + miloLeft + miloWidth;
-			if(nw%2 == 0 ){
+			if(nw%2 === 0 ){
 				nw = Math.floor(Math.random() * miloLeft)
 			}	
 		}
