@@ -1,3 +1,5 @@
+import landing2 from "../../files/Landing/LandingPage_mobile2.svg";
+import landing3 from "../../files/Landing/LandingPage_mobile1.svg";
 import React from "react";
 // import Base from "../Pages/Base/Base";
 // import ComingSoon from "../Pages/ComingSoon/ComingSoon";
@@ -5,8 +7,6 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Content.scss";
 import landing1 from "../../files/Landing/LandingPage_mobile3.svg";
-import landing2 from "../../files/Landing/LandingPage_mobile2.svg";
-import landing3 from "../../files/Landing/LandingPage_mobile1.svg";
 
 const useStyles = makeStyles({
   "@keyframes changeInMilo": {
