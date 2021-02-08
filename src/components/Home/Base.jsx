@@ -45,14 +45,14 @@ class Base extends Component {
 		var nh = Math.floor(Math.random() * h);
 		var nw = Math.floor(Math.random() * w);
 		if(window.screen.width<500 ) {
-			if(nh%2 == 0) {
+			if(nh%2 === 0) {
 				nh = Math.floor(Math.random() * miloTop);
 			} else {
 				nh = Math.floor(Math.random() * (h-miloHeight-miloTop))+miloHeight+miloTop;
 			}
 		} else {
 			nw = Math.floor(Math.random() * w) + miloLeft + miloWidth;
-			if(nw%2 == 0 ){
+			if(nw%2 === 0 ){
 				nw = Math.floor(Math.random() * miloLeft)
 			}	
 		}
