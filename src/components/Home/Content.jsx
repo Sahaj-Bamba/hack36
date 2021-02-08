@@ -1,6 +1,6 @@
 import React from "react";
 // import Base from "../Pages/Base/Base";
-// import ComingSoon from "../Pages/ComingSoon/ComingSoon";
+import About from "../Pages/About/About";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Content.scss";
@@ -86,6 +86,7 @@ function Content() {
           </Grid>
         </Grid>
       </div>
+      <About />      
     </div>
   );
 }
