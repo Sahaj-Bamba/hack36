@@ -42,11 +42,6 @@ class About extends Component {
 	render() {
 		return (
 			<div className="About">
-				<div className="Image">
-					<img src={background} className="backg" />
-					<img src={milo} className="milo" />
-					<img src={hello} className="hello" />
-				</div>
 				<div className="Content">
 					Hack36 4.0 is here, in a way that’s never been done before -
 					it’s going to be completely virtual! However, this does not
@@ -58,14 +53,14 @@ class About extends Component {
 					and other techgurus. The journey is bound to keep
 					participants on the edge of their seats.
 				</div>
+				<div className="Image">
+					<img src={background} className="backg" />
+					<img src={milo} className="milo" />
+					<img src={hello} className="hello" />
+				</div>
 			</div>
-	);
-
+		);
 	}
 }
 
 export default About;
-<<<<<<< HEAD
-=======
-
->>>>>>> 6e0c3dc24a2c842975a8289ef601ca1e7551e26b

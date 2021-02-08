@@ -18,25 +18,25 @@
 
 .milo {
 	position: absolute;
-	width: 40vw;
+	width: 26.67vw;
 	left: 0vw;
-	top: -9.35vw;
+	top: -6.233vw;
 	animation: mymilo 5s infinite;
 }
 
 .hello {
 	position: absolute;
-	width: 60vw;
-	left: 5vw;
-	top: -28.1vw;
+	width: 40vw;
+	left: 3.33vw;
+	top: -18.74vw;
 	animation: myhello 5s infinite;
 }
 
 .backg {
 	position: absolute;
-	width: 60vw;
-	left: -5.35vw;
-	top: -23.365vw;
+	width: 40vw;
+	left: -3.56vw;
+	top: -15.576vw;
 	animation: mybackg 5s infinite;
 	opacity: 0;
 }
@@ -69,9 +69,9 @@
 	}
 
 	100% {
-		width: 60vw;
-		left: 5vw;
-		top: -28.1vw;
+		width: 40vw;
+		left: 3.33vw;
+		top: -18.74vw;
 	}
 }
 
@@ -89,18 +89,18 @@
 	}
 
 	80% {
-		width: 40vw;
+		width: 26.67vw;
 		left: 0vw;
-		top: -9.35vw;
+		top: -6.233vw;
 	}
 }
 
 #hello_aboutus {
-    animation: mymove 5s infinite;
+	animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
-    100% {
-        transform: rotate(90deg);
-    }
+	100% {
+		transform: rotate(90deg);
+	}
 }

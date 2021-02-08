@@ -85,8 +85,7 @@ function Content() {
             <div className="content-dates">APRIL 9-11, 2021</div>
           </Grid>
         </Grid>
-      </div>
-      <About />      
+      </div>      
     </div>
   );
 }
