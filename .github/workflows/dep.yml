@@ -26,4 +26,4 @@ jobs:
       uses: azure/CLI@v1
       with:
         azcliversion: 2.0.72
-        inlineScript: az vm run-command invoke -g hack_group -n hack --command-id RunShellScript --scripts "cd /var/www/hack36/ && git pull"
+        inlineScript: az vm run-command invoke -g hack_group -n hack --command-id RunShellScript --scripts "cd /var/www/hack36/ && sudo git pull origin deployed"
