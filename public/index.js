@@ -4,9 +4,9 @@ var scrollEventHandler = function()
 }
 
 window.addEventListener("scroll", scrollEventHandler, false);
-
 setTimeout(() => {
-    var element = document.getElementById("loader");
-    element && element. parentNode && element. parentNode .removeChild(element);
-    $("#root").fadeIn(1500);
-}, 2100);
+      var element = document.getElementById("loader");
+    	element && element. parentNode && element. parentNode .removeChild(element);
+      // $("#root").css('visibility', 'visible');
+      $("#root").fadeIn(1800);    
+}, 4200);
