@@ -20,28 +20,50 @@ class About extends Component {
 	};
 
 	componentDidMount() {
-		const phrases = [
-			"36 hours of excitement",
-			"36 hours of fun",
-			"36 hours of coding",
-			"36 hours of hacking",
-			"36 hours of wired in",
-		];
-
-		const fx = new TextScramble(this, this.updateText);
-		let counter = 0;
-		const begin = () => {
-			fx.setText(phrases[counter]).then(() => {
-				setTimeout(begin, 800);
-			});
-			counter = (counter + 1) % phrases.length;
+		var intersectionOptions = {
+			root: null, // use the viewport
+			rootMargin: "0px",
+			threshold: 0.5,
 		};
-		begin();
+
+		function intersectionCallback(entries, observer) {
+			entries.forEach((entry) => {
+				if (entry.intersectionRatio >= 0.5) {
+					document
+						.getElementsByClassName("backg")[0]
+						.classList.add("backga");
+					document
+						.getElementsByClassName("hello")[0]
+						.classList.add("helloa");
+					document
+						.getElementsByClassName("milo")[0]
+						.classList.add("miloa");
+					console.log("fully visible!");
+				} else {
+					document
+						.getElementsByClassName("backg")[0]
+						.classList.remove("backga");
+					document
+						.getElementsByClassName("hello")[0]
+						.classList.remove("helloa");
+					document
+						.getElementsByClassName("milo")[0]
+						.classList.remove("miloa");
+					console.log("Not fully visible!");
+				}
+			});
+		}
+		var observer = new IntersectionObserver(
+			intersectionCallback,
+			intersectionOptions
+		);
+		var target = document.getElementById("Aboutid");
+		observer.observe(target);
 	}
 
 	render() {
 		return (
-			<div className="About">
+			<div className="About" id="Aboutid">
 				<div className="Content">
 					Hack36 4.0 is here, in a way that’s never been done before -
 					it’s going to be completely virtual! However, this does not

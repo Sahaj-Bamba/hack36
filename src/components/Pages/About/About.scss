@@ -5,40 +5,54 @@
 	width: 100%;
 	height: auto;
 	position: relative;
-	top: 150px;
+	top: 50px;
 }
 
 .Content {
-	width: 100%;
+	width: 60vw;
+	font-family: "Jura";
+	font-size: 1.2em;
+	padding: 30px;
 }
 
 .Image {
-	width: 100%;
+	width: 40vw;
 }
 
 .milo {
 	position: absolute;
-	width: 26.67vw;
-	left: 0vw;
+	width: 0vw;
+	right: 3.115vw;
 	top: -6.233vw;
-	animation: mymilo 5s infinite;
+}
+
+.miloa {
+	animation: mymilo 3s 1;
+	animation-fill-mode: forwards;
 }
 
 .hello {
 	position: absolute;
-	width: 40vw;
-	left: 3.33vw;
+	width: 0vw;
+	right: -14.67vw;
 	top: -18.74vw;
-	animation: myhello 5s infinite;
+}
+.helloa {
+	animation: myhello 3s 1;
+	animation-fill-mode: forwards;
 }
 
 .backg {
 	position: absolute;
 	width: 40vw;
-	left: -3.56vw;
+	right: -6.23vw;
 	top: -15.576vw;
-	animation: mybackg 5s infinite;
 	opacity: 0;
+}
+
+.backga {
+	animation: mybackg 3s 1;
+	animation-fill-mode: forwards;
 }
 
 @keyframes mybackg {
@@ -58,19 +72,19 @@
 @keyframes myhello {
 	0% {
 		width: 0vw;
-		left: -0vw;
-		top: -0vw;
+		right: 25vw;
+		top: 20vw;
 	}
 
-	80% {
+	60% {
 		width: 0vw;
-		left: -0vw;
-		top: -0vw;
+		right: 25vw;
+		top: 20vw;
 	}
 
 	100% {
 		width: 40vw;
-		left: 3.33vw;
+		right: -14.67vw;
 		top: -18.74vw;
 	}
 }
@@ -78,19 +92,24 @@
 @keyframes mymilo {
 	0% {
 		width: 0vw;
-		left: 50vw;
-		top: -0vw;
+		right: 25vw;
+		top: 20vw;
 	}
 
-	30% {
+	25% {
 		width: 0vw;
-		left: 50vw;
-		top: -0vw;
+		right: 25vw;
+		top: 20vw;
 	}
 
-	80% {
+	85% {
 		width: 26.67vw;
-		left: 0vw;
+		right: 3.115vw;
+		top: -6.233vw;
+	}
+	100% {
+		width: 26.67vw;
+		right: 3.115vw;
 		top: -6.233vw;
 	}
 }
