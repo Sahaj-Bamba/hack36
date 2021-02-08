@@ -1,96 +1,12 @@
 .About {
 	display: grid;
 	place-items: center;
-	grid-template-columns: 1fr 1fr;
 	width: 100%;
-	height: auto;
-	position: relative;
-	top: 150px;
+	height: 100%;
+	position: fixed;
+	top: 0;
 }
 
-.Content {
-	width: 100%;
-}
-
-.Image {
-	width: 100%;
-}
-
-.milo {
-	position: absolute;
-	width: 40vw;
-	left: 0vw;
-	top: -9.35vw;
-	animation: mymilo 5s infinite;
-}
-
-.hello {
-	position: absolute;
-	width: 60vw;
-	left: 5vw;
-	top: -28.1vw;
-	animation: myhello 5s infinite;
-}
-
-.backg {
-	position: absolute;
-	width: 60vw;
-	left: -5.35vw;
-	top: -23.365vw;
-	animation: mybackg 5s infinite;
-	opacity: 0;
-}
-
-@keyframes mybackg {
-	0% {
-		opacity: 0;
-	}
-
-	30% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes myhello {
-	0% {
-		width: 0vw;
-		left: -0vw;
-		top: -0vw;
-	}
-
-	80% {
-		width: 0vw;
-		left: -0vw;
-		top: -0vw;
-	}
-
-	100% {
-		width: 60vw;
-		left: 5vw;
-		top: -28.1vw;
-	}
-}
-
-@keyframes mymilo {
-	0% {
-		width: 0vw;
-		left: 50vw;
-		top: -0vw;
-	}
-
-	30% {
-		width: 0vw;
-		left: 50vw;
-		top: -0vw;
-	}
-
-	80% {
-		width: 40vw;
-		left: 0vw;
-		top: -9.35vw;
-	}
+.ScrambledText {
+	font-size: 2em;
 }
