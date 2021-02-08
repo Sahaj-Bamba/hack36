@@ -20,7 +20,7 @@ class Routes extends Component {
 					render={(props) => (
 						<React.Fragment>
 							<Main />
-							<About />
+							{/* <About /> */}
 							<Contact />
 						</React.Fragment>
 					)}

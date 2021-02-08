@@ -125,7 +125,7 @@ class Contact extends Component {
             </Grid>
             <Grid item xs={4} md={2}>
               <a href="http://www.hack36.com">
-                <img src={wwwimg} alt="" class="social_img" srcset="" />
+                <img src={wwwimg} alt="" class="social_img" srcset="" style={{backgroundColor:"white",borderRadius:"50%", width:"1.6rem"}} />
               </a>
             </Grid>
           </Grid>
