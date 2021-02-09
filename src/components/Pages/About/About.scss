@@ -129,19 +129,21 @@
 	display: grid;
 	align-items: center;
 	height: 60px;
-	background-color: blue;
+	background-color: #1e113b;
 	text-align: center;
 	font-size: 2em;
-	color: #b8e3f7;
+	color: #e5ecf0;
 	cursor: pointer;
 }
 
 .a1 {
 	width: 300px;
+	border-radius: 100px 0px 100px 0px;
 }
 
 .a2 {
 	width: 500px;
+	border-radius: 0px 100px 0px 100px;
 }
 
 @media screen and (max-width: 960px) {
@@ -278,17 +280,19 @@
 		display: grid;
 		align-items: center;
 		height: 35px;
-		background-color: blue;
+		background-color: #1e113b;
 		text-align: center;
 		font-size: 1.2em;
-		color: #b8e3f7;
+		color: #e5ecf0;
 	}
 
 	.a1 {
 		width: 200px;
+		border-radius: 100px 100px 0px 0px;
 	}
 
 	.a2 {
 		width: 350px;
+		border-radius: 0px 0px 100px 100px;
 	}
 }

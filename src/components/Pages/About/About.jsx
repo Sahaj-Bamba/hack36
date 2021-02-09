@@ -89,11 +89,11 @@ class About extends Component {
 						<img src={milo} className="milo" />
 						<img src={hello} className="hello" />
 					</div>
-				</div>
-				<div className="AboutButtons">
-					<div className="AboutButton a1"> Sponsor Us </div>
-					<div className="AboutButton a2">
-						Bacome A Campus Ambassador
+					<div className="AboutButtons">
+						<div className="AboutButton a1"> Sponsor Us </div>
+						<div className="AboutButton a2">
+							Become A Campus Ambassador
+						</div>
 					</div>
 				</div>
 			</div>
