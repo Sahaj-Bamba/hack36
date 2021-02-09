@@ -9,6 +9,7 @@ setTimeout(() => {
     	element && element. parentNode && element. parentNode .removeChild(element);
       // $("#root").css('visibility', 'visible');
       $("#root").fadeIn(1800);    
+      $(".Back").fadeIn(10);    
 }, 4200);
 setTimeout(() => {
 

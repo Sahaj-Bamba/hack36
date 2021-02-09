@@ -66,14 +66,21 @@ class About extends Component {
 			<div className="About" id="Aboutid">
 				<div className="Content">
 					Hack36 4.0 is here, in a way that’s never been done before -
-					it’s going to be completely virtual! However, this does not
-					mean that our participants will miss out on the takeaways
-					from a traditional hackathon. There will be no compromise on
-					36 hours of engagement for the participants, making sure
-					that they are continuously engaged and intrigued with the
-					latest talk of the town of the tech world from the judges
-					and other techgurus. The journey is bound to keep
-					participants on the edge of their seats.
+					it’s going to be completely virtual!
+					<br />
+					<br />
+					However, this does not mean that our participants will miss
+					out on the takeaways from a traditional hackathon.
+					<br />
+					<br />
+					There will be no compromise on 36 hours of engagement for
+					the participants, making sure that they are continuously
+					engaged and intrigued with the latest talk of the town of
+					the tech world from the judges and other techgurus.
+					<br />
+					<br />
+					The journey is bound to keep participants on the edge of
+					their seats.
 				</div>
 				<div className="Image">
 					<img src={background} className="backg" />
