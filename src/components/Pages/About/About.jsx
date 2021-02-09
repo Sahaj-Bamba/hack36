@@ -63,7 +63,7 @@ class About extends Component {
 
 	render() {
 		return (
-			<div id="Aboutid">
+			<section id="Aboutid">
 				<div className="About">
 					<div className="Content">
 						Hack36 4.0 is here, in a way that’s never been done
@@ -90,13 +90,23 @@ class About extends Component {
 						<img src={hello} className="hello" />
 					</div>
 					<div className="AboutButtons">
-						<div className="AboutButton a1"> Sponsor Us </div>
-						<div className="AboutButton a2">
-							Become A Campus Ambassador
-						</div>
+						<a
+							href="https://drive.google.com/file/d/1_UcQL0piklxf3ku5ildXB73LWkXmHFWv"
+							target="_blank"
+						>
+							<div className="AboutButton a1"> Sponsor Us </div>
+						</a>
+						<a
+							href="https://forms.gle/rTwV4R2Es5UJR7v3A"
+							target="_blank"
+						>
+							<div className="AboutButton a2">
+								Become A Campus Ambassador
+							</div>
+						</a>
 					</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }
