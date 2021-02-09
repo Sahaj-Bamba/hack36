@@ -23,12 +23,12 @@ class About extends Component {
 		var intersectionOptions = {
 			root: null, // use the viewport
 			rootMargin: "0px",
-			threshold: 0.5,
+			threshold: 0.2,
 		};
 
 		function intersectionCallback(entries, observer) {
 			entries.forEach((entry) => {
-				if (entry.intersectionRatio >= 0.5) {
+				if (entry.intersectionRatio >= 0.2) {
 					document
 						.getElementsByClassName("backg")[0]
 						.classList.add("backga");
@@ -63,29 +63,38 @@ class About extends Component {
 
 	render() {
 		return (
-			<div className="About" id="Aboutid">
-				<div className="Content">
-					Hack36 4.0 is here, in a way that’s never been done before -
-					it’s going to be completely virtual!
-					<br />
-					<br />
-					However, this does not mean that our participants will miss
-					out on the takeaways from a traditional hackathon.
-					<br />
-					<br />
-					There will be no compromise on 36 hours of engagement for
-					the participants, making sure that they are continuously
-					engaged and intrigued with the latest talk of the town of
-					the tech world from the judges and other techgurus.
-					<br />
-					<br />
-					The journey is bound to keep participants on the edge of
-					their seats.
+			<div id="Aboutid">
+				<div className="About">
+					<div className="Content">
+						Hack36 4.0 is here, in a way that’s never been done
+						before - it’s going to be completely virtual!
+						<br className="mobileNoDisplay" />
+						<br />
+						However, this does not mean that our participants will
+						miss out on the takeaways from a traditional hackathon.
+						<br className="mobileNoDisplay" />
+						<br />
+						There will be no compromise on 36 hours of engagement
+						for the participants, making sure that they are
+						continuously engaged and intrigued with the latest talk
+						of the town of the tech world from the judges and other
+						techgurus.
+						<br className="mobileNoDisplay" />
+						<br />
+						The journey is bound to keep participants on the edge of
+						their seats.
+					</div>
+					<div className="Image">
+						<img src={background} className="backg" />
+						<img src={milo} className="milo" />
+						<img src={hello} className="hello" />
+					</div>
 				</div>
-				<div className="Image">
-					<img src={background} className="backg" />
-					<img src={milo} className="milo" />
-					<img src={hello} className="hello" />
+				<div className="AboutButtons">
+					<div className="AboutButton a1"> Sponsor Us </div>
+					<div className="AboutButton a2">
+						Bacome A Campus Ambassador
+					</div>
 				</div>
 			</div>
 		);

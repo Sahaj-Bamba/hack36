@@ -116,12 +116,179 @@
 	}
 }
 
-#hello_aboutus {
-	animation: mymove 5s infinite;
+.AboutButtons {
+	display: grid;
+	place-items: center;
+	grid-template-columns: auto auto;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
 }
 
-@keyframes mymove {
-	100% {
-		transform: rotate(90deg);
+.AboutButton {
+	display: grid;
+	align-items: center;
+	height: 60px;
+	background-color: blue;
+	text-align: center;
+	font-size: 2em;
+	color: #b8e3f7;
+	cursor: pointer;
+}
+
+.a1 {
+	width: 300px;
+}
+
+.a2 {
+	width: 500px;
+}
+
+@media screen and (max-width: 960px) {
+	.mobileNoDisplay {
+		display: block;
+	}
+
+	.About {
+		grid-template-rows: auto auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		min-height: 25vw;
+	}
+
+	.Content {
+		margin-top: 50vw;
+		width: 100vw;
+		font-family: "Jura";
+		font-size: 1.2em;
+		padding: 15px;
+	}
+
+	.Image {
+		width: 80vw;
+	}
+
+	.milo {
+		position: absolute;
+		width: 0vw;
+		right: 6.23vw;
+		top: -12.466vw;
+	}
+
+	.miloa {
+		animation: mymilo 3s 1;
+		animation-fill-mode: forwards;
+	}
+
+	.hello {
+		position: absolute;
+		width: 0vw;
+		right: -29.34vw;
+		top: -37.48vw;
+	}
+	.helloa {
+		animation: myhello 3s 1;
+		animation-fill-mode: forwards;
+	}
+
+	.backg {
+		position: absolute;
+		width: 80vw;
+		right: 7.54vw;
+		top: -31.152vw;
+		opacity: 0;
+	}
+
+	.backga {
+		animation: mybackg 3s 1;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes mybackg {
+		0% {
+			opacity: 0;
+		}
+
+		30% {
+			opacity: 1;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes myhello {
+		0% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+
+		60% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+
+		100% {
+			width: 80vw;
+			right: -09.34vw;
+			top: -37.48vw;
+		}
+	}
+
+	@keyframes mymilo {
+		0% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+
+		25% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+
+		85% {
+			width: 53.34vw;
+			right: 26.23vw;
+			top: -12.466vw;
+		}
+		100% {
+			width: 53.34vw;
+			right: 26.23vw;
+			top: -12.466vw;
+		}
+	}
+
+	.AboutButtons {
+		display: grid;
+		place-items: center;
+		grid-template-rows: auto auto;
+		grid-template-columns: auto;
+		grid-gap: 20px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 25px;
+	}
+
+	.AboutButton {
+		display: grid;
+		align-items: center;
+		height: 35px;
+		background-color: blue;
+		text-align: center;
+		font-size: 1.2em;
+		color: #b8e3f7;
+	}
+
+	.a1 {
+		width: 200px;
+	}
+
+	.a2 {
+		width: 350px;
 	}
 }
