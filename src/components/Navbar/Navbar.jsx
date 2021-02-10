@@ -45,19 +45,34 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<div className="nav-links" onClick={closeMobileMenu}>
-							Sponsors
-						</div>
+						<a href="#">
+							<div
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								Sponsors
+							</div>
+						</a>
 					</li>
 					<li className="nav-item">
-						<div className="nav-links" onClick={closeMobileMenu}>
-							FAQs
-						</div>
+						<a href="#">
+							<div
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								FAQs
+							</div>
+						</a>
 					</li>
 					<li className="nav-item">
-						<div className="nav-links" onClick={closeMobileMenu}>
-							Team
-						</div>
+						<a href="#">
+							<div
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								Team
+							</div>
+						</a>
 					</li>
 					<li className="nav-item">
 						<a href="#Contact">
