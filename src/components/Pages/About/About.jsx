@@ -1,66 +1,114 @@
-import React, { useState, useEffect } from 'react'
-import background_aboutus from "../../../files/AboutUs/background_aboutus.svg"
-import hello_aboutus from "../../../files/AboutUs/hello_aboutus.svg"
-import milo_aboutus from "../../../files/AboutUs/milo_aboutus.svg"
-import { Component } from 'react'
-import $ from "jquery";
+import React, { Component } from "react";
+import "./About.scss";
+import { TextScramble } from "./scrambler";
+import milo from "../../../files/About/milo.svg";
+import background from "../../../files/About/background.svg";
+import hello from "../../../files/About/hello.svg";
+
 class About extends Component {
-	componentDidMount() {
-		$('#background_aboutus').fadeOut(0);
-		$('#milo_about').fadeOut(0);
-		$('#hello_aboutus').fadeOut(0);
-		$('#background_aboutus').fadeIn(500,function (){
-			$('#milo_about').fadeIn(1000,function () {
-				$('#hello_aboutus').fadeIn(1000);
-	
-			});
-		});
+	constructor(props) {
+		super(props);
+		this.state = {
+			text: "",
+		};
 	}
+
+	updateText = (tex) => {
+		this.setState({
+			text: tex,
+		});
+	};
+
+	componentDidMount() {
+		var intersectionOptions = {
+			root: null, // use the viewport
+			rootMargin: "0px",
+			threshold: 0.2,
+		};
+
+		function intersectionCallback(entries, observer) {
+			entries.forEach((entry) => {
+				if (entry.intersectionRatio >= 0.2) {
+					document
+						.getElementsByClassName("backg")[0]
+						.classList.add("backga");
+					document
+						.getElementsByClassName("hello")[0]
+						.classList.add("helloa");
+					document
+						.getElementsByClassName("milo")[0]
+						.classList.add("miloa");
+					console.log("fully visible!");
+				} else {
+					document
+						.getElementsByClassName("backg")[0]
+						.classList.remove("backga");
+					document
+						.getElementsByClassName("hello")[0]
+						.classList.remove("helloa");
+					document
+						.getElementsByClassName("milo")[0]
+						.classList.remove("miloa");
+					console.log("Not fully visible!");
+				}
+			});
+		}
+		var observer = new IntersectionObserver(
+			intersectionCallback,
+			intersectionOptions
+		);
+		var target = document.getElementById("Aboutid");
+		observer.observe(target);
+	}
+
 	render() {
 		return (
-			<div style={{ position: 'relative', height: '50em', width: '50em' }}>
-				<img
-					id="background_aboutus"
-					src={background_aboutus}
-					alt="background"
-					style={{
-						position: 'absolute',
-						left: 0,
-						top: 0,
-						width: 'auto',
-						height: '100%',
-					}}
-				/>
-				<img
-					id="hello_aboutus"
-					src={hello_aboutus}
-					alt="hello about us"
-					style={{
-						position: 'absolute',
-						left: '8em',
-						top: '0.5em',
-						width: 'auto',
-						height: '40em',
-					}}
-				/>
-				<img
-					id="milo_about"
-					className="milo_aboutus"
-					src={milo_aboutus}
-					alt="milo about us"
-					style={{
-						position: 'absolute',
-						left: '3em',
-						top: '6em',
-						width: 'auto',
-						height: '30em',
-					}}
-				/>
-			</div>
-	);
-
+			<section id="Aboutid">
+				<div className="About">
+					<div className="Content">
+						Hack36 4.0 is here, in a way that’s never been done
+						before - it’s going to be completely virtual!
+						<br className="mobileNoDisplay" />
+						<br />
+						However, this does not mean that our participants will
+						miss out on the takeaways from a traditional hackathon.
+						<br className="mobileNoDisplay" />
+						<br />
+						There will be no compromise on 36 hours of engagement
+						for the participants, making sure that they are
+						continuously engaged and intrigued with the latest talk
+						of the town of the tech world from the judges and other
+						techgurus.
+						<br className="mobileNoDisplay" />
+						<br />
+						The journey is bound to keep participants on the edge of
+						their seats.
+					</div>
+					<div className="Image">
+						<img src={background} className="backg" />
+						<img src={milo} className="milo" />
+						<img src={hello} className="hello" />
+					</div>
+					<div className="AboutButtons">
+						<a
+							href="https://drive.google.com/file/d/1_UcQL0piklxf3ku5ildXB73LWkXmHFWv"
+							target="_blank"
+						>
+							<div className="AboutButton a1"> Sponsor Us </div>
+						</a>
+						<a
+							href="https://forms.gle/rTwV4R2Es5UJR7v3A"
+							target="_blank"
+						>
+							<div className="AboutButton a2">
+								Become A Campus Ambassador
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+		);
 	}
 }
 
 export default About;
-

@@ -3,7 +3,11 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./components/Home/Main";
 // import About from "./components/Pages/About/About";
 import FAQ from "./components/Pages/FAQ/FAQ";
+import About from "./components/Pages/About/About";
+import Back from "./components/Pages/Back/Back";
+
 import Contact from "./components/Pages/Contact/Contact";
+import Team from "./components/Pages/Team/Team";
 
 class Routes extends Component {
 	constructor(props) {
@@ -20,8 +24,10 @@ class Routes extends Component {
 					exact
 					render={(props) => (
 						<React.Fragment>
+							<Back />
 							<Main />
 							{/* <About /> */}
+							<About />
 							<FAQ />
 							<Contact />
 						</React.Fragment>
@@ -42,6 +48,15 @@ class Routes extends Component {
 					render={(props) => (
 						<React.Fragment>
 							<Contact />
+						</React.Fragment>
+					)}
+				/>
+				<Route
+					path="/teams"
+					exact
+					render={(props) => (
+						<React.Fragment>
+							<Team />
 						</React.Fragment>
 					)}
 				/>

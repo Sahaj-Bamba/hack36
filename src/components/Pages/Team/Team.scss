@@ -1,114 +1,53 @@
-.wrapper {
-    margin: 0 auto 100px auto;
-    max-width: 960px;
-}
-
-.stage {
-    list-style: none;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
 }
 
-.scene {
-    width: 260px;
-    height: 400px;
-    margin: 30px;
-    float: left;
-    perspective: 1000px;
+.container {
+    position: relative;
+    dispLay: flex;
+    justify-content: center;
+    aLign-items: center;
+    padding: 40 0;
+    flex-wrap: wrap;
 }
 
-.movie {
-    width: 260px;
-    height: 400px;
-    transform-style: preserve-3d;
-    transform: translateZ(-130px);
-    transition: transform 350ms;
+.container .box {
+    position: relative;
+    width: 320;
+    height: 400;
+    coLor: likfff;
+    background: 0#111;
+    dispLay: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
 }
 
-.movie:hover {
-    transform: rotateY(-78deg) translateZ(20px);
+.container .box:hover {
+    transform: translateY(-20);
 }
 
-.movie .poster,
-.movie .info {
-    position: absolute;
-    width: 260px;
-    height: 400px;
-    background-color: #fff;
-    backface-visibility: hidden;
-}
-
-.movie .poster {
-    transform: translateZ(130px);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.movie .info {
-    transform: rotateY(90deg) translateZ(130px);
-    border: 1px solid #B8B5B5;
-    font-size: 0.75em;
-}
-
-.movie::after {
+.container .box::before {
     content: '';
-    width: 260px;
-    height: 260px;
     position: absolute;
-    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(35deg, blue, red);
 }
 
-.info header {
-    color: #FFF;
-    padding: 7px 10px;
-    font-weight: bold;
-    height: 195px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.info header h1 {
-    margin: 0 0 2px;
-    font-size: 1.4em;
-}
-
-.info header .rating {
-    border: 1px solid #FFF;
-    padding: 0px 3px;
-}
-
-.info p {
-    padding: 1.2em 1.4em;
-    margin: 2px 0 0;
-    font-weight: 700;
-    color: #666;
-    line-height: 1.4em;
-    border-top: 10px solid #555;
-}
-
-.scene:nth-child(1) .movie .poster {
-    background-image: url(https://tympanus.net/Tutorials/3DShadingWithBoxShadows/img/poster01.jpg);
-}
-
-.scene:nth-child(2) .poster {
-    background-image: url(https://tympanus.net/Tutorials/3DShadingWithBoxShadows/img/poster01.jpg);
-}
-
-.scene:nth-child(3) .poster {
-    background-image: url(https://tympanus.net/Tutorials/3DShadingWithBoxShadows/img/poster01.jpg);
-}
-
-.scene:nth-child(1) .info header {
-    background-image: url(https://tympanus.net/Tutorials/3DShadingWithBoxShadows/img/still01.jpg);
-}
-
-.scene:nth-child(2) .info header {
-    background-image: url(https://tympanus.net/Tutorials/3DShadingWithBoxShadows/img/still01.jpg);
-}
-
-.scene:nth-child(3) .info header {
-    background-image: url(https://tympanus.net/Tutorials/3DShadingWithBoxShadows/img/still01.jpg);
-}
-
-.Content {
-    background-color: #fff;
+.container .box::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(35deg, blue, red);
+    fill: blur(30px);
 }

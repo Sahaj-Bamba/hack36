@@ -10,110 +10,35 @@ class Team extends Component {
 	render() {
 
 		return (
-			<div class="wrapper">
-			<ul class="stage">
-				<li class="scene">
-				<div class="movie">
-    <div class="poster"></div>
-    <div class="info">
-      <header>
-        <h1>It's a Wonderful Life</h1>
-        <span class="year">1946</span>
-        <span class="rating">PG</span>
-        <span class="duration">130 minutes</span>
-      </header>
-      <p>
-        In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
-      </p>
-    </div>
-  </div>
-				</li>
-				<li class="scene">
-				<div class="movie">
-    <div class="poster"></div>
-    <div class="info">
-      <header>
-        <h1>It's a Wonderful Life</h1>
-        <span class="year">1946</span>
-        <span class="rating">PG</span>
-        <span class="duration">130 minutes</span>
-      </header>
-      <p>
-        In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
-      </p>
-    </div>
-  </div>
-				</li>
-				<li class="scene">
-				<div class="movie">
-    <div class="poster"></div>
-    <div class="info">
-      <header>
-        <h1>It's a Wonderful Life</h1>
-        <span class="year">1946</span>
-        <span class="rating">PG</span>
-        <span class="duration">130 minutes</span>
-      </header>
-      <p>
-        In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
-      </p>
-    </div>
-  </div>
-				</li>
-			</ul> 
-			<ul class="stage">
-				<li class="scene">
-				<div class="movie">
-    <div class="poster"></div>
-    <div class="info">
-      <header>
-        <h1>It's a Wonderful Life</h1>
-        <span class="year">1946</span>
-        <span class="rating">PG</span>
-        <span class="duration">130 minutes</span>
-      </header>
-      <p>
-        In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
-      </p>
-    </div>
-  </div>
-				</li>
-				<li class="scene">
-				<div class="movie">
-    <div class="poster"></div>
-    <div class="info">
-      <header>
-        <h1>It's a Wonderful Life</h1>
-        <span class="year">1946</span>
-        <span class="rating">PG</span>
-        <span class="duration">130 minutes</span>
-      </header>
-      <p>
-        In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
-      </p>
-    </div>
-  </div>
-				</li>
-				<li class="scene">
-				<div class="movie">
-    <div class="poster"></div>
-    <div class="info">
-      <header>
-        <h1>It's a Wonderful Life</h1>
-        <span class="year">1946</span>
-        <span class="rating">PG</span>
-        <span class="duration">130 minutes</span>
-      </header>
-      <p>
-        In Bedford Falls, New York on Christmas Eve, George Bailey is deeply troubled. Prayers for his well-being from friends and family reach Heaven. Clarence Odbody, Angel Second Class, is assigned to visit Earth to save George, thereby earning his wings. Franklin and Joseph, the head angels, review George's life with Clarence.
-      </p>
-    </div>
-  </div>
-				</li>
-			</ul> 
-			
-			</div>
-			
+     <div className="container">
+       <div className="box">
+         <span></span>
+         <div className="content">
+           <h2>Name </h2>
+           <p>Write about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name card</p>
+           <a href="http://">Read More</a>
+
+         </div>
+       </div>
+       <div className="box">
+         <span></span>
+         <div className="content">
+           <h2>Name </h2>
+           <p>Write about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name card</p>
+           <a href="http://">Read More</a>
+           
+         </div>
+       </div>
+       <div className="box">
+         <span></span>
+         <div className="content">
+           <h2>Name </h2>
+           <p>Write about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name cardWrite about the team or name card</p>
+           <a href="http://">Read More</a>
+           
+         </div>
+       </div>
+     </div> 
 		);
 	}
 }
