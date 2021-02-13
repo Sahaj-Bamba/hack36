@@ -10,7 +10,6 @@ class About extends Component {
 		$('#milo_about').fadeOut(0);
 		$('#hello_aboutus').fadeOut(0);
 		$('#background_aboutus').fadeIn(500,function (){
-
 			$('#milo_about').fadeIn(1000,function () {
 				$('#hello_aboutus').fadeIn(1000);
 	
@@ -63,5 +62,5 @@ class About extends Component {
 	}
 }
 
-
 export default About;
+
