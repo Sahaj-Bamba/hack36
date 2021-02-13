@@ -53,15 +53,16 @@ class FAQitem extends Component {
         return (
             <div className="content">
                 <div className="question" onClick={this.openAnswer}>
-                    <span>
+                    <span style={{color:"#203246"}}>
                         <img
                             className="toggle"
                             src={arrow}
                             style={this.getToggleStyle()}
                         />
+                        {this.props.question}
                     </span>
                     {"  "}
-                    {this.props.question}
+                    {/* {this.props.question} */}
                 </div>
                 <p className="answer" style={this.getAnswerStyle()}>
                     {this.props.answer}
