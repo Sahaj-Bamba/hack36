@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Main from "./components/Home/Main";
-import About from "./components/Pages/About/About";
+// import About from "./components/Pages/About/About";
+import FAQ from "./components/Pages/FAQ/FAQ";
 import Contact from "./components/Pages/Contact/Contact";
 
 class Routes extends Component {
@@ -21,6 +22,7 @@ class Routes extends Component {
 						<React.Fragment>
 							<Main />
 							{/* <About /> */}
+							<FAQ />
 							<Contact />
 						</React.Fragment>
 					)}
@@ -30,7 +32,7 @@ class Routes extends Component {
 					exact
 					render={(props) => (
 						<React.Fragment>
-							<About />
+							{/* <About /> */}
 						</React.Fragment>
 					)}
 				/>
