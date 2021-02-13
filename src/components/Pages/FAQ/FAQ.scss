@@ -36,9 +36,9 @@ h1 {
     box-sizing: border-box;
 }
 
-.content {
-    padding-bottom: 10px;
-}
+// .content {
+//     padding-bottom: 10px;
+// }
 
 .faq .toggle {
     width: 1.5vw;
@@ -47,7 +47,12 @@ h1 {
 
 .faq .question {
     // width: 30vw;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
     font-size: 1.4vw;
-    font-family: LemonMilkMedium;
+    font-family: Gentona;
+}
+
+.faq .answer {
+    // width: 30vw;
+    font-family: Jura;
 }

@@ -6,6 +6,7 @@ class FAQ extends Component {
     render() {
         return (
             <div className="faq">
+                <h3 style={{color:"#203246", fontFamily:"Gentona", fontSize:"4vw", letterSpacing:"0.1em"}}>FAQ</h3>
                 <ul>
                     <li>
                         <FAQitem
