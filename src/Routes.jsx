@@ -8,6 +8,7 @@ import Back from "./components/Pages/Back/Back";
 
 import Contact from "./components/Pages/Contact/Contact";
 import Team from "./components/Pages/Team/Team";
+import Sponsor from "./components/Pages/Sponsor/Sponsor";
 
 class Routes extends Component {
 	constructor(props) {
@@ -30,6 +31,7 @@ class Routes extends Component {
 							<About />
 							<FAQ />
 							<Contact />
+							<Sponsor />
 						</React.Fragment>
 					)}
 				/>
@@ -37,9 +39,7 @@ class Routes extends Component {
 					path="/about"
 					exact
 					render={(props) => (
-						<React.Fragment>
-							{/* <About /> */}
-						</React.Fragment>
+						<React.Fragment>{/* <About /> */}</React.Fragment>
 					)}
 				/>
 				<Route

@@ -1,0 +1,52 @@
+#Spnsors {
+	margin-top: 50px;
+	width: 80vw;
+	margin-left: 10vw;
+}
+.Sponsor-head {
+	font-family: "Jura";
+}
+#sponsors-logo {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	flex-wrap: wrap;
+}
+
+#sponsors-logo > div {
+	max-width: 150px;
+	max-height: 150px;
+	margin: 10px;
+}
+
+#sponsors-logo > div:hover img {
+	-webkit-filter: brightness(1) invert(0);
+	filter: brightness(1) invert(0);
+}
+
+.sponsor-img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	filter: grayscale(100);
+	transition: all ease-in-out 0.1s;
+	-webkit-filter: brightness(0) invert(1);
+	filter: brightness(0.1) invert(0.9);
+}
+
+@media screen and (max-width: 960px) {
+	#Spnsors {
+		margin-top: 25px;
+		width: 95vw;
+		margin-left: 2.5vw;
+	}
+
+	#sponsors-logo > div {
+		max-width: 75px;
+		max-height: 75px;
+		margin: 5px;
+	}
+}
