@@ -30,8 +30,8 @@ class Routes extends Component {
 							{/* <About /> */}
 							<About />
 							<FAQ />
-							<Contact />
 							<Sponsor />
+							<Contact />
 						</React.Fragment>
 					)}
 				/>

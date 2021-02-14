@@ -16,12 +16,17 @@
 #sponsors-logo > div {
 	max-width: 150px;
 	max-height: 150px;
-	margin: 10px;
+	margin: 20px;
 }
 
 #sponsors-logo:hover > div img {
 	-webkit-filter: brightness(0.2) invert(0.7);
 	filter: brightness(0.1) invert(0.8);
+}
+
+#sponsors-logo > div:hover {
+	max-width: 225px;
+	max-height: 225px;
 }
 
 #sponsors-logo > div:hover img {
@@ -50,8 +55,8 @@
 	}
 
 	#sponsors-logo > div {
-		max-width: 75px;
-		max-height: 75px;
-		margin: 5px;
+		max-width: 100px;
+		max-height: 100px;
+		margin: 15px;
 	}
 }
