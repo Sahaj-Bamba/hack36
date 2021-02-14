@@ -19,6 +19,11 @@
 	margin: 10px;
 }
 
+#sponsors-logo:hover > div img {
+	-webkit-filter: brightness(0.2) invert(0.7);
+	filter: brightness(0.1) invert(0.8);
+}
+
 #sponsors-logo > div:hover img {
 	-webkit-filter: brightness(1) invert(0);
 	filter: brightness(1) invert(0);
@@ -33,8 +38,8 @@
 	transform: translate(-50%, -50%);
 	filter: grayscale(100);
 	transition: all ease-in-out 0.1s;
-	-webkit-filter: brightness(0) invert(1);
-	filter: brightness(0.1) invert(0.9);
+	-webkit-filter: brightness(1) invert(0);
+	filter: brightness(1) invert(0);
 }
 
 @media screen and (max-width: 960px) {
