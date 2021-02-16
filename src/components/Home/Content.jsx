@@ -90,6 +90,18 @@ function Content() {
 							Caffeinate, Collaborate, Celebrate
 						</div>
 						<div className="content-dates">APRIL 9-11, 2021</div>
+						<br />
+						<center>
+							<a
+								target="_blank"
+								href="https://forms.gle/pvFK7WpctAjWMUGH8"
+							>
+								<div className="base-button">
+									{" "}
+									Pre Register{" "}
+								</div>
+							</a>
+						</center>
 					</Grid>
 				</Grid>
 			</div>
