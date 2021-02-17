@@ -12,15 +12,17 @@ body {
     /* Standard */
     transition: all 1s ease;
 }
+
 h1 {
     font-size: 60px;
     text-align: center;
 }
+
 .faq {
     position: relative;
     margin: 50px auto;
     padding: 40px 0;
-    width: 1000px;
+    width: 100vw;
     box-sizing: border-box;
 }
 
@@ -28,6 +30,7 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
 .faq ul li {
     list-style: none;
     position: relative;
@@ -39,7 +42,6 @@ h1 {
 // .content {
 //     padding-bottom: 10px;
 // }
-
 .faq .toggle {
     width: 1.5vw;
     height: 1.5vw;
@@ -53,6 +55,33 @@ h1 {
 }
 
 .faq .answer {
-    // width: 30vw;
+    width: 100%;
     font-family: Jura;
+}
+
+.faq_left {
+    width: 50%;
+}
+
+.faq_right {
+    width: 50%;
+}
+
+@media only screen and (min-width:600px) {
+    .faq_left {
+        float: left;
+        width: 50%;
+    }
+    .faq_right {
+        float: right;
+        width: 50%;
+    }
+}
+
+.question {
+    width: 100%;
+}
+
+.answer {
+    width: 100%;
 }
