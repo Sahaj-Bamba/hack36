@@ -70,11 +70,15 @@ h1 {
 }
 
 .question {
+    text-align: left;
     width: 100%;
+    font-weight: bold;
+    font-size: large;
 }
 
 .answer {
     width: 100%;
+    text-align: left;
 }
 
 @media only screen and (min-width: 600px) {

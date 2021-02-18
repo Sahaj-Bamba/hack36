@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import arrow from "../../../blue_arrow.svg";
+import arrow0 from "../../../blue_arrow.svg";
+import arrow1 from "../../../red_arrow.svg";
+import arrow2 from "../../../yellow_arrow.svg";
 
 class FAQitem extends Component {
     constructor(props) {
         super(props);
         this.state = { open: false };
     }
-
+     arrow = () =>{
+         const arr = [ arrow0, arrow1, arrow2];
+        return arr[Math.floor(Math.random() * 3)];
+     }
     getAnswerStyle = () => {
         if (this.state.open) {
             return {
@@ -56,7 +61,7 @@ class FAQitem extends Component {
                     <span style={{color:"#203246"}}>
                         <img
                             className="toggle"
-                            src={arrow}
+                            src={this.arrow()}
                             style={this.getToggleStyle()}
                         />
                         {this.props.question}
