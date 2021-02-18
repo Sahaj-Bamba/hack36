@@ -1,63 +1,65 @@
 #Spnsors {
-	margin-top: 50px;
-	width: 80vw;
-	margin-left: 10vw;
+    margin-top: 50px;
+    width: 80vw;
+    margin-left: 10vw;
 }
+
 .Sponsor-head {
-	font-family: "Jura";
+    font-family: "Jura";
 }
+
 #sponsors-logo {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
 }
 
-#sponsors-logo > div {
-	max-width: 150px;
-	max-height: 150px;
-	margin: 20px;
+#sponsors-logo>div {
+    max-width: 175px;
+    width: 175px;
+    max-height: 175px;
+    margin: 25px;
 }
 
-#sponsors-logo:hover > div img {
-	-webkit-filter: brightness(0.2) invert(0.7);
-	filter: brightness(0.1) invert(0.8);
+#sponsors-logo:hover>div img {
+    -webkit-filter: brightness(0.2) invert(0.7);
+    filter: brightness(0.1) invert(0.8);
 }
 
-#sponsors-logo > div:hover {
-	max-width: 225px;
-	width: 225px;
-	max-height: 225px;
+#sponsors-logo>div:hover {
+    max-width: 300px;
+    width: 300px;
+    max-height: 300px;
 }
 
-#sponsors-logo > div:hover img {
-	-webkit-filter: brightness(1) invert(0);
-	filter: brightness(1) invert(0);
+#sponsors-logo>div:hover img {
+    -webkit-filter: brightness(1) invert(0);
+    filter: brightness(1) invert(0);
 }
 
 .sponsor-img {
-	width: 100%;
-	height: auto;
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	filter: grayscale(100);
-	transition: all ease-in-out 0.1s;
-	-webkit-filter: brightness(1) invert(0);
-	filter: brightness(1) invert(0);
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(100);
+    transition: all ease-in-out 0.1s;
+    -webkit-filter: brightness(1) invert(0);
+    filter: brightness(1) invert(0);
 }
 
 @media screen and (max-width: 960px) {
-	#Spnsors {
-		margin-top: 25px;
-		width: 95vw;
-		margin-left: 2.5vw;
-	}
-
-	#sponsors-logo > div {
-		max-width: 100px;
-		max-height: 100px;
-		margin: 15px;
-	}
+    #Spnsors {
+        margin-top: 25px;
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    #sponsors-logo>div {
+        max-width: 100px;
+        max-height: 100px;
+        margin: 15px;
+    }
 }

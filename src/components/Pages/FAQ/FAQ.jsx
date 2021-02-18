@@ -10,7 +10,7 @@ class FAQ extends Component {
 					className="faqh"
 					style={{
 						color: "#203246",
-						fontFamily: "Gentona",
+						fontFamily: "Jura",
 						fontSize: "4vw",
 						letterSpacing: "0.1em",
 					}}
@@ -18,7 +18,7 @@ class FAQ extends Component {
 					FAQ
 				</h3>
 
-				<div className="faq_left faq">
+				<div className="faq_left">
 					<ul>
 						<li>
 							<FAQitem
@@ -53,7 +53,7 @@ class FAQ extends Component {
 						</li>
 					</ul>
 				</div>
-				<div className="faq_right faq">
+				<div className="faq_right ">
 					<ul>
 						<li>
 							<FAQitem

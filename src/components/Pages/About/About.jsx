@@ -66,6 +66,8 @@ class About extends Component {
 			<section id="Aboutid">
 				<div className="About">
 					<div className="Content">
+						<h1 style={{"font-family": "Jura"}}>About Us</h1>
+						<br/>
 						Hack36 4.0 is here, in a way that’s never been done
 						before - it’s going to be completely virtual!
 						<br className="mobileNoDisplay" />
