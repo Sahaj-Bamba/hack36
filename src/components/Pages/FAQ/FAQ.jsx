@@ -11,8 +11,8 @@ class FAQ extends Component {
 					style={{
 						color: "#203246",
 						fontFamily: "Jura",
-						fontSize: "4vw",
-						letterSpacing: "0.1em",
+						fontSize: "3em",
+						letterSpacing: "0.2em",
 					}}
 				>
 					FAQ

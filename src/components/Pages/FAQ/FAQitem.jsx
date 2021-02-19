@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import arrow0 from "../../../blue_arrow.svg";
 import arrow1 from "../../../red_arrow.svg";
-import arrow2 from "../../../yellow_arrow.svg";
+import arrow2 from "../../../blue_arrow.svg";
 
 class FAQitem extends Component {
     constructor(props) {
