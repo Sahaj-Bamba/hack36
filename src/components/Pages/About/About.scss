@@ -1,273 +1,273 @@
 .About {
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    min-height: 25vw;
+	display: grid;
+	place-items: center;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 25vw;
 }
 
 .Content {
-    width: 60vw;
-    font-family: "Jura";
-    font-size: 1.2em;
-    padding: 30px;
+	width: 60vw;
+	font-family: "Jura";
+	font-size: 1.2em;
+	padding: 30px;
 }
 
 .Image {
-    width: 40vw;
+	width: 40vw;
 }
 
 .milo {
-    position: absolute;
-    width: 0vw;
-    right: 3.115vw;
-    top: -6.233vw;
+	position: absolute;
+	width: 0vw;
+	right: 7.115vw;
+	top: -6.233vw;
 }
 
 .miloa {
-    animation: mymilo 3s 1;
-    animation-fill-mode: forwards;
+	animation: mymilo 3s 1;
+	animation-fill-mode: forwards;
 }
 
 .hello {
-    position: absolute;
-    width: 0vw;
-    right: -14.67vw;
-    top: -18.74vw;
+	position: absolute;
+	width: 0vw;
+	right: -10.67vw;
+	top: -18.74vw;
 }
 
 .helloa {
-    animation: myhello 3s 1;
-    animation-fill-mode: forwards;
+	animation: myhello 3s 1;
+	animation-fill-mode: forwards;
 }
 
 .backg {
-    position: absolute;
-    width: 40vw;
-    right: -6.23vw;
-    top: -15.576vw;
-    opacity: 0;
+	position: absolute;
+	width: 40vw;
+	right: -2.23vw;
+	top: -15.576vw;
+	opacity: 0;
 }
 
 .backga {
-    animation: mybackg 3s 1;
-    animation-fill-mode: forwards;
+	animation: mybackg 3s 1;
+	animation-fill-mode: forwards;
 }
 
 @keyframes mybackg {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 @keyframes myhello {
-    0% {
-        width: 0vw;
-        right: 25vw;
-        top: 20vw;
-    }
-    60% {
-        width: 0vw;
-        right: 25vw;
-        top: 20vw;
-    }
-    100% {
-        width: 40vw;
-        right: -14.67vw;
-        top: -18.74vw;
-    }
+	0% {
+		width: 0vw;
+		right: 25vw;
+		top: 20vw;
+	}
+	60% {
+		width: 0vw;
+		right: 25vw;
+		top: 20vw;
+	}
+	100% {
+		width: 40vw;
+		right: -10.67vw;
+		top: -18.74vw;
+	}
 }
 
 @keyframes mymilo {
-    0% {
-        width: 0vw;
-        right: 25vw;
-        top: 20vw;
-    }
-    25% {
-        width: 0vw;
-        right: 25vw;
-        top: 20vw;
-    }
-    85% {
-        width: 26.67vw;
-        right: 3.115vw;
-        top: -6.233vw;
-    }
-    100% {
-        width: 26.67vw;
-        right: 3.115vw;
-        top: -6.233vw;
-    }
+	0% {
+		width: 0vw;
+		right: 25vw;
+		top: 20vw;
+	}
+	25% {
+		width: 0vw;
+		right: 25vw;
+		top: 20vw;
+	}
+	85% {
+		width: 26.67vw;
+		right: 7.115vw;
+		top: -6.233vw;
+	}
+	100% {
+		width: 26.67vw;
+		right: 7.115vw;
+		top: -6.233vw;
+	}
 }
 
 .AboutButtons {
-    display: grid;
-    place-items: center;
-    grid-template-columns: auto auto;
-    width: 100%;
-    height: auto;
-    margin-bottom: 50px;
-    font-family: "Jura";
+	display: grid;
+	place-items: center;
+	grid-template-columns: auto auto;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+	font-family: "Jura";
 }
 
 .AboutButton {
-    display: grid;
-    align-items: center;
-    height: 60px;
-    background-color: #1e113b;
-    text-align: center;
-    font-size: 2em;
-    color: #e5ecf0;
-    cursor: pointer;
+	display: grid;
+	align-items: center;
+	height: 60px;
+	background-color: #1e113b;
+	text-align: center;
+	font-size: 2em;
+	color: #e5ecf0;
+	cursor: pointer;
 }
 
 .a1 {
-    width: 300px;
-    border-radius: 100px 0px 100px 0px;
+	width: 300px;
+	border-radius: 100px 0px 100px 0px;
 }
 
 .a2 {
-    width: 550px;
-    border-radius: 0px 100px 0px 100px;
+	width: 550px;
+	border-radius: 0px 100px 0px 100px;
 }
 
 @media screen and (max-width: 960px) {
-    .mobileNoDisplay {
-        display: block;
-    }
-    .About {
-        grid-template-rows: auto auto;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        min-height: 25vw;
-    }
-    .Content {
-        margin-top: 50vw;
-        width: 100vw;
-        font-family: "Jura";
-        font-size: 1.2em;
-        padding: 15px;
-    }
-    .Image {
-        width: 80vw;
-    }
-    .milo {
-        position: absolute;
-        width: 0vw;
-        right: 6.23vw;
-        top: -12.466vw;
-    }
-    .miloa {
-        animation: mymilo 3s 1;
-        animation-fill-mode: forwards;
-    }
-    .hello {
-        position: absolute;
-        width: 0vw;
-        right: -29.34vw;
-        top: -37.48vw;
-    }
-    .helloa {
-        animation: myhello 3s 1;
-        animation-fill-mode: forwards;
-    }
-    .backg {
-        position: absolute;
-        width: 80vw;
-        right: 7.54vw;
-        top: -31.152vw;
-        opacity: 0;
-    }
-    .backga {
-        animation: mybackg 3s 1;
-        animation-fill-mode: forwards;
-    }
-    @keyframes mybackg {
-        0% {
-            opacity: 0;
-        }
-        30% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-    @keyframes myhello {
-        0% {
-            width: 0vw;
-            right: 70vw;
-            top: 40vw;
-        }
-        60% {
-            width: 0vw;
-            right: 70vw;
-            top: 40vw;
-        }
-        100% {
-            width: 80vw;
-            right: -09.34vw;
-            top: -37.48vw;
-        }
-    }
-    @keyframes mymilo {
-        0% {
-            width: 0vw;
-            right: 70vw;
-            top: 40vw;
-        }
-        25% {
-            width: 0vw;
-            right: 70vw;
-            top: 40vw;
-        }
-        85% {
-            width: 53.34vw;
-            right: 26.23vw;
-            top: -12.466vw;
-        }
-        100% {
-            width: 53.34vw;
-            right: 26.23vw;
-            top: -12.466vw;
-        }
-    }
-    .AboutButtons {
-        display: grid;
-        place-items: center;
-        grid-template-rows: auto auto;
-        grid-template-columns: auto;
-        grid-gap: 20px;
-        width: 100%;
-        height: auto;
-        margin-bottom: 25px;
-    }
-    .AboutButton {
-        display: grid;
-        align-items: center;
-        height: 35px;
-        background-color: #1e113b;
-        text-align: center;
-        font-size: 1.2em;
-        color: #e5ecf0;
-    }
-    .a1 {
-        width: 200px;
-        border-radius: 100px 100px 0px 0px;
-    }
-    .a2 {
-        width: 350px;
-        border-radius: 0px 0px 100px 100px;
-    }
+	.mobileNoDisplay {
+		display: block;
+	}
+	.About {
+		grid-template-rows: auto auto;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		min-height: 25vw;
+	}
+	.Content {
+		margin-top: 50vw;
+		width: 100vw;
+		font-family: "Jura";
+		font-size: 1.2em;
+		padding: 15px;
+	}
+	.Image {
+		width: 80vw;
+	}
+	.milo {
+		position: absolute;
+		width: 0vw;
+		right: 6.23vw;
+		top: -12.466vw;
+	}
+	.miloa {
+		animation: mymilo 3s 1;
+		animation-fill-mode: forwards;
+	}
+	.hello {
+		position: absolute;
+		width: 0vw;
+		right: -29.34vw;
+		top: -37.48vw;
+	}
+	.helloa {
+		animation: myhello 3s 1;
+		animation-fill-mode: forwards;
+	}
+	.backg {
+		position: absolute;
+		width: 80vw;
+		right: 7.54vw;
+		top: -31.152vw;
+		opacity: 0;
+	}
+	.backga {
+		animation: mybackg 3s 1;
+		animation-fill-mode: forwards;
+	}
+	@keyframes mybackg {
+		0% {
+			opacity: 0;
+		}
+		30% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	@keyframes myhello {
+		0% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+		60% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+		100% {
+			width: 80vw;
+			right: -09.34vw;
+			top: -37.48vw;
+		}
+	}
+	@keyframes mymilo {
+		0% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+		25% {
+			width: 0vw;
+			right: 70vw;
+			top: 40vw;
+		}
+		85% {
+			width: 53.34vw;
+			right: 26.23vw;
+			top: -12.466vw;
+		}
+		100% {
+			width: 53.34vw;
+			right: 26.23vw;
+			top: -12.466vw;
+		}
+	}
+	.AboutButtons {
+		display: grid;
+		place-items: center;
+		grid-template-rows: auto auto;
+		grid-template-columns: auto;
+		grid-gap: 20px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 25px;
+	}
+	.AboutButton {
+		display: grid;
+		align-items: center;
+		height: 35px;
+		background-color: #1e113b;
+		text-align: center;
+		font-size: 1.2em;
+		color: #e5ecf0;
+	}
+	.a1 {
+		width: 200px;
+		border-radius: 100px 100px 0px 0px;
+	}
+	.a2 {
+		width: 350px;
+		border-radius: 0px 0px 100px 100px;
+	}
 }
