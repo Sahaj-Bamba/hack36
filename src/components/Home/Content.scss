@@ -1,3 +1,7 @@
+Grid {
+	align-items: center;
+}
+
 .content-main {
 	margin-top: 4rem;
 }
@@ -22,7 +26,18 @@
 	color: #203246;
 	font-size: 2.5rem;
 }
-
+.base-button {
+	font-family: "jura", sans-serif;
+	font-size: 2rem;
+	background-color: #1e113b;
+	color: azure;
+	width: 300px;
+	height: 60px;
+	display: grid;
+	align-items: center;
+	border-radius: 50px;
+	//	align-self: center;
+}
 // .content-milo {
 //     padding: 5%;
 //     animation-name: change-in-milo;
@@ -76,5 +91,10 @@
 	}
 	.content-dates {
 		font-size: 1.5rem;
+	}
+	.base-button {
+		font-size: 1.5rem;
+		width: 200px;
+		height: 50px;
 	}
 }
