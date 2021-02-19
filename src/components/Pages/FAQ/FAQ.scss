@@ -17,7 +17,10 @@ h1 {
 	font-size: 60px;
 	text-align: center;
 }
-
+.content {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
 .faq {
 	position: relative;
 	margin: 50px auto;
@@ -27,7 +30,9 @@ h1 {
 	display: grid;
 	grid-template-rows: auto auto auto;
 }
-
+.question {
+	cursor: pointer;
+}
 .faq ul {
 	padding: 0;
 	margin: 0;
@@ -78,6 +83,7 @@ h1 {
 	width: 100%;
 	text-align: left;
 	font-size: 1.2em;
+	color: #000;
 }
 
 .toggle {

@@ -5,7 +5,7 @@ import "./FAQ.scss";
 class FAQ extends Component {
 	render() {
 		return (
-			<div className="faq">
+			<div className="faq" id="Faqid">
 				<h3
 					className="faqh"
 					style={{

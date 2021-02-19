@@ -29,8 +29,8 @@ class Routes extends Component {
 							<Main />
 							{/* <About /> */}
 							<About />
-							<FAQ />
 							<Sponsor />
+							<FAQ />
 							<Contact />
 						</React.Fragment>
 					)}

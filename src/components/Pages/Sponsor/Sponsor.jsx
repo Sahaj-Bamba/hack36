@@ -9,7 +9,7 @@ class Sponsor extends Component {
 
 	render() {
 		return (
-			<div id="Spnsors">
+			<div id="Sponsors">
 				<h1 className="Sponsor-head">Past Sponsors</h1>
 				<div id="sponsors-logo">
 					<div>

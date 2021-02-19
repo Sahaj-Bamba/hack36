@@ -45,7 +45,7 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="#">
+						<a href="#Sponsors">
 							<div
 								className="nav-links"
 								onClick={closeMobileMenu}
@@ -55,7 +55,7 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="#">
+						<a href="#Faqid">
 							<div
 								className="nav-links"
 								onClick={closeMobileMenu}
