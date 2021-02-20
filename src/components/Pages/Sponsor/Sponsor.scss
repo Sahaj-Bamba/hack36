@@ -28,9 +28,10 @@
 }
 
 #sponsors-logo > div:hover {
-	max-width: 300px;
+	/*	max-width: 300px;
 	width: 300px;
-	max-height: 300px;
+	max-height: 300px;*/
+	animation: zoomin 1s 1;
 }
 
 #sponsors-logo > div:hover img {
@@ -63,8 +64,48 @@
 		margin: 20px;
 	}
 	#sponsors-logo > div:hover {
-		max-width: 200px;
+		/*	max-width: 200px;
 		width: 200px;
-		max-height: 200px;
+		max-height: 200px;*/
+		animation: zoominmob 1s 1;
+	}
+}
+
+@keyframes zoomin {
+	0% {
+		width: 175px;
+		max-width: 175px;
+		max-height: 175px;
+	}
+	100% {
+		width: 225px;
+		max-width: 225px;
+		max-height: 225px;
+	}
+}
+
+@keyframes zoominmob {
+	0% {
+		width: 125px;
+		max-width: 125px;
+		max-height: 125px;
+	}
+	100% {
+		width: 175px;
+		max-width: 175px;
+		max-height: 175px;
+	}
+}
+
+@keyframes zoomout {
+	0% {
+		width: 250px;
+		max-width: 250px;
+		max-height: 250px;
+	}
+	100% {
+		width: 175px;
+		max-width: 175px;
+		max-height: 175px;
 	}
 }
