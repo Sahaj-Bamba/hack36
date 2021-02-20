@@ -1,8 +1,43 @@
 import React, { Component } from "react";
 import FAQitem from "./FAQitem";
 import "./FAQ.scss";
+import $ from "jquery";
 
 class FAQ extends Component {
+	componentDidMount() {
+		var intersectionOptions = {
+			root: null, // use the viewport
+			rootMargin: "0px",
+			threshold: 0.2,
+		};
+
+		function intersectionCallback(entries, observer) {
+			entries.forEach((entry) => {
+				if (entry.intersectionRatio >= 0.2) {
+					//window.location = "#Faqid";
+					var hash = "#Faqid";
+					$("html, body").animate(
+						{
+							scrollTop: $(hash).offset().top,
+						},
+						800,
+						function () {
+							// Add hash (#) to URL when done scrolling (default click behavior)
+							window.location.hash = hash;
+						}
+					);
+				} else {
+				}
+			});
+		}
+		var observer = new IntersectionObserver(
+			intersectionCallback,
+			intersectionOptions
+		);
+		var target = document.getElementById("Faqid");
+		observer.observe(target);
+	}
+
 	render() {
 		return (
 			<div className="faq" id="Faqid">

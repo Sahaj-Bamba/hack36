@@ -32,6 +32,7 @@
 	width: 300px;
 	max-height: 300px;*/
 	animation: zoomin 1s 1;
+	animation-fill-mode: forwards;
 }
 
 #sponsors-logo > div:hover img {
@@ -68,6 +69,7 @@
 		width: 200px;
 		max-height: 200px;*/
 		animation: zoominmob 1s 1;
+		animation-fill-mode: forwards;
 	}
 }
 

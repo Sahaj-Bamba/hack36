@@ -92,15 +92,15 @@ function Content() {
 						<div className="content-dates">APRIL 9-11, 2021</div>
 						<br />
 						<center>
-							<a
-								target="_blank"
-								href="https://forms.gle/pvFK7WpctAjWMUGH8"
-							>
-								<div className="base-button">
-									{" "}
+							<div className="base-button">
+								{" "}
+								<a
+									target="_blank"
+									href="https://forms.gle/pvFK7WpctAjWMUGH8"
+								>
 									Pre Register{" "}
-								</div>
-							</a>
+								</a>
+							</div>
 						</center>
 					</Grid>
 				</Grid>

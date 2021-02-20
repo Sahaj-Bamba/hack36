@@ -1,10 +1,45 @@
 import React, { Component } from "react";
 import "./Sponsor.scss";
+import $ from "jquery";
 
 class Sponsor extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
+	}
+
+	componentDidMount() {
+		var intersectionOptions = {
+			root: null, // use the viewport
+			rootMargin: "0px",
+			threshold: 0.2,
+		};
+
+		function intersectionCallback(entries, observer) {
+			entries.forEach((entry) => {
+				if (entry.intersectionRatio >= 0.2) {
+					//window.location = "#Sponsors";
+					var hash = "#Sponsors";
+					$("html, body").animate(
+						{
+							scrollTop: $(hash).offset().top,
+						},
+						800,
+						function () {
+							// Add hash (#) to URL when done scrolling (default click behavior)
+							window.location.hash = hash;
+						}
+					);
+				} else {
+				}
+			});
+		}
+		var observer = new IntersectionObserver(
+			intersectionCallback,
+			intersectionOptions
+		);
+		var target = document.getElementById("Sponsors");
+		observer.observe(target);
 	}
 
 	render() {

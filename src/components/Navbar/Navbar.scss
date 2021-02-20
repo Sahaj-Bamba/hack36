@@ -1,10 +1,16 @@
 .navbar {
 	background: transparent;
-	height: 80px;
+	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.2rem;
+
+	position: fixed;
+	top: 0px;
+	width: 100vw;
+	background-color: #bfe4f6;
+	z-index: 2;
 }
 
 .navbar-logo {

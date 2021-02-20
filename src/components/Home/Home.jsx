@@ -1,14 +1,48 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
-import Content from "./Content"
+import Content from "./Content";
 import Base from "./Base";
-import './Home.scss';
+import "./Home.scss";
+import $ from "jquery";
 
 class Home extends Component {
 	constructor(props) {
 		super(props);
 
 		this.state = {};
+	}
+
+	componentDidMount() {
+		var intersectionOptions = {
+			root: null, // use the viewport
+			rootMargin: "0px",
+			threshold: 0.2,
+		};
+
+		function intersectionCallback(entries, observer) {
+			entries.forEach((entry) => {
+				if (entry.intersectionRatio >= 0.2) {
+					var hash = "#Home";
+					$("html, body").animate(
+						{
+							scrollTop: $(hash).offset().top,
+						},
+						800,
+						function () {
+							// Add hash (#) to URL when done scrolling (default click behavior)
+							window.location.hash = hash;
+						}
+					);
+				} else {
+				}
+			});
+		}
+		var observer = new IntersectionObserver(
+			intersectionCallback,
+			intersectionOptions
+		);
+		var target = document.getElementById("Home");
+		observer.observe(target);
 	}
 
 	render() {

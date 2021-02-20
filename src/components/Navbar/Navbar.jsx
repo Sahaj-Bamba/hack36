@@ -11,7 +11,9 @@ const iconFaBars = <FontAwesomeIcon icon={faBars} />;
 function Navbar() {
 	const [click, setClick] = useState(false);
 	const handleClick = () => setClick(!click);
-	const closeMobileMenu = () => setClick(false);
+	const closeMobileMenu = (event) => {
+		setClick(false);
+	};
 
 	return (
 		<>
@@ -25,10 +27,11 @@ function Navbar() {
 				</div>
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
-						<a href="#Home">
+						<a href="#">
 							<div
 								className="nav-links"
 								onClick={closeMobileMenu}
+								id="homelink"
 							>
 								Home
 							</div>
