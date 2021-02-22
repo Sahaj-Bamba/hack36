@@ -19,19 +19,6 @@ class Sponsor extends Component {
 			entries.forEach((entry) => {
 				if (entry.intersectionRatio >= 0.3) {
 					//window.location = "#Sponsors";
-					setTimeout(() => {
-						var hash = "#Sponsors";
-						$("html, body").animate(
-							{
-								scrollTop: $(hash).offset().top,
-							},
-							500,
-							function () {
-								// Add hash (#) to URL when done scrolling (default click behavior)
-								window.location.hash = hash;
-							}
-						);
-					}, 1);
 				} else {
 				}
 			});

@@ -39,19 +39,6 @@ class About extends Component {
 					document
 						.getElementsByClassName("milo")[0]
 						.classList.add("miloa");
-					setTimeout(() => {
-						var hash = "#Aboutid";
-						$("html, body").animate(
-							{
-								scrollTop: $(hash).offset().top,
-							},
-							500,
-							function () {
-								// Add hash (#) to URL when done scrolling (default click behavior)
-								window.location.hash = hash;
-							}
-						);
-					}, 1);
 				} else {
 					document
 						.getElementsByClassName("backg")[0]
