@@ -22,17 +22,19 @@ class Home extends Component {
 		function intersectionCallback(entries, observer) {
 			entries.forEach((entry) => {
 				if (entry.intersectionRatio >= 0.2) {
-					var hash = "#Home";
-					$("html, body").animate(
-						{
-							scrollTop: $(hash).offset().top,
-						},
-						800,
-						function () {
-							// Add hash (#) to URL when done scrolling (default click behavior)
-							window.location.hash = hash;
-						}
-					);
+					setTimeout(() => {
+						var hash = "#Home";
+						$("html, body").animate(
+							{
+								scrollTop: $(hash).offset().top,
+							},
+							800,
+							function () {
+								// Add hash (#) to URL when done scrolling (default click behavior)
+								window.location.hash = hash;
+							}
+						);
+					}, 1);
 				} else {
 				}
 			});

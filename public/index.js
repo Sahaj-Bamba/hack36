@@ -14,6 +14,7 @@ setTimeout(() => {
       $(".Back").fadeIn(10);    
 }, 4200);
 setTimeout(() => {
+}, 6000);
 
 /*
 if (
@@ -47,7 +48,6 @@ if (
 			});
 			observer.observe(document.querySelector("#Aboutid"));
 		}*/
-}, 6000);
 
 
 $(document).ready(function(){

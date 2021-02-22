@@ -19,17 +19,19 @@ class Sponsor extends Component {
 			entries.forEach((entry) => {
 				if (entry.intersectionRatio >= 0.2) {
 					//window.location = "#Sponsors";
-					var hash = "#Sponsors";
-					$("html, body").animate(
-						{
-							scrollTop: $(hash).offset().top,
-						},
-						800,
-						function () {
-							// Add hash (#) to URL when done scrolling (default click behavior)
-							window.location.hash = hash;
-						}
-					);
+					setTimeout(() => {
+						var hash = "#Sponsors";
+						$("html, body").animate(
+							{
+								scrollTop: $(hash).offset().top,
+							},
+							800,
+							function () {
+								// Add hash (#) to URL when done scrolling (default click behavior)
+								window.location.hash = hash;
+							}
+						);
+					}, 1);
 				} else {
 				}
 			});
