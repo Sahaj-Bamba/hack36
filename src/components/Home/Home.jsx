@@ -16,12 +16,12 @@ class Home extends Component {
 		var intersectionOptions = {
 			root: null, // use the viewport
 			rootMargin: "0px",
-			threshold: 0.2,
+			threshold: 0.3,
 		};
 
 		function intersectionCallback(entries, observer) {
 			entries.forEach((entry) => {
-				if (entry.intersectionRatio >= 0.2) {
+				if (entry.intersectionRatio >= 0.3) {
 					setTimeout(() => {
 						var hash = "#Home";
 						$("html, body").animate(
@@ -49,7 +49,7 @@ class Home extends Component {
 
 	render() {
 		return (
-			<div className="home-bg">
+			<div className="home-bg" id="Home">
 				<Navbar></Navbar>
 				<Content></Content>
 				<Base></Base>

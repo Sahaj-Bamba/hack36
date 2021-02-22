@@ -24,12 +24,12 @@ class About extends Component {
 		var intersectionOptions = {
 			root: null, // use the viewport
 			rootMargin: "0px",
-			threshold: 0.2,
+			threshold: 0.3,
 		};
 
 		function intersectionCallback(entries, observer) {
 			entries.forEach((entry) => {
-				if (entry.intersectionRatio >= 0.2) {
+				if (entry.intersectionRatio >= 0.3) {
 					document
 						.getElementsByClassName("backg")[0]
 						.classList.add("backga");

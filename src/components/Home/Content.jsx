@@ -70,7 +70,7 @@ function Content() {
 	const classes = useStyles();
 
 	return (
-		<section id="Home">
+		<section >
 			<div className="content-main">
 				{/* <Base /> */}
 				{/* <ComingSoon /> */}
