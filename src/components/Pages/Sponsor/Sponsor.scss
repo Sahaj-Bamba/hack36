@@ -2,6 +2,7 @@
 	margin-top: 50px;
 	width: 80vw;
 	margin-left: 10vw;
+	min-height: 100vh;
 }
 
 .Sponsor-head {
@@ -54,10 +55,11 @@
 }
 
 @media screen and (max-width: 960px) {
-	#Spnsors {
+	#Sponsors {
 		margin-top: 25px;
 		width: 95vw;
 		margin-left: 2.5vw;
+		min-height: 100vh;
 	}
 	#sponsors-logo > div {
 		max-width: 125px;
