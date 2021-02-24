@@ -56,6 +56,7 @@ class Routes extends Component {
 					exact
 					render={(props) => (
 						<React.Fragment>
+
 							<Team />
 						</React.Fragment>
 					)}
