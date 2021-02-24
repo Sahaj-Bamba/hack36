@@ -35,7 +35,6 @@ class Team extends Component {
                     <a href="https://www.linkedin.com/in/nitin-98/"><img src={linkedIn} /></a>
                     <a href="https://nitindoodhiya@gmail.com"><img src={mailimg} /></a>
                     <a href="https://nitindoodhiya.github.io"><img src={wwwimg} /></a>
-                    
             </center>
           </div>
           </div>
