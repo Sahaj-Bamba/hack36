@@ -31,10 +31,10 @@ class Team extends Component {
             <img className="uphoto" src="https://scontent.fbho3-1.fna.fbcdn.net/v/t1.0-9/138123505_2909348155975824_6810706816553795342_o.jpg?_nc_cat=111&ccb=3&_nc_sid=09cbfe&_nc_ohc=BmA0ueNVomYAX_ssfwu&_nc_ht=scontent.fbho3-1.fna&oh=4d6ba2af4ec3f72687fb84c53db652f1&oe=605B2526" alt=""/>
                     <p>Nitin Doodhiya</p>
                     
-                    <a href="default.asp"><img src={fb} /></a>
-                    <a href="default.asp"><img src={linkedIn} /></a>
-                    <a href="default.asp"><img src={mailimg} /></a>
-                    <a href="default.asp"><img src={wwwimg} /></a>
+                    <a href="https://www.facebook.com/nitin.doodhiya.3"><img src={fb} /></a>
+                    <a href="https://www.linkedin.com/in/nitin-98/"><img src={linkedIn} /></a>
+                    <a href="https://nitindoodhiya@gmail.com"><img src={mailimg} /></a>
+                    <a href="https://nitindoodhiya.github.io"><img src={wwwimg} /></a>
                     
             </center>
           </div>
