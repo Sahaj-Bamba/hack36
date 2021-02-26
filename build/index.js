@@ -5,16 +5,16 @@
 window.addEventListener("scroll", scrollEventHandler, false);
 */
 setTimeout(() => {
-      var element = document.getElementById("loader");
-    	element && element. parentNode && element. parentNode .removeChild(element);
-      // $("#root").css('visibility', 'visible');
-	  $("body").css("overflow-y","scroll");
-      $("body").css("height","auto");
-      $("#root").fadeIn(1800);    
-      $(".Back").fadeIn(10);    
-}, 4200);
-setTimeout(() => {
-}, 6000);
+    var element = document.getElementById("loader");
+    element && element.parentNode && element.parentNode.removeChild(element);
+    // $("#root").css('visibility', 'visible');
+    $("body").css("overflow-y", "scroll");
+    $("body").css("height", "auto");
+    $("#root").fadeIn(1800);
+
+    $(".Back").fadeIn(10);
+}, 2200);
+setTimeout(() => {}, 6000);
 
 /*
 if (
@@ -50,7 +50,7 @@ if (
 		}*/
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 
 
@@ -63,7 +63,7 @@ $(document).ready(function(){
 
 
 
-	/* // Add smooth scrolling to all links
+    /* // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
