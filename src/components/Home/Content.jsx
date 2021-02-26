@@ -83,7 +83,7 @@ function Content() {
 					<Grid item md={5} xs={10} className="content-milo">
 						<div className={classes.contentMilo}></div>
 					</Grid>
-					<Grid item md={5} xs={10}>
+					<Grid item md={5} xs={10} id="HackName">
 						{/* <img src={logo} alt="Hack 36" height='60px'/> */}
 						<div className="content-hack36">HACK 36</div>
 						<div className="content-c3">
