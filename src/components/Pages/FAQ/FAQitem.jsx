@@ -62,7 +62,7 @@ class FAQitem extends Component {
 					src={this.arrow()}
 					style={this.getToggleStyle()}
 				/>
-				<span>
+				<span className="spn">
 					<div className="question" onClick={this.openAnswer}>
 						<span style={{ color: "#203246" }}>
 							{this.props.question}

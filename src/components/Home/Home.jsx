@@ -4,7 +4,6 @@ import Content from "./Content";
 import Base from "./Base";
 import "./Home.scss";
 import $ from "jquery";
-
 class Home extends Component {
 	constructor(props) {
 		super(props);

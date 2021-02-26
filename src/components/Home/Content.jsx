@@ -21,6 +21,7 @@ const useStyles = makeStyles({
 			backgroundPosition: "center",
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
+
 		},
 		"34%": {
 			backgroundImage: `url(${landing2})`,
@@ -80,7 +81,7 @@ function Content() {
 					justify="center"
 					alignItems="center"
 				>
-					<Grid item md={5} xs={10} className="content-milo">
+					<Grid item md={5} xs={10} className="content-milo ">
 						<div className={classes.contentMilo}></div>
 					</Grid>
 					<Grid item md={5} xs={10} id="HackName">

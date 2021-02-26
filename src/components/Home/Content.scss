@@ -101,6 +101,37 @@ Grid {
     //	align-self: center;
 }
 
+@-webkit-keyframes swinging {
+    0% {
+        -webkit-transform: rotate(10deg);
+    }
+    50% {
+        -webkit-transform: rotate(-5deg)
+    }
+    100% {
+        -webkit-transform: rotate(10deg);
+    }
+}
+
+@keyframes swinging {
+    0% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-5deg)
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+.swingimage {
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3s ease-in-out forwards 2.3;
+    animation: swinging 3s ease-in-out forwards 2.3;
+}
+
 // .content-milo {
 //     padding: 5%;
 //     animation-name: change-in-milo;
