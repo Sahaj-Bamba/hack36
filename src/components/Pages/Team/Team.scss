@@ -105,12 +105,13 @@
     
     .uphoto {
         top: 5px;
+        margin-top: 2%;
         font-size: 2em;
         color: #fff;
         margin-bottom: 10px;
         text-decoration: none;
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         border-radius: 100%;
         color: black;
         border-width: 3px;
@@ -183,8 +184,9 @@
     }
     
     .modal-content {
-        background-color: #116994;
-        border-radius: 03%;
+        background-color: #1b77a5;
+        // border-radius: 03%;
+        border-radius: 0%;
     }
     
     .heading {
