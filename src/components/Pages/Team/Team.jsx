@@ -25,9 +25,11 @@ function Team(params) {
         aria-labelledby="example-custom-modal-styling-title"
       >
         <Modal.Header closeButton>
+        {/* <center>
           <Modal.Title id="example-custom-modal-styling-title">
             Hack36 Team
           </Modal.Title>
+        </center> */}
         </Modal.Header>
         <Modal.Body>
         <h1 className="heading">Faculty Co-ordinators</h1>
@@ -56,8 +58,8 @@ function Team(params) {
           <div className="content">
             <center>
               
-            <img className="uphoto" src="https://scontent.fbho3-1.fna.fbcdn.net/v/t1.0-9/138123505_2909348155975824_6810706816553795342_o.jpg?_nc_cat=111&ccb=3&_nc_sid=09cbfe&_nc_ohc=BmA0ueNVomYAX_ssfwu&_nc_ht=scontent.fbho3-1.fna&oh=4d6ba2af4ec3f72687fb84c53db652f1&oe=605B2526" alt=""/>
-                    <p>Nitin Doodhiya</p>
+            <img className="uphoto" src="https://scontent.frpr1-1.fna.fbcdn.net/v/t31.0-8/28953946_1863809723918048_7960042119985733555_o.jpg?_nc_cat=103&ccb=3&_nc_sid=09cbfe&_nc_ohc=nilvMyBoE84AX-6Pa8w&_nc_ht=scontent.frpr1-1.fna&oh=8b12f0eb1862d0fc2c6001035f6a2c4b&oe=605FF3AA" alt=""/>
+                    <p>Sahaj Bamba</p>
                     
                     <a href="default.asp"><img src={fb} /></a>
                     <a href="default.asp"><img src={linkedIn} /></a>
@@ -73,8 +75,8 @@ function Team(params) {
           <div className="content">
             <center>
               
-            <img className="uphoto" src="https://scontent.fbho3-1.fna.fbcdn.net/v/t1.0-9/138123505_2909348155975824_6810706816553795342_o.jpg?_nc_cat=111&ccb=3&_nc_sid=09cbfe&_nc_ohc=BmA0ueNVomYAX_ssfwu&_nc_ht=scontent.fbho3-1.fna&oh=4d6ba2af4ec3f72687fb84c53db652f1&oe=605B2526" alt=""/>
-                    <p>Nitin Doodhiya</p>
+            <img className="uphoto" src="https://scontent.frpr1-1.fna.fbcdn.net/v/t1.0-9/38411662_1765821966847987_5138325261766361088_n.jpg?_nc_cat=109&ccb=3&_nc_sid=09cbfe&_nc_ohc=xVt0O0FLB7oAX9Uw9F_&_nc_ht=scontent.frpr1-1.fna&oh=d8d8fa9d0935f85a9b1df9dae653ffcd&oe=606081A2" alt=""/>
+                    <p>Shashwat Pandey</p>
                     
                     <a href="default.asp"><img src={fb} /></a>
                     <a href="default.asp"><img src={linkedIn} /></a>

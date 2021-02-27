@@ -9,7 +9,7 @@ import Back from "./components/Pages/Back/Back";
 import Contact from "./components/Pages/Contact/Contact";
 import Team from "./components/Pages/Team/Team";
 import Sponsor from "./components/Pages/Sponsor/Sponsor";
-
+// import Timeline from "./components/Pages/Timeline_temp/Timeline";
 class Routes extends Component {
 	constructor(props) {
 		super(props);
@@ -31,6 +31,7 @@ class Routes extends Component {
 							<About />
 							<Sponsor />
 							<FAQ />
+							{/* <Timeline/> */}
 							<Contact />
 						</React.Fragment>
 					)}

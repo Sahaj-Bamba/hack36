@@ -109,7 +109,8 @@
         color: #fff;
         margin-bottom: 10px;
         text-decoration: none;
-        max-width: 180px;
+        width: 180px;
+        height: 180px;
         border-radius: 100%;
         color: black;
         border-width: 3px;
@@ -159,6 +160,7 @@
     
     .modal_main {
         width: 960px;
+        background-color: black;
     }
     
     .modal-dialog {
@@ -176,5 +178,19 @@
     
     .close>span {
         display: block;
-        color: black;
+        color: white;
+        font-size: 150%;
+    }
+    
+    .modal-content {
+        background-color: #116994;
+        border-radius: 03%;
+    }
+    
+    .heading {
+        color: #fff;
+    }
+    
+    .modal-header {
+        border-bottom: none;
     }
