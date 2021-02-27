@@ -115,6 +115,12 @@ class FAQ extends Component {
 								answer="You can build anything you are passionate about like some web app, mobile app or something using hardware."
 							/>
 						</li>
+						<li>
+							<FAQitem
+								question="When will registration start?"
+								answer="Registrations are just around the corner, stay tuned!"
+							/>
+						</li>
 					</ul>
 				</div>
 			</div>
