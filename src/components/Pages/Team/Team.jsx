@@ -134,7 +134,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/descifrado/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://anuj.20174047@mnnit.ac.in">
+										<a href="mailto:anuj.20174047@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/descifrado">
@@ -161,7 +161,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/shashwatpandey1998/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://shashwatpandey@mnnit.ac.in">
+										<a href="mailto:shashwatpandey@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/shashwat1998">
@@ -193,7 +193,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/nitin-98/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://nitin@mnnit.ac.in">
+										<a href="mailto:nitin@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://nitindoodhiya.github.io/">
@@ -220,7 +220,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/sahaj-bamba/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://sahaj@mnnit.ac.in">
+										<a href="mailto:sahaj@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://sahaj-bamba.github.io/">
@@ -246,7 +246,7 @@ function Team(params) {
 										<a href="http://www.linkedin.com/in/nimesh12maheshwari">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://nimesh12maheshwari@gmail.com">
+										<a href="mailto:nimesh12maheshwari@gmail.com">
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/nimesh12maheshwari">
@@ -278,7 +278,7 @@ function Team(params) {
 										<a href="http://www.linkedin.com/in/prachipandey157">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://prachi.20178059@mnnit.ac.in">
+										<a href="mailto:prachi.20178059@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -302,7 +302,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/jankit311/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://ankit.jain@mnnit.ac.in">
+										<a href="mailto:ankit.jain@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/jankit311">
@@ -328,7 +328,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/anzumbano">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://anzum@mnnit.ac.in">
+										<a href="mailto:anzum@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/anzumbano">
@@ -359,7 +359,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/tanisha-kumbhakar">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://tanisha.20175007@mnnit.ac.in">
+										<a href="mailto:tanisha.20175007@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -383,7 +383,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/simrankumari30/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://kumarisimran@mnnit.ac.in">
+										<a href="mailto:kumarisimran@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -406,7 +406,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/vivekrathi53/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://vivekrathi@mnnit.ac.in">
+										<a href="mailto:vivekrathi@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										{/* <a href="https://www.codechef.com/users/vivek_rathi_53"><img src={wwwimg} /></a> */}
@@ -431,7 +431,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/yadavarpit771999?_l=en_US">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://arpit.20174111@mnnit.ac.in">
+										<a href="mailto:arpit.20174111@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										{/* <a href="https://github.com/ace-ezer"><img src={wwwimg} /></a> */}
@@ -456,7 +456,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/sudhanshu-choudhary/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://sudhanshu.kr@mnnit.ac.in">
+										<a href="mailto:sudhanshu.kr@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -480,7 +480,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/darshika1610/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://darshika@mnnit.ac.in">
+										<a href="mailto:darshika@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -509,7 +509,7 @@ function Team(params) {
 										<a href="www.linkedin.com/in/shrey2076">
 											<img src={linkedIn} />
 										</a>
-										<a href="shrey@mnnit.ac.in">
+										<a href="mailto:shrey@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/Shreypandey">
@@ -536,7 +536,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/ashutosh-sabat-6a8bbb158">
 											<img src={linkedIn} />
 										</a>
-										<a href="ashutosh.20170035@mnnit.ac.in">
+										<a href="mailto:ashutosh.20170035@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -565,7 +565,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/satyam-savita-5069ba14a">
 											<img src={linkedIn} />
 										</a>
-										<a href="satyamsavita@mnnit.ac.in">
+										<a href="mailto:satyamsavita@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -589,7 +589,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/prajjawal-prayank/">
 											<img src={linkedIn} />
 										</a>
-										<a href="prajjawal.20174059@mnnit.ac.in">
+										<a href="mailto:prajjawal.20174059@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -612,7 +612,7 @@ function Team(params) {
 										<a href="https://www.linkedin.com/in/adarsh-verma-78194214a/">
 											<img src={linkedIn} />
 										</a>
-										<a href="adarsh.20174064@mnnit.ac.in">
+										<a href="mailto:adarsh.20174064@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
 										<a href="http://adarshverma013.github.io/">
