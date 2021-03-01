@@ -29,6 +29,11 @@ import p20 from "../../../files/Team/p20.jpg";
 import p21 from "../../../files/Team/p21.jpg";
 import p22 from "../../../files/Team/p22.jpg";
 import p23 from "../../../files/Team/p23.jpg";
+import p24 from "../../../files/Team/p24.jpeg";
+import p25 from "../../../files/Team/p25.jpg";
+import p26 from "../../../files/Team/p26.jpg";
+import p27 from "../../../files/Team/p27.jpeg";
+import p28 from "../../../files/Team/p28.jpg";
 
 import "./Team.scss";
 
@@ -494,20 +499,20 @@ function Team(params) {
 									<center>
 										<img
 											className="uphoto"
-											src={p6}
+											src={p24}
 											alt=""
 										/>
-										<p>Nitin Doodhiya</p>
-										<a href="https://www.facebook.com/nitin.doodhiya.3">
+										<p>Shrey Pandey</p>
+										<a href="https://www.facebook.com/moonknight2076/">
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/nitin-98/">
+										<a href="www.linkedin.com/in/shrey2076">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://nitin@mnnit.ac.in">
+										<a href="shrey@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
-										<a href="https://nitindoodhiya.github.io/">
+										<a href="https://github.com/Shreypandey">
 											<img src={wwwimg} />
 										</a>
 									</center>
@@ -520,48 +525,19 @@ function Team(params) {
 									<center>
 										<img
 											className="uphoto"
-											src={p19}
+											src={p25}
 											alt=""
 										/>
-										<p>Shahaj Bamba</p>
+										<p>Ashutosh Sabat</p>
 
-										<a href="https://www.facebook.com/profile.php?id=100008671153032">
+										<a href="https://www.facebook.com/ashutoshsabat2">
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/sahaj-bamba/">
+										<a href="https://www.linkedin.com/in/ashutosh-sabat-6a8bbb158">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://sahaj@mnnit.ac.in">
+										<a href="ashutosh.20170035@mnnit.ac.in">
 											<img src={mailimg} />
-										</a>
-										<a href="https://sahaj-bamba.github.io/">
-											<img src={wwwimg} />
-										</a>
-									</center>
-								</div>
-							</div>
-							<div className="box">
-								<span></span>
-								<div className="content">
-									<center>
-										<img
-											className="uphoto"
-											src={p7}
-											alt=""
-										/>
-										<p>Nimesh Maheshwari</p>
-
-										<a href="https://www.facebook.com/nimesh.maheshwari.12">
-											<img src={fb} />
-										</a>
-										<a href="http://www.linkedin.com/in/nimesh12maheshwari">
-											<img src={linkedIn} />
-										</a>
-										<a href="https://nimesh12maheshwari@gmail.com">
-											<img src={mailimg} />
-										</a>
-										<a href="https://github.com/nimesh12maheshwari">
-											<img src={wwwimg} />
 										</a>
 									</center>
 								</div>
@@ -579,21 +555,18 @@ function Team(params) {
 									<center>
 										<img
 											className="uphoto"
-											src={p6}
+											src={p26}
 											alt=""
 										/>
-										<p>Nitin Doodhiya</p>
-										<a href="https://www.facebook.com/nitin.doodhiya.3">
+										<p>Satyam Savita</p>
+										<a href="https://www.facebook.com/profile.php?id=100008154158938">
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/nitin-98/">
+										<a href="https://www.linkedin.com/in/satyam-savita-5069ba14a">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://nitin@mnnit.ac.in">
+										<a href="satyamsavita@mnnit.ac.in">
 											<img src={mailimg} />
-										</a>
-										<a href="https://nitindoodhiya.github.io/">
-											<img src={wwwimg} />
 										</a>
 									</center>
 								</div>
@@ -605,22 +578,19 @@ function Team(params) {
 									<center>
 										<img
 											className="uphoto"
-											src={p19}
+											src={p27}
 											alt=""
 										/>
-										<p>Shahaj Bamba</p>
+										<p>Prajjawal Prayank</p>
 
-										<a href="https://www.facebook.com/profile.php?id=100008671153032">
+										<a href="https://www.facebook.com/Prajjawal.Prayank">
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/sahaj-bamba/">
+										<a href="https://www.linkedin.com/in/prajjawal-prayank/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://sahaj@mnnit.ac.in">
+										<a href="prajjawal.20174059@mnnit.ac.in">
 											<img src={mailimg} />
-										</a>
-										<a href="https://sahaj-bamba.github.io/">
-											<img src={wwwimg} />
 										</a>
 									</center>
 								</div>
@@ -631,21 +601,21 @@ function Team(params) {
 									<center>
 										<img
 											className="uphoto"
-											src={p7}
+											src={p28}
 											alt=""
 										/>
-										<p>Nimesh Maheshwari</p>
+										<p>Adarsh Kumar Verma</p>
 
-										<a href="https://www.facebook.com/nimesh.maheshwari.12">
+										<a href="https://www.facebook.com/adarsh.verma.7777">
 											<img src={fb} />
 										</a>
-										<a href="http://www.linkedin.com/in/nimesh12maheshwari">
+										<a href="https://www.linkedin.com/in/adarsh-verma-78194214a/">
 											<img src={linkedIn} />
 										</a>
-										<a href="https://nimesh12maheshwari@gmail.com">
+										<a href="adarsh.20174064@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/nimesh12maheshwari">
+										<a href="http://adarshverma013.github.io/">
 											<img src={wwwimg} />
 										</a>
 									</center>
