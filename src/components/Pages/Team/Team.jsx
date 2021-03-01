@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import fb from "../../../files/ContactUs/fb.jpg";
-import linkedIn from "../../../files/ContactUs/linkedInimg.jpg";
-import wwwimg from "../../../files/ContactUs/wwwimg.jpg";
-import mailimg from "../../../files/ContactUs/mailimg.jpg";
+import fb from "../../../files/Team/icons/facebook-01.svg";
+import linkedIn from "../../../files/Team/icons/linkedin-01.svg";
+import wwwimg from "../../../files/Team/icons/web-01.svg";
+import mailimg from "../../../files/Team/icons/mail-01.svg";
+import code from "../../../files/Team/icons/codechef.svg";
+import git from "../../../files/Team/icons/github-01.svg";
 // import Navbar from "../../Navbar/Navbar";
 import { Modal } from "react-bootstrap";
 import { Button } from "react-bootstrap";
@@ -34,6 +36,7 @@ import p25 from "../../../files/Team/p25.jpg";
 import p26 from "../../../files/Team/p26.jpg";
 import p27 from "../../../files/Team/p27.jpeg";
 import p28 from "../../../files/Team/p28.jpg";
+import p29 from "../../../files/Team/p29.png";
 
 import "./Team.scss";
 
@@ -138,7 +141,7 @@ function Team(params) {
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/descifrado">
-											<img src={wwwimg} />
+											<img src={git} />
 										</a>
 									</center>
 								</div>
@@ -165,6 +168,33 @@ function Team(params) {
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/shashwat1998">
+											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
+
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p29}
+											alt=""
+										/>
+										<p>Arsh Singh</p>
+
+										<a href="#">
+											<img src={fb} />
+										</a>
+										<a href="#">
+											<img src={linkedIn} />
+										</a>
+										<a href="#">
+											<img src={mailimg} />
+										</a>
+										<a href="#">
 											<img src={wwwimg} />
 										</a>
 									</center>
@@ -250,7 +280,7 @@ function Team(params) {
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/nimesh12maheshwari">
-											<img src={wwwimg} />
+											<img src={git} />
 										</a>
 									</center>
 								</div>
@@ -306,7 +336,7 @@ function Team(params) {
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/jankit311">
-											<img src={wwwimg} />
+											<img src={git} />
 										</a>
 									</center>
 								</div>
@@ -332,7 +362,7 @@ function Team(params) {
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/anzumbano">
-											<img src={wwwimg} />
+											<img src={git} />
 										</a>
 									</center>
 								</div>
@@ -409,7 +439,9 @@ function Team(params) {
 										<a href="mailto:vivekrathi@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
-										{/* <a href="https://www.codechef.com/users/vivek_rathi_53"><img src={wwwimg} /></a> */}
+										<a href="https://www.codechef.com/users/vivek_rathi_53">
+											<img src={code} />
+										</a>
 									</center>
 								</div>
 							</div>
@@ -434,7 +466,9 @@ function Team(params) {
 										<a href="mailto:arpit.20174111@mnnit.ac.in">
 											<img src={mailimg} />
 										</a>
-										{/* <a href="https://github.com/ace-ezer"><img src={wwwimg} /></a> */}
+										<a href="https://github.com/ace-ezer">
+											<img src={git} />
+										</a>
 									</center>
 								</div>
 							</div>
@@ -513,7 +547,7 @@ function Team(params) {
 											<img src={mailimg} />
 										</a>
 										<a href="https://github.com/Shreypandey">
-											<img src={wwwimg} />
+											<img src={git} />
 										</a>
 									</center>
 								</div>

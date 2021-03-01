@@ -53,7 +53,7 @@ class FAQ extends Component {
 
 						<li>
 							<FAQitem
-								question="Do I Need To Pay Any Money To Register For The Hackathon?"
+								question="Do I Need To Pay Any Money To Register ?"
 								answer="No. You do not have to pay anything to anyone to register yourself for Hack36"
 							/>
 						</li>
@@ -73,6 +73,12 @@ class FAQ extends Component {
 							<FAQitem
 								question="What Is The Procedure Of Forming A Team?"
 								answer="After registration, participants are required to form their team by logging in"
+							/>
+						</li>
+						<li>
+							<FAQitem
+								question="When will registration start?"
+								answer="Registrations are just around the corner, stay tuned!"
 							/>
 						</li>
 					</ul>
@@ -113,12 +119,6 @@ class FAQ extends Component {
 							<FAQitem
 								question="What We Can Build?"
 								answer="You can build anything you are passionate about like some web app, mobile app or something using hardware."
-							/>
-						</li>
-						<li>
-							<FAQitem
-								question="When will registration start?"
-								answer="Registrations are just around the corner, stay tuned!"
 							/>
 						</li>
 					</ul>
