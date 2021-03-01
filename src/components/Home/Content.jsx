@@ -21,7 +21,6 @@ const useStyles = makeStyles({
 			backgroundPosition: "center",
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
-
 		},
 		"34%": {
 			backgroundImage: `url(${landing2})`,
@@ -29,7 +28,7 @@ const useStyles = makeStyles({
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
 		},
-		"60%": {
+		"62%": {
 			backgroundImage: `url(${landing2})`,
 			backgroundPosition: "center",
 			backgroundSize: "cover",
@@ -41,8 +40,14 @@ const useStyles = makeStyles({
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
 		},
-		"100%": {
+		"94%": {
 			backgroundImage: `url(${landing3})`,
+			backgroundPosition: "center",
+			backgroundSize: "cover",
+			backgroundRepeat: "no-repeat",
+		},
+		"100%": {
+			backgroundImage: `url(${landing1})`,
 			backgroundPosition: "center",
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
@@ -71,7 +76,7 @@ function Content() {
 	const classes = useStyles();
 
 	return (
-		<section >
+		<section>
 			<div className="content-main">
 				{/* <Base /> */}
 				{/* <ComingSoon /> */}
