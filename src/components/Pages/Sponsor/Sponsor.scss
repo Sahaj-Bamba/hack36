@@ -7,6 +7,7 @@
 
 .Sponsor-head {
 	font-family: "Jura";
+	margin-top: 2rem;
 }
 
 #sponsors-logo {
@@ -16,6 +17,21 @@
 	flex-wrap: wrap;
 }
 
+#title-sponsors-logo {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	flex-wrap: wrap;
+	transition: transform .2s;
+}
+
+#giga-sponsors-logo {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	flex-wrap: wrap;
+	transition: transform .2s;
+}
 #sponsors-logo > div {
 	max-width: 175px;
 	width: 175px;
@@ -23,7 +39,31 @@
 	margin: 25px;
 }
 
+#title-sponsors-logo > div {
+	max-width: 375px;
+	width: 375px;
+	max-height: 375px;
+	margin: 25px;
+}
+
+#giga-sponsors-logo > div {
+	max-width: 275px;
+	width: 275px;
+	max-height: 275px;
+	margin: 25px;
+}
+
 #sponsors-logo:hover > div img {
+	-webkit-filter: brightness(0.2) invert(0.7);
+	filter: brightness(0.1) invert(0.8);
+}
+
+#title-sponsors-logo:hover > div img {
+	-webkit-filter: brightness(0.2) invert(0.7);
+	filter: brightness(0.1) invert(0.8);
+}
+
+#giga-sponsors-logo:hover > div img {
 	-webkit-filter: brightness(0.2) invert(0.7);
 	filter: brightness(0.1) invert(0.8);
 }
@@ -36,7 +76,32 @@
 	animation-fill-mode: forwards;
 }
 
+#title-sponsors-logo > div:hover {
+	/*	max-width: 300px;
+	width: 300px;
+	max-height: 300px;*/
+	animation: titlezoomin 1s 1;
+	animation-fill-mode: forwards;
+}
+
+#giga-sponsors-logo > div:hover {
+	/*	max-width: 300px;
+	width: 300px;
+	max-height: 300px;*/
+	animation: gigazoomin 1s 1;
+	animation-fill-mode: forwards;
+}
+
 #sponsors-logo > div:hover img {
+	-webkit-filter: brightness(1) invert(0);
+	filter: brightness(1) invert(0);
+}
+
+#title-sponsors-logo > div:hover img {
+	-webkit-filter: brightness(1) invert(0);
+	filter: brightness(1) invert(0);
+}
+#giga-sponsors-logo > div:hover img {
 	-webkit-filter: brightness(1) invert(0);
 	filter: brightness(1) invert(0);
 }
@@ -85,6 +150,31 @@
 		width: 225px;
 		max-width: 225px;
 		max-height: 225px;
+	}
+}
+
+@keyframes titlezoomin {
+	0% {
+		width: 375px;
+		max-width: 375px;
+		max-height: 375px;
+	}
+	100% {
+		width: 425px;
+		max-width: 425px;
+		max-height: 425px;
+	}
+}
+@keyframes gigazoomin {
+	0% {
+		width: 275px;
+		max-width: 275px;
+		max-height: 275px;
+	}
+	100% {
+		width: 325px;
+		max-width: 325px;
+		max-height: 325px;
 	}
 }
 

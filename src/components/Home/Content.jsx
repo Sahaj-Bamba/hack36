@@ -61,7 +61,18 @@ const useStyles = makeStyles({
 });
 
 function Content() {
-	const classes = useStyles();
+  const classes = useStyles();
+
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
 	return (
 		<section>
@@ -95,7 +106,7 @@ function Content() {
 						<div className="content-dates">APRIL 9-11, 2021</div>
 						<br />
 						<center>
-							<div className="base-button">
+							{/* <div className="base-button">
 								{" "}
 								<a
 									target="_blank"
@@ -103,13 +114,19 @@ function Content() {
 								>
 									Pre Register{" "}
 								</a>
-							</div>
-						</center>
-					</Grid>
-				</Grid>
-			</div>
-		</section>
-	);
+							</div> */}
+              {/* <div
+                class="apply-button"
+                data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                data-button-theme="light"
+                style="height: 44px; width: 312px"
+              ></div> */}
+            </center>
+          </Grid>
+        </Grid>
+      </div>
+    </section>
+  );
 }
 
 export default Content;
