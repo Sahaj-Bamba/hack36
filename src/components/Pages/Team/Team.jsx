@@ -76,8 +76,8 @@ function Team(params) {
 										/>
 										<p>Dr. Sarsij Tripathi</p>
 
-										{/* <a href="https://sarsij@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a href="http://www.mnnit.ac.in/images/newstories/2020/csed/Sarsij_Bio_04-09-2020.pdf"><img src={wwwimg} /></a> */}
+										{/* <a target="_blank" href="https://sarsij@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2020/csed/Sarsij_Bio_04-09-2020.pdf"><img src={wwwimg} /></a> */}
 									</center>
 								</div>
 							</div>
@@ -93,8 +93,8 @@ function Team(params) {
 										/>
 										<p>Dr. Ashish Kumar Maurya</p>
 
-										{/* <a href="https://ashishmaurya@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a href="http://www.mnnit.ac.in/images/newstories/2021/csed/Dr._Ashish_Kr._Maurya.pdf"><img src={wwwimg} /></a> */}
+										{/* <a target="_blank" href="https://ashishmaurya@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2021/csed/Dr._Ashish_Kr._Maurya.pdf"><img src={wwwimg} /></a> */}
 									</center>
 								</div>
 							</div>
@@ -110,8 +110,8 @@ function Team(params) {
 										/>
 										<p> Dr. Mayukh Sarkar</p>
 
-										{/* <a href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 									</center>
 								</div>
 							</div>
@@ -131,16 +131,28 @@ function Team(params) {
 											alt=""
 										/>
 										<p>Anuj Modi</p>
-										<a href="https://www.facebook.com/anuj.descifrado">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/anuj.descifrado"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/descifrado/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/descifrado/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:anuj.20174047@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:anuj.20174047@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/descifrado">
+										<a
+											target="_blank"
+											href="https://github.com/descifrado"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -158,16 +170,28 @@ function Team(params) {
 										/>
 										<p>Shashwat Pandey</p>
 
-										<a href="https://www.facebook.com/shashwat.pandey.3979/">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/shashwat.pandey.3979/"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/shashwatpandey1998/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/shashwatpandey1998/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:shashwatpandey@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:shashwatpandey@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/shashwat1998">
+										<a
+											target="_blank"
+											href="https://github.com/shashwat1998"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -185,16 +209,16 @@ function Team(params) {
 										/>
 										<p>Arsh Singh</p>
 
-										<a href="#">
+										<a target="_blank" href="#">
 											<img src={fb} />
 										</a>
-										<a href="#">
+										<a target="_blank" href="#">
 											<img src={linkedIn} />
 										</a>
-										<a href="#">
+										<a target="_blank" href="#">
 											<img src={mailimg} />
 										</a>
-										<a href="#">
+										<a target="_blank" href="#">
 											<img src={wwwimg} />
 										</a>
 									</center>
@@ -217,16 +241,28 @@ function Team(params) {
 											alt=""
 										/>
 										<p>Nitin Doodhiya</p>
-										<a href="https://www.facebook.com/nitin.doodhiya.3">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/nitin.doodhiya.3"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/nitin-98/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/nitin-98/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:nitin@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:nitin@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://nitindoodhiya.github.io/">
+										<a
+											target="_blank"
+											href="https://nitindoodhiya.github.io/"
+										>
 											<img src={wwwimg} />
 										</a>
 									</center>
@@ -244,16 +280,28 @@ function Team(params) {
 										/>
 										<p>Sahaj Bamba</p>
 
-										<a href="https://www.facebook.com/profile.php?id=100008671153032">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/profile.php?id=100008671153032"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/sahaj-bamba/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/sahaj-bamba/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:sahaj@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:sahaj@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://sahaj-bamba.github.io/">
+										<a
+											target="_blank"
+											href="https://sahaj-bamba.github.io/"
+										>
 											<img src={wwwimg} />
 										</a>
 									</center>
@@ -270,16 +318,28 @@ function Team(params) {
 										/>
 										<p>Nimesh Maheshwari</p>
 
-										<a href="https://www.facebook.com/nimesh.maheshwari.12">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/nimesh.maheshwari.12"
+										>
 											<img src={fb} />
 										</a>
-										<a href="http://www.linkedin.com/in/nimesh12maheshwari">
+										<a
+											target="_blank"
+											href="http://www.linkedin.com/in/nimesh12maheshwari"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:nimesh12maheshwari@gmail.com">
+										<a
+											target="_blank"
+											href="mailto:nimesh12maheshwari@gmail.com"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/nimesh12maheshwari">
+										<a
+											target="_blank"
+											href="https://github.com/nimesh12maheshwari"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -302,13 +362,22 @@ function Team(params) {
 											alt=""
 										/>
 										<p>Prachi Pandey</p>
-										<a href="http://www.facebook.com/HeyImPrachi/">
+										<a
+											target="_blank"
+											href="http://www.facebook.com/HeyImPrachi/"
+										>
 											<img src={fb} />
 										</a>
-										<a href="http://www.linkedin.com/in/prachipandey157">
+										<a
+											target="_blank"
+											href="http://www.linkedin.com/in/prachipandey157"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:prachi.20178059@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:prachi.20178059@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -326,16 +395,28 @@ function Team(params) {
 										/>
 										<p>Ankit Jain</p>
 
-										<a href="https://www.facebook.com/ankitjain.257/">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/ankitjain.257/"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/jankit311/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/jankit311/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:ankit.jain@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:ankit.jain@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/jankit311">
+										<a
+											target="_blank"
+											href="https://github.com/jankit311"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -352,16 +433,28 @@ function Team(params) {
 										/>
 										<p>Anzum Bano</p>
 
-										<a href="https://www.facebook.com/anzum.bano.54">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/anzum.bano.54"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/anzumbano">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/anzumbano"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:anzum@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:anzum@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/anzumbano">
+										<a
+											target="_blank"
+											href="https://github.com/anzumbano"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -383,13 +476,22 @@ function Team(params) {
 											alt=""
 										/>
 										<p>Tanisha Kumbhakar</p>
-										<a href="https://www.facebook.com/profile.php?id=100010670734414">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/profile.php?id=100010670734414"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/tanisha-kumbhakar">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/tanisha-kumbhakar"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:tanisha.20175007@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:tanisha.20175007@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -407,13 +509,22 @@ function Team(params) {
 										/>
 										<p>Kumari Simran</p>
 
-										<a href="https://www.facebook.com/simran.kumari.1466/">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/simran.kumari.1466/"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/simrankumari30/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/simrankumari30/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:kumarisimran@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:kumarisimran@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -430,16 +541,28 @@ function Team(params) {
 										/>
 										<p>Vivek Rathi</p>
 
-										<a href="https://www.facebook.com/Vivek.Rathi.MNNIT">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/Vivek.Rathi.MNNIT"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/vivekrathi53/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/vivekrathi53/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:vivekrathi@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:vivekrathi@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://www.codechef.com/users/vivek_rathi_53">
+										<a
+											target="_blank"
+											href="https://www.codechef.com/users/vivek_rathi_53"
+										>
 											<img src={code} />
 										</a>
 									</center>
@@ -457,16 +580,28 @@ function Team(params) {
 										/>
 										<p>Arpit Yadav</p>
 
-										<a href="https://www.facebook.com/arpit.yadav.779857">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/arpit.yadav.779857"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/yadavarpit771999?_l=en_US">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/yadavarpit771999?_l=en_US"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:arpit.20174111@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:arpit.20174111@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/ace-ezer">
+										<a
+											target="_blank"
+											href="https://github.com/ace-ezer"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -484,13 +619,22 @@ function Team(params) {
 										/>
 										<p>Sudhanshu</p>
 
-										<a href="https://www.facebook.com/profile.php?id=100004552236570">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/profile.php?id=100004552236570"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/sudhanshu-choudhary/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/sudhanshu-choudhary/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:sudhanshu.kr@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:sudhanshu.kr@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -508,13 +652,22 @@ function Team(params) {
 										/>
 										<p>Darshika Sharma</p>
 
-										<a href="https://www.facebook.com/darshika.dadhich.3/">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/darshika.dadhich.3/"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/darshika1610/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/darshika1610/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:darshika@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:darshika@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -537,16 +690,28 @@ function Team(params) {
 											alt=""
 										/>
 										<p>Shrey Pandey</p>
-										<a href="https://www.facebook.com/moonknight2076/">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/moonknight2076/"
+										>
 											<img src={fb} />
 										</a>
-										<a href="www.linkedin.com/in/shrey2076">
+										<a
+											target="_blank"
+											href="www.linkedin.com/in/shrey2076"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:shrey@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:shrey@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="https://github.com/Shreypandey">
+										<a
+											target="_blank"
+											href="https://github.com/Shreypandey"
+										>
 											<img src={git} />
 										</a>
 									</center>
@@ -564,13 +729,22 @@ function Team(params) {
 										/>
 										<p>Ashutosh Sabat</p>
 
-										<a href="https://www.facebook.com/ashutoshsabat2">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/ashutoshsabat2"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/ashutosh-sabat-6a8bbb158">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/ashutosh-sabat-6a8bbb158"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:ashutosh.20170035@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:ashutosh.20170035@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -593,13 +767,22 @@ function Team(params) {
 											alt=""
 										/>
 										<p>Satyam Savita</p>
-										<a href="https://www.facebook.com/profile.php?id=100008154158938">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/profile.php?id=100008154158938"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/satyam-savita-5069ba14a">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/satyam-savita-5069ba14a"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:satyamsavita@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:satyamsavita@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -617,13 +800,22 @@ function Team(params) {
 										/>
 										<p>Prajjawal Prayank</p>
 
-										<a href="https://www.facebook.com/Prajjawal.Prayank">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/Prajjawal.Prayank"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/prajjawal-prayank/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/prajjawal-prayank/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:prajjawal.20174059@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:prajjawal.20174059@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
 									</center>
@@ -640,16 +832,28 @@ function Team(params) {
 										/>
 										<p>Adarsh Kumar Verma</p>
 
-										<a href="https://www.facebook.com/adarsh.verma.7777">
+										<a
+											target="_blank"
+											href="https://www.facebook.com/adarsh.verma.7777"
+										>
 											<img src={fb} />
 										</a>
-										<a href="https://www.linkedin.com/in/adarsh-verma-78194214a/">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/adarsh-verma-78194214a/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a href="mailto:adarsh.20174064@mnnit.ac.in">
+										<a
+											target="_blank"
+											href="mailto:adarsh.20174064@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a href="http://adarshverma013.github.io/">
+										<a
+											target="_blank"
+											href="http://adarshverma013.github.io/"
+										>
 											<img src={wwwimg} />
 										</a>
 									</center>
