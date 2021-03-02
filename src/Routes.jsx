@@ -8,7 +8,8 @@ import Back from "./components/Pages/Back/Back";
 
 import Contact from "./components/Pages/Contact/Contact";
 import Team from "./components/Pages/Team/Team";
-
+import Sponsor from "./components/Pages/Sponsor/Sponsor";
+// import Timeline from "./components/Pages/Timeline_temp/Timeline";
 class Routes extends Component {
 	constructor(props) {
 		super(props);
@@ -28,7 +29,9 @@ class Routes extends Component {
 							<Main />
 							{/* <About /> */}
 							<About />
+							<Sponsor />
 							<FAQ />
+							{/* <Timeline/> */}
 							<Contact />
 						</React.Fragment>
 					)}
@@ -37,9 +40,7 @@ class Routes extends Component {
 					path="/about"
 					exact
 					render={(props) => (
-						<React.Fragment>
-							{/* <About /> */}
-						</React.Fragment>
+						<React.Fragment>{/* <About /> */}</React.Fragment>
 					)}
 				/>
 				<Route
@@ -56,6 +57,7 @@ class Routes extends Component {
 					exact
 					render={(props) => (
 						<React.Fragment>
+
 							<Team />
 						</React.Fragment>
 					)}
