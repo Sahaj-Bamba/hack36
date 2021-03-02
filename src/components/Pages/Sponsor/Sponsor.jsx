@@ -107,134 +107,134 @@ class Sponsor extends Component {
           </div>
         ),
       },
-	  // {
-    //     children: (
-    //       <div id="Sponsors">
-    //         <h1 className="Sponsor-head">Past Sponsors</h1>
-    //         <div id="sponsors-logo">
-    //           <div>
-    //             <a href="https://mic.gov.in/mic/innovation-council/www.ieeeup.org/" target="_blank">
-    //               <img className="sponsor-img" src="images/IIC.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.bankofbaroda.in/" target="_blank">
-    //               <img className="sponsor-img" src="images/bank.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.ieeeup.org/" target="_blank">
-    //               <img className="sponsor-img" src="images/ieee_up.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://codechef.com" target="_blank">
-    //               <img className="sponsor-img" src="images/codechef_logo.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://devfolio.co/" target="_blank">
-    //               <img className="sponsor-img" src="images/devfolio.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://matic.network/" target="_blank">
-    //               <img className="sponsor-img" src="images/matic.svg" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.jetbrains.com" target="_blank">
-    //               <img className="sponsor-img" src="images/jetbrains.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.hackerearth.com" target="_blank">
-    //               <img className="sponsor-img" src="images/hackerearth.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://axure.com" target="_blank">
-    //               <img className="sponsor-img" src="images/axure.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://dare2compete.com" target="_blank">
-    //               <img className="sponsor-img" src="images/dare2compete.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://codingblocks.com" target="_blank">
-    //               <img className="sponsor-img" src="images/codingblocks.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://hackr.io/hackr-plus" target="_blank">
-    //               <img className="sponsor-img" src="images/hackr_io.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.codingninjas.com" target="_blank">
-    //               <img className="sponsor-img" src="images/codingninjas.svg" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://fold.money" target="_blank">
-    //               <img className="sponsor-img" src="images/fold.svg" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.wolfram.com" target="_blank">
-    //               <img className="sponsor-img" src="images/Wolfram.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.thesouledstore.com" target="_blank">
-    //               <img
-    //                 className="sponsor-img"
-    //                 src="images/the_souled_store.png"
-    //               />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.bugsee.com" target="_blank">
-    //               <img className="sponsor-img" src="images/bugsee.svg" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://balsamiq.com" target="_blank">
-    //               <img className="sponsor-img" src="images/balsamiq_logo.svg" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://cloudsploit.com" target="_blank">
-    //               <img className="sponsor-img" src="images/cloud.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://creative-tim.com" target="_blank">
-    //               <img className="sponsor-img" src="images/CreativeTim.png" />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://interviewcake.com" target="_blank">
-    //               <img
-    //                 className="sponsor-img"
-    //                 src="images/interview_cake.png"
-    //               />
-    //             </a>
-    //           </div>
-    //           <div>
-    //             <a href="https://www.digitalocean.com" target="_blank">
-    //               <img
-    //                 className="sponsor-img"
-    //                 src="images/DO_Logo_horizontal_blue.svg"
-    //               />
-    //             </a>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     ),
-    //   },
+	  {
+        children: (
+          <div id="Sponsors">
+            <h1 className="Sponsor-head">Past Sponsors</h1>
+            <div id="sponsors-logo">
+              <div>
+                <a href="https://mic.gov.in/mic/innovation-council/www.ieeeup.org/" target="_blank">
+                  <img className="sponsor-img" src="images/IIC.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.bankofbaroda.in/" target="_blank">
+                  <img className="sponsor-img" src="images/bank.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.ieeeup.org/" target="_blank">
+                  <img className="sponsor-img" src="images/ieee_up.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://codechef.com" target="_blank">
+                  <img className="sponsor-img" src="images/codechef_logo.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://devfolio.co/" target="_blank">
+                  <img className="sponsor-img" src="images/devfolio.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://matic.network/" target="_blank">
+                  <img className="sponsor-img" src="images/matic.svg" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.jetbrains.com" target="_blank">
+                  <img className="sponsor-img" src="images/jetbrains.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.hackerearth.com" target="_blank">
+                  <img className="sponsor-img" src="images/hackerearth.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://axure.com" target="_blank">
+                  <img className="sponsor-img" src="images/axure.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://dare2compete.com" target="_blank">
+                  <img className="sponsor-img" src="images/dare2compete.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://codingblocks.com" target="_blank">
+                  <img className="sponsor-img" src="images/codingblocks.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://hackr.io/hackr-plus" target="_blank">
+                  <img className="sponsor-img" src="images/hackr_io.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.codingninjas.com" target="_blank">
+                  <img className="sponsor-img" src="images/codingninjas.svg" />
+                </a>
+              </div>
+              <div>
+                <a href="https://fold.money" target="_blank">
+                  <img className="sponsor-img" src="images/fold.svg" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.wolfram.com" target="_blank">
+                  <img className="sponsor-img" src="images/Wolfram.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.thesouledstore.com" target="_blank">
+                  <img
+                    className="sponsor-img"
+                    src="images/the_souled_store.png"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.bugsee.com" target="_blank">
+                  <img className="sponsor-img" src="images/bugsee.svg" />
+                </a>
+              </div>
+              <div>
+                <a href="https://balsamiq.com" target="_blank">
+                  <img className="sponsor-img" src="images/balsamiq_logo.svg" />
+                </a>
+              </div>
+              <div>
+                <a href="https://cloudsploit.com" target="_blank">
+                  <img className="sponsor-img" src="images/cloud.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://creative-tim.com" target="_blank">
+                  <img className="sponsor-img" src="images/CreativeTim.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://interviewcake.com" target="_blank">
+                  <img
+                    className="sponsor-img"
+                    src="images/interview_cake.png"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.digitalocean.com" target="_blank">
+                  <img
+                    className="sponsor-img"
+                    src="images/DO_Logo_horizontal_blue.svg"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        ),
+      },
     ];
     return (
       <Carousel>
