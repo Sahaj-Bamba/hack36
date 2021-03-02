@@ -75,10 +75,15 @@ function Content() {
 					alignItems="center"
 				>
 					<Grid item md={5} xs={10} className="content-milo ">
-						<div className={classes.contentMilo}>
-							<div className={classes.MiloEat} id="ME"></div>
-							<div className={classes.MiloCode} id="MC"></div>
-							<div className={classes.MiloSleep} id="MS"></div>
+						<div className="cm">
+							<div className={classes.contentMilo}>
+								<div className={classes.MiloEat} id="ME"></div>
+								<div className={classes.MiloCode} id="MC"></div>
+								<div
+									className={classes.MiloSleep}
+									id="MS"
+								></div>
+							</div>
 						</div>
 					</Grid>
 					<Grid item md={5} xs={10} id="HackName">
