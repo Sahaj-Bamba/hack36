@@ -107,7 +107,7 @@ class Base extends Component {
 
 	render() {
 		return (
-			<div className="Base" id="Home">
+			<div className="Base" >
 				<div id="a">
 					<img src={vir1} alt="" srcSet="" />{" "}
 				</div>

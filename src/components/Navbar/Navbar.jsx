@@ -4,14 +4,32 @@ import "./Navbar.scss";
 import logo from "../../files/logo-13.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
-
+import Team from "../Pages/Team/Team"
+import $ from "jquery";
 const iconFaTimes = <FontAwesomeIcon icon={faTimes} />;
 const iconFaBars = <FontAwesomeIcon icon={faBars} />;
-
+function teamTriggerFunction(params) {
+	var tem = Navbar.closeMobileMenu;
+	var t = () => Team.setShow(true)
+}
 function Navbar() {
+	const [teamPopup, setShow] = useState(false);
+
 	const [click, setClick] = useState(false);
 	const handleClick = () => setClick(!click);
-	const closeMobileMenu = () => setClick(false);
+	const closeMobileMenu = (event) => {
+		setClick(false);
+	};
+	const changeShow = (val) => {
+		setShow(val);
+		if(val === false ){
+			$('html, body').css('overflowY', 'auto');
+		}
+	}
+	const teamTriggerFunction = () => {
+		closeMobileMenu();
+		setShow(true);
+	}
 
 	return (
 		<>
@@ -25,10 +43,11 @@ function Navbar() {
 				</div>
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
-						<a href="#Home">
+						<a href="#">
 							<div
 								className="nav-links"
 								onClick={closeMobileMenu}
+								id="homelink"
 							>
 								Home
 							</div>
@@ -45,7 +64,7 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="#">
+						<a href="#Sponsors">
 							<div
 								className="nav-links"
 								onClick={closeMobileMenu}
@@ -55,7 +74,7 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a href="#">
+						<a href="#Faqid">
 							<div
 								className="nav-links"
 								onClick={closeMobileMenu}
@@ -68,7 +87,7 @@ function Navbar() {
 						<a href="#">
 							<div
 								className="nav-links"
-								onClick={closeMobileMenu}
+								onClick={teamTriggerFunction}
 							>
 								Team
 							</div>
@@ -86,6 +105,8 @@ function Navbar() {
 					</li>
 				</ul>
 			</nav>
+			<Team teamPopup={teamPopup} changeShow={changeShow}/>
+
 		</>
 	);
 }
