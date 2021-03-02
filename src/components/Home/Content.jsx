@@ -1,64 +1,19 @@
-import landing2 from "../../files/Landing/LandingPage_mobile2.svg";
-import landing3 from "../../files/Landing/LandingPage_mobile1.svg";
+import miloEat from "../../files/Landing/LandingPage_mobile1.svg";
+import miloSleep from "../../files/Landing/LandingPage_mobile2.svg";
+import miloCode from "../../files/Landing/LandingPage_mobile3.svg";
+
 import React from "react";
-// import Base from "../Pages/Base/Base";
-import About from "../Pages/About/About";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Content.scss";
-import landing1 from "../../files/Landing/LandingPage_mobile3.svg";
 
 const useStyles = makeStyles({
-	"@keyframes changeInMilo": {
-		"0%": {
-			backgroundImage: `url(${landing1})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-		"28%": {
-			backgroundImage: `url(${landing1})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-		"34%": {
-			backgroundImage: `url(${landing2})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-		"62%": {
-			backgroundImage: `url(${landing2})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-		"68%": {
-			backgroundImage: `url(${landing3})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-		"94%": {
-			backgroundImage: `url(${landing3})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-		"100%": {
-			backgroundImage: `url(${landing1})`,
-			backgroundPosition: "center",
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-		},
-	},
 	contentMilo: {
 		padding: "5%",
-		animationName: "$changeInMilo",
-		animationTimingFunction: "ease-in-out",
-		animationIterationCount: "infinite",
-		animationDuration: "8s",
+		// animationName: "$changeInMilo",
+		// animationTimingFunction: "ease-in-out",
+		// animationIterationCount: "infinite",
+		// animationDuration: "8s",
 		// animation-direction: alternate;
 		width: "100%",
 		maxWidth: "500px",
@@ -69,6 +24,39 @@ const useStyles = makeStyles({
 		backgroundSize: "cover",
 		backgroundRepeat: "no-repeat",
 		// backgroundImage: {landing1},
+	},
+	MiloEat: {
+		backgroundImage: `url(${miloEat})`,
+		backgroundPosition: "center",
+		backgroundSize: "cover",
+		backgroundRepeat: "no-repeat",
+		position: "absolute",
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		height: "100%",
+	},
+	MiloCode: {
+		backgroundImage: `url(${miloCode})`,
+		backgroundPosition: "center",
+		backgroundSize: "cover",
+		backgroundRepeat: "no-repeat",
+		position: "absolute",
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		height: "100%",
+	},
+	MiloSleep: {
+		backgroundImage: `url(${miloSleep})`,
+		backgroundPosition: "center",
+		backgroundSize: "cover",
+		backgroundRepeat: "no-repeat",
+		position: "absolute",
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		height: "100%",
 	},
 });
 
@@ -87,7 +75,11 @@ function Content() {
 					alignItems="center"
 				>
 					<Grid item md={5} xs={10} className="content-milo ">
-						<div className={classes.contentMilo}></div>
+						<div className={classes.contentMilo}>
+							<div className={classes.MiloEat} id="ME"></div>
+							<div className={classes.MiloCode} id="MC"></div>
+							<div className={classes.MiloSleep} id="MS"></div>
+						</div>
 					</Grid>
 					<Grid item md={5} xs={10} id="HackName">
 						{/* <img src={logo} alt="Hack 36" height='60px'/> */}

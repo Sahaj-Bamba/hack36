@@ -5,15 +5,24 @@
 window.addEventListener("scroll", scrollEventHandler, false);
 */
 setTimeout(() => {
-    var element = document.getElementById("loader");
-    element && element.parentNode && element.parentNode.removeChild(element);
-    // $("#root").css('visibility', 'visible');
-    $("body").css("overflow-y", "scroll");
-    $("body").css("height", "auto");
-    $("#root").fadeIn(1800);
-
-    $(".Back").fadeIn(10);
+	var element = document.getElementById("loader");
+	element && element.parentNode && element.parentNode.removeChild(element);
+	// $("#root").css('visibility', 'visible');
+	$("body").css("overflow-y", "scroll");
+	$("body").css("height", "auto");
+	$("#root").fadeIn(1800);
+	$(".Back").fadeIn(10);
+	document.getElementById("ME").classList.add("mec");
+	document.getElementById("MC").classList.add("mcc");
+	document.getElementById("MS").classList.add("msc");
 }, 2200);
+
+setTimeout(() => {
+	document.getElementById("ME").classList.add("mec");
+	document.getElementById("MC").classList.add("mcc");
+	document.getElementById("MS").classList.add("msc");
+}, 2000);
+
 setTimeout(() => {}, 6000);
 
 /*
@@ -49,21 +58,8 @@ if (
 			observer.observe(document.querySelector("#Aboutid"));
 		}*/
 
-
-$(document).ready(function() {
-
-
-
-
-
-
-
-
-
-
-
-
-    /* // Add smooth scrolling to all links
+$(document).ready(function () {
+	/* // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
