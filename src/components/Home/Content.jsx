@@ -115,12 +115,12 @@ function Content() {
 									Pre Register{" "}
 								</a>
 							</div> */}
-              {/* <div
+              <div
                 class="apply-button"
-                data-hackathon-slug="YOUR-HACKATHON-SLUG"
+                data-hackathon-slug="hack36_21"
                 data-button-theme="light"
-                style="height: 44px; width: 312px"
-              ></div> */}
+                style={{height: "44px", width: "312px"}}
+              ></div>
             </center>
           </Grid>
         </Grid>
