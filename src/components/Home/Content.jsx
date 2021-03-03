@@ -117,7 +117,7 @@ function Content() {
 							</div> */}
               <div
                 class="apply-button"
-                data-hackathon-slug="hack36_21"
+                data-hackathon-slug="hack36-21"
                 data-button-theme="dark"
                 style={{height: "44px", width: "312px"}}
               ></div>
