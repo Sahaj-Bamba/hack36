@@ -179,7 +179,7 @@ class Sponsor extends Component {
             <div id="event-sponsors-logo">
               <div>
                 <a href="https://mlh.io/seasons/2021/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank">
-                  <img className="sponsor-img" src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg"/>
+                  <img className="sponsor-img" src="images/mlh-logo-color.svg"/>
                 </a>
               </div>
             </div>
