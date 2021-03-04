@@ -10,6 +10,9 @@
 	margin-top: 2rem;
 }
 
+.CarouselItem > div > div {
+	box-shadow:none;
+}
 #sponsors-logo {
 	display: flex;
 	justify-content: center;
@@ -55,8 +58,8 @@
 }
 
 #event-sponsors-logo > div {
-	max-width: 150px;
-	width: 150px;
+	max-width: 270px;
+	width: 270px;
 	max-height: 350px;
 	margin: 25px;
 }
@@ -199,13 +202,13 @@
 }
 @keyframes eventzoomin {
 	0% {
-		width: 150px;
-		max-width: 150px;
-		max-height: 150px;
+		width: 270px;
+		max-width: 270px;
+		max-height: 270px;
 	}
 	100% {
-		width: 200px;
-		max-width: 200px;
+		width: 320px;
+		max-width: 320px;
 		max-height: 400px;
 	}
 }
