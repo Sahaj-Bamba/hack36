@@ -97,7 +97,7 @@ function Content() {
 							</div>
 						</div>
 					</Grid>
-					<Grid item md={5} xs={10} id="HackName">
+					<Grid item md={5} xs={10} id="HackName" style={{zIndex:"1000"}}>
 						{/* <img src={logo} alt="Hack 36" height='60px'/> */}
 						<div className="content-hack36">HACK 36</div>
 						<div className="content-c3">

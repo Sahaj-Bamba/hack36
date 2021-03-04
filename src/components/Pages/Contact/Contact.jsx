@@ -171,7 +171,14 @@ class Contact extends Component {
 							</Grid>
 						</Grid>
 					</div>
+				<div>
+					<a href="http://mlh.io/code-of-conduct" target="_blank" style={{color:"white", fontSize:"1.3rem"}}>Code of Conduct</a>
 				</div>
+				<div style={{paddingBottom:"15px"}}>
+					<a href="http://mlh.io/code-of-conduct" target="_blank" style={{color:"white", fontSize:"1.3rem"}}>MLH Code of Conduct</a>
+				</div>
+				</div>
+				
 			</section>
 		);
 	}
