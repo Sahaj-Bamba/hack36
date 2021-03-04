@@ -43,6 +43,7 @@ import p32 from "../../../files/Team/p32.jpg";
 import p33 from "../../../files/Team/p33.jpg";
 import p34 from "../../../files/Team/p34.jpg";
 import p35 from "../../../files/Team/p35.jpg";
+import p36 from "../../../files/Team/p36.jpg";
 
 import "./Team.scss";
 
@@ -618,44 +619,6 @@ function Team(params) {
 									</center>
 								</div>
 							</div>
-							<div className="box">
-								<span></span>
-								<div className="content">
-									<center>
-										<img
-											className="uphoto"
-											src={p17}
-											alt=""
-										/>
-										<p>Vivek Rathi</p>
-
-										<a
-											target="_blank"
-											href="https://www.facebook.com/Vivek.Rathi.MNNIT"
-										>
-											<img src={fb} />
-										</a>
-										<a
-											target="_blank"
-											href="https://www.linkedin.com/in/vivekrathi53/"
-										>
-											<img src={linkedIn} />
-										</a>
-										<a
-											target="_blank"
-											href="mailto:vivekrathi@mnnit.ac.in"
-										>
-											<img src={mailimg} />
-										</a>
-										<a
-											target="_blank"
-											href="https://www.codechef.com/users/vivek_rathi_53"
-										>
-											<img src={code} />
-										</a>
-									</center>
-								</div>
-							</div>
 
 							<div className="box">
 								<span></span>
@@ -798,6 +761,40 @@ function Team(params) {
 						<h1 className="heading">Networking Team</h1>
 						<hr className="hr1" />
 						<hr className="hr2" />
+						<div className="box">
+							<span></span>
+							<div className="content">
+								<center>
+									<img className="uphoto" src={p17} alt="" />
+									<p>Vivek Rathi</p>
+
+									<a
+										target="_blank"
+										href="https://www.facebook.com/Vivek.Rathi.MNNIT"
+									>
+										<img src={fb} />
+									</a>
+									<a
+										target="_blank"
+										href="https://www.linkedin.com/in/vivekrathi53/"
+									>
+										<img src={linkedIn} />
+									</a>
+									<a
+										target="_blank"
+										href="mailto:vivekrathi@mnnit.ac.in"
+									>
+										<img src={mailimg} />
+									</a>
+									<a
+										target="_blank"
+										href="https://www.codechef.com/users/vivek_rathi_53"
+									>
+										<img src={code} />
+									</a>
+								</center>
+							</div>
+						</div>
 
 						<div className="container">
 							<div className="box">
@@ -947,6 +944,43 @@ function Team(params) {
 						<hr className="hr2" />
 
 						<div className="container">
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p36}
+											alt=""
+										/>
+										<p>Manas Uniyal</p>
+										<a
+											target="_blank"
+											href="https://www.facebook.com/manas.uniyal.1"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/manasuniyal"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:manas.20178034@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+										<a
+											target="_blank"
+											href="https://github.com/ManasUniyal"
+										>
+											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
 							<div className="box">
 								<span></span>
 								<div className="content">
