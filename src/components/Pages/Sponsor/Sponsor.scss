@@ -25,6 +25,14 @@
 	transition: transform .2s;
 }
 
+#event-sponsors-logo {
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	flex-wrap: wrap;
+	transition: transform .2s;
+}
+
 #giga-sponsors-logo {
 	display: flex;
 	justify-content: center;
@@ -46,6 +54,13 @@
 	margin: 25px;
 }
 
+#event-sponsors-logo > div {
+	max-width: 150px;
+	width: 150px;
+	max-height: 350px;
+	margin: 25px;
+}
+
 #giga-sponsors-logo > div {
 	max-width: 275px;
 	width: 275px;
@@ -59,6 +74,11 @@
 }
 
 #title-sponsors-logo:hover > div img {
+	-webkit-filter: brightness(0.2) invert(0.7);
+	filter: brightness(0.1) invert(0.8);
+}
+
+#event-sponsors-logo:hover > div img {
 	-webkit-filter: brightness(0.2) invert(0.7);
 	filter: brightness(0.1) invert(0.8);
 }
@@ -84,6 +104,14 @@
 	animation-fill-mode: forwards;
 }
 
+#event-sponsors-logo > div:hover {
+	/*	max-width: 300px;
+	width: 300px;
+	max-height: 300px;*/
+	animation: eventzoomin 1s 1;
+	animation-fill-mode: forwards;
+}
+
 #giga-sponsors-logo > div:hover {
 	/*	max-width: 300px;
 	width: 300px;
@@ -98,6 +126,10 @@
 }
 
 #title-sponsors-logo > div:hover img {
+	-webkit-filter: brightness(1) invert(0);
+	filter: brightness(1) invert(0);
+}
+#event-sponsors-logo > div:hover img {
 	-webkit-filter: brightness(1) invert(0);
 	filter: brightness(1) invert(0);
 }
@@ -163,6 +195,18 @@
 		width: 425px;
 		max-width: 425px;
 		max-height: 425px;
+	}
+}
+@keyframes eventzoomin {
+	0% {
+		width: 150px;
+		max-width: 150px;
+		max-height: 150px;
+	}
+	100% {
+		width: 200px;
+		max-width: 200px;
+		max-height: 400px;
 	}
 }
 @keyframes gigazoomin {

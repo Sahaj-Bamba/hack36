@@ -171,7 +171,15 @@ class Sponsor extends Component {
             <div id="title-sponsors-logo">
               <div>
                 <a href="https://www.prepbytes.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/PrepBytes Logo.png"/>
+                  <img className="sponsor-img" src="images/PrepBytes Logo.png"/>
+                </a>
+              </div>
+            </div>
+            <h2 className="Sponsor-head">Event Partner</h2>
+            <div id="event-sponsors-logo">
+              <div>
+                <a href="https://mlh.io/seasons/2021/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank">
+                  <img className="sponsor-img" src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg"/>
                 </a>
               </div>
             </div>
@@ -179,7 +187,7 @@ class Sponsor extends Component {
             <div id="giga-sponsors-logo">
               <div>
                 <a href="https://devfolio.co/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/Devfolio_Logo-Colored.png"/>
+                  <img className="sponsor-img" src="images/Devfolio_Logo-Colored.png"/>
                 </a>
               </div>
             </div>
@@ -187,22 +195,22 @@ class Sponsor extends Component {
             <div id="sponsors-logo">
               <div>
                 <a href="https://matic.network/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/Matic_Logo-Blue.png" />
+                  <img className="sponsor-img" src="images/Matic_Logo-Blue.png" />
                 </a>
               </div>
 			  <div>
                 <a href="https://www.portis.io/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/Portis_Logo-Colored_Black.png" />
+                  <img className="sponsor-img" src="images/Portis_Logo-Colored_Black.png" />
                 </a>
               </div>
 			  <div>
                 <a href="https://tezos.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/Tezos_Logo-Colored.png" />
+                  <img className="sponsor-img" src="images/Tezos_Logo-Colored.png" />
                 </a>
               </div>
 			  <div>
                 <a href="https://www.datacamp.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/datacamp.png" />
+                  <img className="sponsor-img" src="images/datacamp.png" />
                 </a>
               </div>
             </div>
@@ -210,7 +218,7 @@ class Sponsor extends Component {
             <div id="sponsors-logo">
               <div>
                 <a href="https://www.inmovidutech.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/inmovidu.png" />
+                  <img className="sponsor-img" src="images/inmovidu.png" />
                 </a>
               </div>
             </div>
@@ -218,17 +226,17 @@ class Sponsor extends Component {
             <div id="sponsors-logo">
               <div>
                 <a href="https://www.sketch.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/sketch-1.svg" />
+                  <img className="sponsor-img" src="images/sketch-1.svg" />
                 </a>
               </div>
 			  <div>
                 <a href="https://www.axure.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/Axure_logo_400.svg" />
+                  <img className="sponsor-img" src="images/Axure_logo_400.svg" />
                 </a>
               </div>
 			  <div>
                 <a href="https://www.wolframalpha.com/" target="_blank">
-                  <img className="sponsor-img" src="images/Sponsors/Wolfram.png"/>
+                  <img className="sponsor-img" src="images/Wolfram.png"/>
                 </a>
               </div>
             </div>
