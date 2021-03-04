@@ -34,9 +34,12 @@ function Navbar() {
 	return (
 		<>
 			<nav className="navbar">
-				<Link to="/">
+				{/* <Link to="/">
 					<img src={logo} alt="Hack 36" height="100px" />
-				</Link>
+				</Link> */}
+				<a id="mlh-trust-badge" style={{display:"block",maxWidth:"100px",minWidth:"60px",position:"absolute",left:"50px",top:"0",width:"10%",zIndex:"1"}} href="https://mlh.io/seasons/2021/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank">
+					<img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg" alt="Major League Hacking 2021 Hackathon Season" style={{width:"100%"}}/>
+				</a>
 				<div className="menu-icon" onClick={handleClick}>
 					{/* <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> */}
 					{click ? iconFaTimes : iconFaBars}
