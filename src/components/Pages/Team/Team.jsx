@@ -36,10 +36,13 @@ import p25 from "../../../files/Team/p25.jpg";
 import p26 from "../../../files/Team/p26.jpg";
 import p27 from "../../../files/Team/p27.jpeg";
 import p28 from "../../../files/Team/p28.jpg";
-import p29 from "../../../files/Team/p29.png";
+import p29 from "../../../files/Team/p29.jpg";
 import p30 from "../../../files/Team/p30.jpg";
 import p31 from "../../../files/Team/p31.jpg";
 import p32 from "../../../files/Team/p32.jpg";
+import p33 from "../../../files/Team/p33.jpg";
+import p34 from "../../../files/Team/p34.jpg";
+import p35 from "../../../files/Team/p35.jpg";
 
 import "./Team.scss";
 
@@ -214,11 +217,14 @@ function Team(params) {
 
 										<a
 											target="_blank"
-											href="https://www.facebook.com/people/Arsh-Singh/100024004083364"
+											href="https://facebook.com/arshsingh474"
 										>
 											<img src={fb} />
 										</a>
-										<a target="_blank" href="#">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/arshsingh474/"
+										>
 											<img src={linkedIn} />
 										</a>
 										<a
@@ -227,8 +233,11 @@ function Team(params) {
 										>
 											<img src={mailimg} />
 										</a>
-										<a target="_blank" href="#">
-											<img src={wwwimg} />
+										<a
+											target="_blank"
+											href="https://github.com/iosdev474"
+										>
+											<img src={git} />
 										</a>
 									</center>
 								</div>
@@ -350,6 +359,76 @@ function Team(params) {
 											href="https://github.com/nimesh12maheshwari"
 										>
 											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
+						</div>
+
+						<h1 className="heading">Design Team</h1>
+						<hr className="hr1" />
+						<hr className="hr2" />
+
+						<div className="container">
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p33}
+											alt=""
+										/>
+										<p>Sai Krishna</p>
+										<a
+											target="_blank"
+											href="https://www.facebook.com/psikrishna/"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/psikrishna/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:it178018@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+										<a
+											target="_blank"
+											href="https://github.com/psikrishna"
+										>
+											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
+
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p34}
+											alt=""
+										/>
+										<p>Shishir Agrahari</p>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/shishiragrahari0310"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:Shishir@mnnit.ac.in"
+										>
+											<img src={mailimg} />
 										</a>
 									</center>
 								</div>
@@ -676,6 +755,38 @@ function Team(params) {
 										<a
 											target="_blank"
 											href="mailto:darshika@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+									</center>
+								</div>
+							</div>
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p35}
+											alt=""
+										/>
+										<p>Abdul Khadar</p>
+
+										<a
+											target="_blank"
+											href="https://www.facebook.com/itsAbdulKhadar/"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/itsabdulkhadar/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:mohammed.20178057@mnnit.ac.in"
 										>
 											<img src={mailimg} />
 										</a>
