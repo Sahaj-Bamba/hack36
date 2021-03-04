@@ -21,7 +21,7 @@ import p10 from "../../../files/Team/p10.jpg";
 import p11 from "../../../files/Team/p11.jpg";
 import p12 from "../../../files/Team/p12.jpg";
 import p13 from "../../../files/Team/p13.jpg";
-import p14 from "../../../files/Team/p14.jpg";
+import p14 from "../../../files/Team/p14.jpeg";
 import p15 from "../../../files/Team/p15.jpg";
 import p16 from "../../../files/Team/p16.jpg";
 import p17 from "../../../files/Team/p17.jpg";
@@ -36,7 +36,14 @@ import p25 from "../../../files/Team/p25.jpg";
 import p26 from "../../../files/Team/p26.jpg";
 import p27 from "../../../files/Team/p27.jpeg";
 import p28 from "../../../files/Team/p28.jpg";
-import p29 from "../../../files/Team/p29.png";
+import p29 from "../../../files/Team/p29.jpg";
+import p30 from "../../../files/Team/p30.jpg";
+import p31 from "../../../files/Team/p31.jpg";
+import p32 from "../../../files/Team/p32.jpg";
+import p33 from "../../../files/Team/p33.jpg";
+import p34 from "../../../files/Team/p34.jpg";
+import p35 from "../../../files/Team/p35.jpg";
+import p36 from "../../../files/Team/p36.jpg";
 
 import "./Team.scss";
 
@@ -209,17 +216,29 @@ function Team(params) {
 										/>
 										<p>Arsh Singh</p>
 
-										<a target="_blank" href="#">
+										<a
+											target="_blank"
+											href="https://facebook.com/arshsingh474"
+										>
 											<img src={fb} />
 										</a>
-										<a target="_blank" href="#">
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/arshsingh474/"
+										>
 											<img src={linkedIn} />
 										</a>
-										<a target="_blank" href="#">
+										<a
+											target="_blank"
+											href="mailto:arsh@mnnit.ac.in"
+										>
 											<img src={mailimg} />
 										</a>
-										<a target="_blank" href="#">
-											<img src={wwwimg} />
+										<a
+											target="_blank"
+											href="https://github.com/iosdev474"
+										>
+											<img src={git} />
 										</a>
 									</center>
 								</div>
@@ -341,6 +360,76 @@ function Team(params) {
 											href="https://github.com/nimesh12maheshwari"
 										>
 											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
+						</div>
+
+						<h1 className="heading">Design Team</h1>
+						<hr className="hr1" />
+						<hr className="hr2" />
+
+						<div className="container">
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p33}
+											alt=""
+										/>
+										<p>Sai Krishna</p>
+										<a
+											target="_blank"
+											href="https://www.facebook.com/psikrishna/"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/psikrishna/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:it178018@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+										<a
+											target="_blank"
+											href="https://github.com/psikrishna"
+										>
+											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
+
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p34}
+											alt=""
+										/>
+										<p>Shishir Agrahari</p>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/shishiragrahari0310"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:Shishir@mnnit.ac.in"
+										>
+											<img src={mailimg} />
 										</a>
 									</center>
 								</div>
@@ -530,44 +619,6 @@ function Team(params) {
 									</center>
 								</div>
 							</div>
-							<div className="box">
-								<span></span>
-								<div className="content">
-									<center>
-										<img
-											className="uphoto"
-											src={p17}
-											alt=""
-										/>
-										<p>Vivek Rathi</p>
-
-										<a
-											target="_blank"
-											href="https://www.facebook.com/Vivek.Rathi.MNNIT"
-										>
-											<img src={fb} />
-										</a>
-										<a
-											target="_blank"
-											href="https://www.linkedin.com/in/vivekrathi53/"
-										>
-											<img src={linkedIn} />
-										</a>
-										<a
-											target="_blank"
-											href="mailto:vivekrathi@mnnit.ac.in"
-										>
-											<img src={mailimg} />
-										</a>
-										<a
-											target="_blank"
-											href="https://www.codechef.com/users/vivek_rathi_53"
-										>
-											<img src={code} />
-										</a>
-									</center>
-								</div>
-							</div>
 
 							<div className="box">
 								<span></span>
@@ -673,6 +724,38 @@ function Team(params) {
 									</center>
 								</div>
 							</div>
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p35}
+											alt=""
+										/>
+										<p>Abdul Khadar</p>
+
+										<a
+											target="_blank"
+											href="https://www.facebook.com/itsAbdulKhadar/"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/itsabdulkhadar/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:mohammed.20178057@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+									</center>
+								</div>
+							</div>
 						</div>
 
 						<h1 className="heading">Networking Team</h1>
@@ -680,6 +763,45 @@ function Team(params) {
 						<hr className="hr2" />
 
 						<div className="container">
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p17}
+											alt=""
+										/>
+										<p>Vivek Rathi</p>
+
+										<a
+											target="_blank"
+											href="https://www.facebook.com/Vivek.Rathi.MNNIT"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/vivekrathi53/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:vivekrathi@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.codechef.com/users/vivek_rathi_53"
+										>
+											<img src={code} />
+										</a>
+									</center>
+								</div>
+							</div>
+
 							<div className="box">
 								<span></span>
 								<div className="content">
@@ -750,6 +872,76 @@ function Team(params) {
 									</center>
 								</div>
 							</div>
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p31}
+											alt=""
+										/>
+										<p>Siddhi Mahawar</p>
+
+										<a
+											target="_blank"
+											href="https://www.facebook.com/siddhi.mahawar"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/siddhi-999/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:siddhi@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+										<a
+											target="_blank"
+											href="https://siddhi-mahawar.github.io/"
+										>
+											<img src={wwwimg} />
+										</a>
+									</center>
+								</div>
+							</div>
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p32}
+											alt=""
+										/>
+										<p>Tanuj Sahney</p>
+
+										<a
+											target="_blank"
+											href="https://www.facebook.com/tanuj.sahney/"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/tanuj-sahney-2b3748156/"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:tanujsahney@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+									</center>
+								</div>
+							</div>
 						</div>
 
 						<h1 className="heading">PR Team</h1>
@@ -757,6 +949,43 @@ function Team(params) {
 						<hr className="hr2" />
 
 						<div className="container">
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p36}
+											alt=""
+										/>
+										<p>Manas Uniyal</p>
+										<a
+											target="_blank"
+											href="https://www.facebook.com/manas.uniyal.1"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/manasuniyal"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:manas.20178034@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+										<a
+											target="_blank"
+											href="https://github.com/ManasUniyal"
+										>
+											<img src={git} />
+										</a>
+									</center>
+								</div>
+							</div>
 							<div className="box">
 								<span></span>
 								<div className="content">
@@ -855,6 +1084,38 @@ function Team(params) {
 											href="http://adarshverma013.github.io/"
 										>
 											<img src={wwwimg} />
+										</a>
+									</center>
+								</div>
+							</div>
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p30}
+											alt=""
+										/>
+										<p>Ravi Kumar Gupta</p>
+
+										<a
+											target="_blank"
+											href="https://www.facebook.com/profile.php?id=100004006534925"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/ravi-gupta-4037"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:ravi.20174037@mnnit.ac.in "
+										>
+											<img src={mailimg} />
 										</a>
 									</center>
 								</div>
