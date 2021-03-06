@@ -77,8 +77,8 @@ class FAQ extends Component {
 						</li>
 						<li>
 							<FAQitem
-								question="When will registration start?"
-								answer="Registrations are just around the corner, stay tuned!"
+								question="When will timeline release?"
+								answer="Very soon, stay tuned!"
 							/>
 						</li>
 					</ul>

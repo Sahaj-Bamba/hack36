@@ -239,6 +239,31 @@ class Sponsor extends Component {
                   <img className="sponsor-img" src="images/Wolfram.png"/>
                 </a>
               </div>
+              <div>
+                <a href="https://www.givemycertificate.com/" target="_blank">
+                  <img className="sponsor-img" src="images/GMC_logo.png"/>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.sli.do/" target="_blank">
+                  <img className="sponsor-img" src="images/slido_grey.png"/>
+                </a>
+              </div>
+              <div>
+                <a href="http://hackp.ac/mlh-stickermule-hackathons/" target="_blank">
+                  <img className="sponsor-img" src="images/sticker-mule-logo-light.png"/>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.echoar.xyz/" target="_blank">
+                  <img className="sponsor-img" src="images/echoAR-Icon2020.jpg"/>
+                </a>
+              </div>
+              <div>
+                <a href="https://www.taskade.com/" target="_blank">
+                  <img className="sponsor-img" src="images/taskade-logo.png"/>
+                </a>
+              </div>
             </div>
           </div>
         ),
