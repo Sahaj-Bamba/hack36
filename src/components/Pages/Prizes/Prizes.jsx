@@ -17,16 +17,17 @@ class Prizes extends Component {
 				<section id="Prize">
 					<h1 style={{ "font-family": "Jura" }}>Prizes</h1>
 					<br />
-					<center>						<img src={p1} className="prize1" alt="" srcset=""/>
-</center>
+					<center>						
+					<img src={p2} className="prize2" alt="" srcset=""/>
+					<img src={p1} className="prize1" alt="" srcset=""/>
+					<img src={p3} className="prize3" alt="" srcset=""/>
+					</center>
 					<center>
 					
 					<div className="podium">
 						<img src={podium} className="podium" alt="" srcset=""/>
 					</div>
 					</center>
-					<img src={p2} className="prize2" alt="" srcset=""/>
-					<img src={p3} className="prize3" alt="" srcset=""/>
 
 		</section>
 			</>
