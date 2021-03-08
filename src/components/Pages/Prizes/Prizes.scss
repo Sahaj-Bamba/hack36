@@ -1,90 +1,135 @@
 .Prizes {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
-.PrizesCell {}
-
-.prize1 {
-    width: 250px;
-    animation: PrizeMove1 3s infinite;
-    margin-left: 2%;
-    margin-right: 2%;
-    position: relative;
+.PrizesCell {
 }
 
-.prize2 {
-    z-index: 2;
-    width: 200px;
-    // margin-top: -49.0%;
-    // margin-left: -40%;
-    animation: PrizeMove 5s infinite;
-    // grid-column: 1/3;
-    margin-bottom: -10.8%;
-    margin-right: 1%;
+// .prize1 {
+// 	width: 250px;
+// 	animation: PrizeMove1 3s infinite;
+// 	margin-left: 2%;
+// 	margin-right: 2%;
+// 	position: relative;
+// }
+
+// .prize2 {
+// 	z-index: 2;
+// 	width: 200px;
+// 	// margin-top: -49.0%;
+// 	// margin-left: -40%;
+// 	animation: PrizeMove 5s infinite;
+// 	// grid-column: 1/3;
+// 	margin-bottom: -10.8%;
+// 	margin-right: 1%;
+// }
+
+// .prize3 {
+// 	width: 150px;
+// 	// margin-top: -37.55%;
+// 	// margin-left: 20%;
+// 	// margin-right: -38%;
+// 	// z-index: 3;
+// 	animation: PrizeMove 5s infinite;
+// 	margin-bottom: -22.5%;
+// }
+
+// .prizeg {
+// 	grid-column: 1/3;
+// }
+
+// .Prizeimg {
+// 	width: 200px;
+// }
+
+// .podium {
+// 	max-width: 50vw;
+// }
+
+// @media only screen and (max-width: 600px) {
+// 	.podium {
+// 		max-width: 50vw;
+// 	}
+// 	.prize1 {
+// 		width: 100px;
+// 		grid-column: 1/3;
+// 		animation: PrizeMove1 3s infinite;
+// 	}
+// 	.prize2 {
+// 		z-index: 2;
+// 		width: 50px;
+// 		margin-top: -53%;
+// 		margin-left: -40%;
+// 		animation: PrizeMove 3s infinite;
+// 	}
+// 	.prize3 {
+// 		width: 40px;
+// 		margin-top: -42.5%;
+// 		margin-left: 20%;
+// 		margin-right: -38%;
+// 		z-index: 3;
+// 		animation: PrizeMove 3s infinite;
+// 	}
+// 	.prizeg {
+// 		grid-column: 1/3;
+// 	}
+// }
+
+@keyframes PrizeMove {
+	60% {
+		transform: translateY(-1vw);
+	}
 }
 
-.prize3 {
-    width: 150px;
-    // margin-top: -37.55%;
-    // margin-left: 20%;
-    // margin-right: -38%;
-    // z-index: 3;
-    animation: PrizeMove 5s infinite;
-    margin-bottom: -22.5%;
+#Prize {
+	width: 100vw;
+	height: auto;
+	display: grid;
+	place-items: center;
+	grid-template-rows: auto auto;
 }
 
-.prizeg {
-    grid-column: 1/3;
-}
-
-.Prizeimg {
-    width: 200px;
+.prizeHolder {
+	width: 100vw;
+	height: 50vw;
+	position: relative;
 }
 
 .podium {
-    max-width: 50vw;
+	position: absolute;
+	width: 50vw;
+	left: 25vw;
+	top: 24vw;
 }
 
-@media only screen and (max-width: 600px) {
-    .podium {
-        max-width: 50vw;
-    }
-    .prize1 {
-        width: 100px;
-        grid-column: 1/3;
-        animation: PrizeMove1 3s infinite;
-    }
-    .prize2 {
-        z-index: 2;
-        width: 50px;
-        margin-top: -53.0%;
-        margin-left: -40%;
-        animation: PrizeMove 3s infinite;
-    }
-    .prize3 {
-        width: 40px;
-        margin-top: -42.50%;
-        margin-left: 20%;
-        margin-right: -38%;
-        z-index: 3;
-        animation: PrizeMove 3s infinite;
-    }
-    .prizeg {
-        grid-column: 1/3;
-    }
+.prize1 {
+	position: absolute;
+	width: 18vw;
+	height: 20vw;
+	left: 41vw;
+	top: 4vw;
+	animation: PrizeMove 3s infinite;
 }
 
-@keyframes PrizeMove {
-    60% {
-        transform: translateY(-5px);
-    }
+.prize2 {
+	position: absolute;
+	width: 14vw;
+	height: 19vw;
+	left: 26vw;
+	top: 10.3vw;
+	animation: PrizeMove 3s infinite;
+	animation-delay: 1s;
 }
 
-@keyframes PrizeMove1 {
-    60% {
-        transform: translateY(-7px);
-    }
+.prize3 {
+	position: absolute;
+	width: 11vw;
+	height: 15.2vw;
+	left: 61vw;
+	top: 17.7vw;
+	animation: PrizeMove 3s infinite;
+	animation-delay: 2s;
 }
