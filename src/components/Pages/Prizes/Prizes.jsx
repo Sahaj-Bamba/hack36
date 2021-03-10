@@ -3,7 +3,7 @@ import "./Prizes.scss";
 import p1 from "../../../files/Prizes/1st-png.png";
 import p2 from "../../../files/Prizes/2nd-png.png";
 import p3 from "../../../files/Prizes/3rd-png.png";
-import podium from "../../../files/Prizes/podium-png.png";
+import podium from "../../../files/Prizes/podium_1.png";
 
 class Prizes extends Component {
 	constructor(props) {

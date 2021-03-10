@@ -112,8 +112,19 @@
 	left: 41vw;
 	top: 4vw;
 	animation: PrizeMove 3s infinite;
+	// box-shadow: 0px -20px 30px 0px yellow;
 }
-
+// .prize1:after {
+// 	content: "";
+// 	display: block;
+// 	position: absolute;
+// 	z-index: 0;
+// 	top: 0;
+// 	left: -4px;
+// 	right: -4px;
+// 	bottom: 0;
+// 	box-shadow: 0px 5px 5px -5px yellow;
+// }
 .prize2 {
 	position: absolute;
 	width: 14vw;
@@ -132,4 +143,47 @@
 	top: 17.7vw;
 	animation: PrizeMove 3s infinite;
 	animation-delay: 2s;
+}
+
+@media only screen and (max-width: 600px) {
+	.prizeHolder {
+		width: 100vw;
+		height: 75vw;
+		position: relative;
+	}
+	.podium {
+		position: absolute;
+		width: 75vw;
+		left: 12.5vw;
+		top: 36vw;
+	}
+
+	.prize1 {
+		position: absolute;
+		width: 27vw;
+		height: 30vw;
+		left: 36.5vw;
+		top: 6vw;
+		animation: PrizeMove 3s infinite;
+	}
+
+	.prize2 {
+		position: absolute;
+		width: 21vw;
+		height: 28.5vw;
+		left: 14vw;
+		top: 15.45vw;
+		animation: PrizeMove 3s infinite;
+		animation-delay: 1s;
+	}
+
+	.prize3 {
+		position: absolute;
+		width: 16.5vw;
+		height: 22.8vw;
+		left: 66.5vw;
+		top: 26.55vw;
+		animation: PrizeMove 3s infinite;
+		animation-delay: 2s;
+	}
 }
