@@ -260,8 +260,23 @@ class Sponsor extends Component {
                 </a>
               </div>
               <div>
-                <a href="https://www.taskade.com/" target="_blank">
-                  <img className="sponsor-img" src="images/taskade-logo.png"/>
+                <a href="https://www.sashido.io/en/" target="_blank">
+                  <img className="sponsor-img" src="images/sashido-logo-for sites.png"/>
+                </a>
+              </div>
+              <div>
+                <a href="https://egghead.io/" target="_blank">
+                  <img className="sponsor-img" src="images/egghead.png"/>
+                </a>
+              </div>
+              <div>
+                <a href="https://nostarch.com/" target="_blank">
+                  <img className="sponsor-img" src="images/Updated No Starch Logo.png"/>
+                </a>
+              </div>
+              <div>
+                <a href="https://proto.io/" target="_blank">
+                  <img className="sponsor-img" src="images/proto.io.svg"/>
                 </a>
               </div>
             </div>
