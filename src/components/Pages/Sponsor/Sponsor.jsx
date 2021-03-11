@@ -339,7 +339,7 @@ class Sponsor extends Component {
         <div id="Sponsors" style={{minHeight:"0px"}} >
           <h1 className="Sponsor-head">Past Sponsors</h1>
 
-          <OwlCarousel className="owl-theme" loop margin={100} nav style={{marginTop:"0px", paddingTop:"50px"}} autoplay={true} autoplayTimeout={1000} 
+          <OwlCarousel className="owl-theme" loop margin={100} nav style={{marginTop:"0px", paddingTop:"50px"}} autoplay={true} autoplayTimeout={1700} 
           autoplayHoverPause={true} responsive={
             {0: {
                 items: 2,
@@ -347,7 +347,7 @@ class Sponsor extends Component {
             1000: {
                 items: 4,
             }}
-        } smartSpeed={200}>
+        } >
             <div class='item' style={owlCarouselItem}>
               <a
                 href="https://mic.gov.in/mic/innovation-council/www.ieeeup.org/"
