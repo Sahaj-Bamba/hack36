@@ -270,12 +270,12 @@ class Sponsor extends Component {
               </div>
               <div>
                 <a href="https://www.givemycertificate.com/" target="_blank">
-                  <img className="sponsor-img" src="images/GMC_logo.png" />
+                  <img className="sponsor-img" src="images/GMC_logo.png" style={{minHeight:"50px"}}/>
                 </a>
               </div>
               <div>
                 <a href="https://www.sli.do/" target="_blank">
-                  <img className="sponsor-img" src="images/slido_grey.png" />
+                  <img className="sponsor-img" src="images/slido_green.png" />
                 </a>
               </div>
               <div>
