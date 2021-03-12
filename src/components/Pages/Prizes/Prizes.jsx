@@ -23,7 +23,60 @@ class Prizes extends Component {
 						<img src={p2} className="prize2" alt="" srcset="" />
 						<img src={p3} className="prize3" alt="" srcset="" />
 					</div>
-				</section>
+					<div className="pcontainer">
+							<div className="pbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src={p1}
+											alt=""
+										/>
+										<p>₹ 25,000</p>
+
+										{/* <a target="_blank" href="https://sarsij@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2020/csed/Sarsij_Bio_04-09-2020.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+
+							<div className="pbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src={p2}
+											alt=""
+										/>
+										<p>₹ 15,000</p>
+
+										{/* <a target="_blank" href="https://ashishmaurya@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2021/csed/Dr._Ashish_Kr._Maurya.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+
+							<div className="pbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src={p3}
+											alt=""
+										/>
+										<p>₹ 10,000 </p>
+
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+						</div>
+		
+		</section>
 			</>
 		);
 	}
