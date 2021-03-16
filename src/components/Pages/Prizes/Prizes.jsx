@@ -25,6 +25,57 @@ class Prizes extends Component {
 					</div>
 
 					<div className="container">
+					<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/PrepBytes Logo.png"
+											alt=""
+										/>
+										<h3>Paid Internship Interview Offer </h3>
+										<br/>
+										<p className="Top">Top 5 Teams</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/PrepBytes Logo.png"
+											alt=""
+										/>
+									<h3>T-shirts <br/>& <br/>Goodies </h3>
+											<p className="Top">Top 20 teams</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/Matic_Logo-Blue.png"
+											alt=""
+										/>
+										<h3>Internship/Full Time Role </h3>
+										<p className="description"> Interview Opportunity</p>
+										<p className="Top">Best Hack Built on Ethereum + Matic</p>
+										{/* <a target="_blank" href="https://ashishmaurya@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2021/csed/Dr._Ashish_Kr._Maurya.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+
 							<div className="box ppbox">
 								<span></span>
 								<div className="pcontent">
@@ -53,7 +104,8 @@ class Prizes extends Component {
 											alt=""
 										/>
 										<h3>₹ 15,000 </h3>
-										<p className="description"> & Internship/Full Time Role Interview Opportunity</p>
+										<br/>
+										{/* <p className="description"> & Internship/Full Time Role Interview Opportunity</p> */}
 										<p className="Top">Best Hack Built on Ethereum + Matic</p>
 										{/* <a target="_blank" href="https://ashishmaurya@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2021/csed/Dr._Ashish_Kr._Maurya.pdf"><img src={wwwimg} /></a> */}
@@ -61,6 +113,7 @@ class Prizes extends Component {
 								</div>
 							</div>
 
+					
 							<div className="box ppbox">
 								<span></span>
 								<div className="pcontent">
@@ -70,75 +123,8 @@ class Prizes extends Component {
 											src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc5173fd-2a6a-434e-9d48-1883d77bfc9f%2F_Colored.png?table=block&id=d55db242-49ff-4e05-8fae-865dc9b77873&width=2730&userId=&cache=v2"
 											alt=""
 										/>
-										<h3>T-shirts and Goodies  </h3>
+										<h3>T-shirts <br/>& <br/>Goodies </h3>
 										<p className="Top">Top 15 teams</p>
-										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-									</center>
-								</div>
-							</div>
-							<div className="box ppbox">
-								<span></span>
-								<div className="pcontent">
-									<center>
-										<img
-											className="pphoto"
-											src="images/DO_Logo_horizontal_blue.svg"
-											alt=""
-										/>
-										<h3>$250 DO Credits  </h3>
-										<p className="Top">Top 5 Teams Overall + Best Junior Year Team + Best Fresher's Team</p>
-										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-									</center>
-								</div>
-							</div>
-							<div className="box ppbox">
-								<span></span>
-								<div className="pcontent">
-									<center>
-										<img
-											className="pphoto"
-											src="images/DO_Logo_horizontal_blue.svg"
-											alt=""
-										/>
-										<h3>$100 DO Credits  </h3>
-										<br/>
-										<p className="Top">All Participants</p>
-										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-									</center>
-								</div>
-							</div>
-							
-							<div className="box ppbox">
-								<span></span>
-								<div className="pcontent">
-									<center>
-										<img
-											className="pphoto"
-											src="images/PrepBytes Logo.png"
-											alt=""
-										/>
-										<h3>Paid Internship Interview Offer </h3>
-										<br/>
-										<p className="Top">Top 5 Teams</p>
-										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-									</center>
-								</div>
-							</div>
-							<div className="box ppbox">
-								<span></span>
-								<div className="pcontent">
-									<center>
-										<img
-											className="pphoto"
-											src="images/PrepBytes Logo.png"
-											alt=""
-										/>
-										<h3>T-shirts and Goodies  </h3>
-										<p className="Top">Top 20 teams</p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 									</center>
@@ -184,6 +170,106 @@ class Prizes extends Component {
 									<center>
 										<img
 											className="pphoto"
+											src="images/datacamp.png"
+											alt=""
+										/>
+										<h3>$399 </h3> <p className="description"> worth Premium-License for Datacamp </p>
+										<p className="Top">All Participants</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/datacamp.png"
+											alt=""
+										/>
+										<h3>T-shirts <br/>& <br/>Goodies </h3>
+										<p className="Top">Top 10 Teams</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/DO_Logo_horizontal_blue.svg"
+											alt=""
+										/>
+										<h3>$250 DO Credits  </h3>
+										<p className="Top">Top 5 Teams </p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/DO_Logo_horizontal_blue.svg"
+											alt=""
+										/>
+										<h3>$250 DO Credits  </h3>
+										<p className="Top">Best Sophomore Team </p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/DO_Logo_horizontal_blue.svg"
+											alt=""
+										/>
+										<h3>$250 DO Credits  </h3>
+										<p className="Top">Best Freshers Team</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+					
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/DO_Logo_horizontal_blue.svg"
+											alt=""
+										/>
+										<h3>$100 DO Credits  </h3>
+										<br/>
+										<p className="Top">All Participants</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
 											src="images/inmovidu.png"
 											alt=""
 										/>
@@ -213,6 +299,23 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 									</center>
 								</div>
 							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/Wolfram.png"
+											alt=""
+										/>
+										<h3>$375 </h3> <p className="description"> Wolfram Awards via Award Letters   </p>
+										<p className="Top">Top 10 Teams</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+					
 							<div className="box ppbox">
 								<span></span>
 								<div className="pcontent">
@@ -255,8 +358,10 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 											src="images/Updated No Starch Logo.png"
 											alt=""
 										/>
-										<h3>20% Discount Copoun  </h3>
-										<br/>
+										<h3>20% Discount </h3>
+										
+										<h3>Coupon</h3>
+								
 										<p className="Top">All Participants</p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
@@ -281,22 +386,6 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 									</center>
 								</div>
 							</div>
-							<div className="box ppbox">
-								<span></span>
-								<div className="pcontent">
-									<center>
-										<img
-											className="pphoto"
-											src="images/Wolfram.png"
-											alt=""
-										/>
-										<h3>$375 </h3> <p className="description"> Wolfram Awards via Award Letters   </p>
-										<p className="Top">Top 10 Teams</p>
-										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-									</center>
-								</div>
-							</div>
 					
 							<div className="box ppbox">
 								<span></span>
@@ -307,7 +396,7 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 											src="images/sketch-1.svg"
 											alt=""
 										/>
-										<h3>Set of Licenses</h3>
+										<h3>Licenses</h3>
 										<p className="Top">Best Design Made on Sketch</p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
@@ -337,27 +426,11 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 									<center>
 										<img
 											className="pphoto"
-											src="images/datacamp.png"
+											src="images/egghead.png"
 											alt=""
 										/>
-										<h3>$399 </h3> <p className="description"> worth Premium-License for Datacamp </p>
-										<p className="Top">All Participants</p>
-										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
-                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-									</center>
-								</div>
-							</div>
-							<div className="box ppbox">
-								<span></span>
-								<div className="pcontent">
-									<center>
-										<img
-											className="pphoto"
-											src="images/datacamp.png"
-											alt=""
-										/>
-										<h3>T-shirts <br/>& <br/>Goodies </h3>
-										<p className="Top">Top 10 Teams</p>
+										<h3>$250 </h3> <p className="description"> worth a year of Egghead.io  </p>
+										<p className="Top">Best Freshers Team </p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 									</center>
@@ -373,7 +446,7 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 											alt=""
 										/>
 										<h3>$250 </h3> <p className="description"> worth a year of Egghead.io  </p>
-										<p className="Top">Best Fresher's Team + Best Junior Year Team</p>
+										<p className="Top"> Best Sophomores Team</p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 									</center>
