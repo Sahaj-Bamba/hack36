@@ -99,6 +99,10 @@ function Content() {
 					</Grid>
 					<Grid item md={5} xs={10} id="HackName" style={{zIndex:"1000"}}>
 						{/* <img src={logo} alt="Hack 36" height='60px'/> */}
+						<div className="content-c3" style={{fontFamily:"Jura"}}>
+						<a href="https://www.prepbytes.com/" target="_blank">
+						<img src="images/PrepBytes_Logo_1.png" alt="prepbytes logo" style={{width:"40%", display:"block", margin:"auto"}}/></a>presents
+						</div>
 						<div className="content-hack36">HACK 36</div>
 						<div className="content-c3">
 							Caffeinate, Collaborate, Celebrate

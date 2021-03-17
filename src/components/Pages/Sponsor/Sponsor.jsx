@@ -323,6 +323,11 @@ class Sponsor extends Component {
                   <img className="sponsor-img" src="images/proto.io.svg" />
                 </a>
               </div>
+              <div>
+                <a href="https://github.com/" target="_blank">
+                  <img className="sponsor-img" src="images/GitHub_Logo.png" />
+                </a>
+              </div>
             </div>
           </div>
         ),
