@@ -75,15 +75,16 @@ class About extends Component {
 						miss out on the takeaways from a traditional hackathon.
 						<br className="mobileNoDisplay" />
 						<br />
-						There will be no compromise on 36 hours of engagement
-						for the participants, making sure that they are
-						continuously engaged and intrigued with the latest talk
-						of the town of the tech world from the judges and other
-						techgurus.
+						36-hour long geeking extravaganza. Think of an idea,
+						make a team of 2-4 college students with no year,
+						branch, course and college restrictions. Dd we tell you
+						it's free? Then what are you waiting for? Register ASAP.
+						Join us for 36 hour fun filled with enriching talks,
+						interactive workshops and fun mini games too.
 						<br className="mobileNoDisplay" />
 						<br />
-						The journey is bound to keep participants on the edge of
-						their seats.
+						Trust us the journey will keep every hacker on the edge
+						of their seats
 					</div>
 					<div className="Image">
 						<img src={background} className="backg" />
