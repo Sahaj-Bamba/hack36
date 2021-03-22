@@ -248,6 +248,16 @@ class Sponsor extends Component {
                 </a>
               </div>
             </div>
+            <h3 className="Sponsor-head">
+              Merchandise Partner
+            </h3>
+            <div id="sponsors-logo">
+              <div>
+                <a href="https://badelog.in/" target="_blank">
+                  <img className="sponsor-img" src="images/badelog.png" />
+                </a>
+              </div>
+            </div>
             <h3 className="Sponsor-head">Benefactor</h3>
             <div id="sponsors-logo">
               <div>
@@ -326,6 +336,16 @@ class Sponsor extends Component {
               <div>
                 <a href="https://github.com/" target="_blank">
                   <img className="sponsor-img" src="images/GitHub_Logo.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.digitalocean.com/" target="_blank">
+                  <img className="sponsor-img" src="images/digitalocean.png" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.speechly.com/" target="_blank">
+                  <img className="sponsor-img" src="images/logo-speechly.svg" />
                 </a>
               </div>
             </div>
