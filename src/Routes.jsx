@@ -33,7 +33,7 @@ class Routes extends Component {
 							{/* <About /> */}
 							<About />
 							<Prizes />
-							<Panel />
+							{/* <Panel /> */}
 
 							<Sponsor />
 							<FAQ />
