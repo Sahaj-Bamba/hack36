@@ -1,0 +1,115 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+// }
+.panel_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel_container .panel_card {
+    position: relative;
+    width: 500px;
+    height: 270px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg, #1a2f3f, #7094ce);
+}
+
+.panel_container .panel_card img {
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.panel_container .panel_card:hover img {
+    left: 75%;
+    height: 310px;
+}
+
+.panel_container .panel_card .panel_content {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.panel_container .panel_card:hover .panel_content {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+
+.panel_container .panel_card .panel_content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    line-height: 1em;
+}
+
+.panel_container .panel_card .panel_content p {
+    color: #fff;
+    font-size: 80%;
+}
+
+.panel_container .panel_card .panel_content a {
+    position: relative;
+    color: #111;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (max-width:991px) {
+    .panel_container .panel_card {
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+    .panel_container .panel_card:hover {
+        height: 600px;
+    }
+    .panel_container .panel_card:hover img {
+        left: 50%;
+        height: 350px;
+    }
+    .panel_container .panel_card .panel_content {
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .panel_container {
+        flex-direction: column;
+    }
+    .panel_container .panel_card {
+        margin: 40px 20px;
+    }
+}
+
+@media (max-width:420px) {
+    .panel_container .panel_card .panel_content {
+        padding: 30px;
+    }
+    .panel_container .panel_card:hover img {
+        height: 300px;
+    }
+}
