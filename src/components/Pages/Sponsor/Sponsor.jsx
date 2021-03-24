@@ -348,6 +348,11 @@ class Sponsor extends Component {
                   <img className="sponsor-img" src="images/logo-speechly.svg" />
                 </a>
               </div>
+              <div>
+                <a href="https://1password.com/" target="_blank">
+                  <img className="sponsor-img" src="images/1P-wordmark-134px-tall.png" />
+                </a>
+              </div>
             </div>
           </div>
         ),
