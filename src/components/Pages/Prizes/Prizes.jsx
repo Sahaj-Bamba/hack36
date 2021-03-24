@@ -53,7 +53,7 @@ class Prizes extends Component {
 											alt=""
 										/>
 									<h3>T-shirts <br/>& <br/>Goodies </h3>
-											<p className="Top">Best All Girls Team</p>
+											<p className="Top">All Participants</p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 									</center>
