@@ -31,6 +31,41 @@ class Prizes extends Component {
 									<center>
 										<img
 											className="pphoto"
+											src="logo-13.png"
+											alt=""
+										/>
+									<h3>₹ 10,000 </h3>
+									<br/>
+											<p className="Top">Best All Girls Team</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+					
+					<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="logo-13.png"
+											alt=""
+										/>
+									<h3>T-shirts <br/>& <br/>Goodies </h3>
+											<p className="Top">Best All Girls Team</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							
+					<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
 											src="images/PrepBytes Logo.png"
 											alt=""
 										/>
@@ -58,6 +93,7 @@ class Prizes extends Component {
 									</center>
 								</div>
 							</div>
+							
 							<div className="box ppbox">
 								<span></span>
 								<div className="pcontent">
@@ -447,6 +483,40 @@ Free 1-year subscription licenses of Axure RP Team Edition.  </p>
 										/>
 										<h3>$250 </h3> <p className="description"> worth a year of Egghead.io  </p>
 										<p className="Top"> Best Sophomores Team</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/1password.svg"
+											alt=""
+										/>
+										<h3>Family accounts 
+											<br/> free 6 months </h3> 
+										<p className="Top"> Top 3 Teams</p>
+										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+									</center>
+								</div>
+							</div>
+							<div className="box ppbox">
+								<span></span>
+								<div className="pcontent">
+									<center>
+										<img
+											className="pphoto"
+											src="images/1password.svg"
+											alt=""
+										/>
+										<h3>Family accounts 
+											<br/> free 6 months </h3> 
+										<p className="Top"> Best Freshers Teams</p>
 										{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 									</center>

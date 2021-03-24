@@ -10,6 +10,8 @@ import Contact from "./components/Pages/Contact/Contact";
 import Team from "./components/Pages/Team/Team";
 import Sponsor from "./components/Pages/Sponsor/Sponsor";
 import Prizes from "./components/Pages/Prizes/Prizes";
+import Panel from "./components/Pages/Panel/Panel";
+
 // import Timeline from "./components/Pages/Timeline_temp/Timeline";
 class Routes extends Component {
 	constructor(props) {
@@ -31,6 +33,8 @@ class Routes extends Component {
 							{/* <About /> */}
 							<About />
 							<Prizes />
+							{/* <Panel /> */}
+
 							<Sponsor />
 							<FAQ />
 							{/* <Timeline/> */}
