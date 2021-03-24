@@ -44,6 +44,7 @@ import p33 from "../../../files/Team/p33.jpg";
 import p34 from "../../../files/Team/p34.jpg";
 import p35 from "../../../files/Team/p35.jpg";
 import p36 from "../../../files/Team/p36.jpg";
+import p37 from "../../../files/Team/p37.jpg";
 
 import "./Team.scss";
 
@@ -1120,6 +1121,38 @@ function Team(params) {
 									</center>
 								</div>
 							</div>
+							<div className="box">
+								<span></span>
+								<div className="content">
+									<center>
+										<img
+											className="uphoto"
+											src={p37}
+											alt=""
+										/>
+										<p>Abirban Banerjee</p>
+										<a
+											target="_blank"
+											href="https://www.facebook.com/anirbanbanerjee07/"
+										>
+											<img src={fb} />
+										</a>
+										<a
+											target="_blank"
+											href="https://www.linkedin.com/in/anirban-banerjee-a75098158"
+										>
+											<img src={linkedIn} />
+										</a>
+										<a
+											target="_blank"
+											href="mailto:anirban.20175021@mnnit.ac.in"
+										>
+											<img src={mailimg} />
+										</a>
+									</center>
+								</div>
+							</div>
+
 						</div>
 					</Modal.Body>
 				</Modal>
