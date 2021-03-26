@@ -319,7 +319,7 @@ function Team(params) {
 										</a>
 										<a
 											target="_blank"
-											href="https://sahaj-bamba.github.io/"
+											href="https://www.sahajbamba.tech/"
 										>
 											<img src={wwwimg} />
 										</a>
