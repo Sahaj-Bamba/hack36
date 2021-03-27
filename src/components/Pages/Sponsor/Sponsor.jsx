@@ -216,14 +216,14 @@ class Sponsor extends Component {
                   />
                 </a>
               </div>
-              <div>
+              <div style={{width: "190px"}}>
                 <a
                   href="https://www.facebook.com/groups/ccqueries/"
                   target="_blank"
                 >
                   <img
                     className="sponsor-img"
-                    src="images/cc.png"
+                    src="images/cc.png"                    
                   />
                 </a>
               </div>

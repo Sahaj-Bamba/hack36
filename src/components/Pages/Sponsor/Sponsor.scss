@@ -58,9 +58,9 @@
 }
 
 #event-sponsors-logo > div {
-	max-width: 270px;
-	width: 270px;
-	max-height: 350px;
+	max-width: 230px;
+	width: 230px;
+	max-height: 300px;
 	margin: 25px;
 }
 
@@ -202,14 +202,14 @@
 }
 @keyframes eventzoomin {
 	0% {
-		width: 270px;
-		max-width: 270px;
-		max-height: 270px;
+		width: 230px;
+		max-width: 230px;
+		max-height: 300px;
 	}
 	100% {
-		width: 320px;
-		max-width: 320px;
-		max-height: 400px;
+		width: 270px;
+		max-width: 270px;
+		max-height: 350px;
 	}
 }
 @keyframes gigazoomin {
