@@ -194,6 +194,39 @@ class Sponsor extends Component {
                   />
                 </a>
               </div>
+              <div>
+                <a
+                  href="https://tqb.li2.in/"
+                  target="_blank"
+                >
+                  <img
+                    className="sponsor-img"
+                    src="images/tQb Logo.png"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://nasscom.in/"
+                  target="_blank"
+                >
+                  <img
+                    className="sponsor-img"
+                    src="images/NF.png"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.facebook.com/groups/ccqueries/"
+                  target="_blank"
+                >
+                  <img
+                    className="sponsor-img"
+                    src="images/cc.png"
+                  />
+                </a>
+              </div>
             </div>
             <h2 className="Sponsor-head">Giga Sponsor</h2>
             <div id="giga-sponsors-logo">

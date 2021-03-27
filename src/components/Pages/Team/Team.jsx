@@ -39,7 +39,7 @@ import p28 from "../../../files/Team/p28.jpg";
 import p29 from "../../../files/Team/p29.jpg";
 import p30 from "../../../files/Team/p30.jpg";
 import p31 from "../../../files/Team/p31.jpg";
-import p32 from "../../../files/Team/p32.JPG";
+import p32 from "../../../files/Team/p32.jpg";
 import p33 from "../../../files/Team/p33.jpg";
 import p34 from "../../../files/Team/p34.jpg";
 import p35 from "../../../files/Team/p35.jpg";
