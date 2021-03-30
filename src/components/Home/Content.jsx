@@ -1,9 +1,11 @@
 import miloEat from "../../files/Landing/LandingPage_mobile1.svg";
 import miloSleep from "../../files/Landing/LandingPage_mobile2.svg";
 import miloCode from "../../files/Landing/LandingPage_mobile3.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 import React from "react";
-import Grid from "@material-ui/core/Grid";
+import {Grid, Button} from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import "./Content.scss";
 
@@ -126,6 +128,11 @@ function Content() {
                 style={{height: "44px", width: "312px"}}
               ></div>
             </center>
+			<center>
+				<Button variant="contained" color="primary" href="http://discord.gg/K8bfdvPR" target="_blank" style={{height: "44px", width: "312px", textTransform:"unset", backgroundColor:"#7289da"}}>
+				<FontAwesomeIcon icon={faDiscord} style={{marginRight:"10px"}}/>Discord Server
+				</Button>
+			</center>
           </Grid>
         </Grid>
       </div>
