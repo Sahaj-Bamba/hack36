@@ -547,7 +547,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="images/1password.svg"
+										src="images/1password.png"
 										alt=""
 									/>
 									<h3>
