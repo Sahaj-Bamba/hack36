@@ -56,6 +56,29 @@ class Prizes extends Component {
 										T-shirts <br />& <br />
 										Goodies{" "}
 									</h3>
+									<p className="Top">Top Participants</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/mlh-logo-color.svg"
+										alt=""
+									/>
+									<br />
+									<br />
+									<br />
+
+									<h3>Goodies </h3>
+									<br />
+									<br />
 									<p className="Top">All Participants</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
@@ -80,7 +103,7 @@ class Prizes extends Component {
 								</center>
 							</div>
 						</div>
-						
+
 						<div className="box ppbox">
 							<span></span>
 							<div className="pcontent">
@@ -329,6 +352,42 @@ class Prizes extends Component {
 							</div>
 						</div>
 
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/echoAR-Icon2020.jpg"
+										alt=""
+									/>
+									<h3>$50 Amazon Gift Card </h3>
+									<br />
+									<p className="Top">Best AR/VR hacks</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/echoAR-Icon2020.jpg"
+										alt=""
+									/>
+									<h3> 3 month business tier access </h3>
+									<br />
+									<p className="Top">Best AR/VR hacks</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+
 						{/* <div className="box ppbox">
 							<span></span>
 							<div className="pcontent">
@@ -344,7 +403,7 @@ class Prizes extends Component {
 									</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-								{/* </center>
+						{/* </center>
 							</div>
 						</div>  */}
 						<div className="box ppbox">
