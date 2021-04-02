@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import "./Theme.scss";
 
+import p1 from "../../../files/Theme/T1.png";
+import p2 from "../../../files/Theme/T2.png";
+import p3 from "../../../files/Theme/T3.png";
+import p4 from "../../../files/Theme/T4.png";
+import p5 from "../../../files/Theme/T5.png";
+
 class ThemeElement extends Component {
 	constructor(props) {
 		super(props);
@@ -9,6 +15,14 @@ class ThemeElement extends Component {
 
 	render() {
 		const { elements, type, updateTheme } = this.props;
+		const themeMap = {
+			CyberSecurity: p1,
+			Education: p2,
+			"Women Safety": p3,
+			"E-Administration": p4,
+			"life in Pandemic": p5,
+			"": p1,
+		};
 
 		return (
 			<div className="ThemeElement">
@@ -16,18 +30,16 @@ class ThemeElement extends Component {
 					elements.map((item, index) => {
 						return (
 							<div
-								className={
-									(type === "1" && index % 2 === 1) ||
-									(type === "2" && index % 2 === 0)
-										? "ThemeSubElement SpecialThemeSubElement" +
-										  type
-										: "ThemeSubElement"
-								}
+								className="ThemeSubElement"
 								onMouseEnter={() => updateTheme(item)}
 								onClick={() => updateTheme(item)}
 								onMouseLeave={() => updateTheme("")}
 							>
-								{item}
+								<img
+									src={themeMap[item]}
+									className="ThemeSubPhoto"
+									alt=""
+								/>
 							</div>
 						);
 					})}

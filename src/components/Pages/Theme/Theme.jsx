@@ -18,8 +18,13 @@ class Theme extends Component {
 	};
 
 	render() {
-		const elements1 = ["CyberSecurity", "Education", "Women Safety"];
-		const elements2 = ["E-Administration", "life in Pandemic", ""];
+		const elements = [
+			"CyberSecurity",
+			"Education",
+			"Women Safety",
+			"E-Administration",
+			"life in Pandemic",
+		];
 
 		return (
 			<>
@@ -27,15 +32,9 @@ class Theme extends Component {
 				<br />
 
 				<div className="Theme">
-					<ThemeElement
-						type="1"
-						elements={elements1}
-						updateTheme={this.updateTheme}
-					/>
 					<ThemeMain activeTheme={this.state.activeTheme} />
 					<ThemeElement
-						type="2"
-						elements={elements2}
+						elements={elements}
 						updateTheme={this.updateTheme}
 					/>
 				</div>

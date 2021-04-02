@@ -2,18 +2,23 @@
 	height: 100vh;
 	width: 100vw;
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	grid-template-rows: 1fr auto;
 	place-items: center;
 }
 
 .ThemeElement {
 	// border: 2px solid blue;
 	display: grid;
-	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto auto auto;
 	height: 100%;
 	width: 100%;
-	min-width: 200px;
+	// min-height: 200px;
 	place-items: center;
+}
+
+.ThemeSubPhoto {
+	width: 100px;
+	height: 100px;
 }
 
 .ThemeSubElement {
@@ -37,7 +42,7 @@
 
 .themePhoto {
 	height: 100%;
-	width: 100%;
+	width: auto;
 }
 
 @keyframes fadeIn {
@@ -51,17 +56,17 @@
 
 .SpecialThemeSubElement1 {
 	position: relative;
-	left: 50%;
+	// left: 50%;
 }
 
 .SpecialThemeSubElement2 {
 	position: relative;
-	right: 50%;
+	// right: 50%;
 }
 
 .ThemeMain {
 	// border: 2px solid red;
-	border-radius: 30%;
+	border-radius: 5%;
 	height: 95%;
 	width: 70%;
 	overflow: hidden;
