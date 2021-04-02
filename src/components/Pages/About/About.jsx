@@ -77,7 +77,7 @@ class About extends Component {
 						<br />
 						36-hour long geeking extravaganza. Think of an idea,
 						make a team of 2-4 college students with no year,
-						branch, course and college restrictions. Dd we tell you
+						branch, course and college restrictions. Did we tell you
 						it's free? Then what are you waiting for? Register ASAP.
 						Join us for 36 hour fun filled with enriching talks,
 						interactive workshops and fun mini games too.

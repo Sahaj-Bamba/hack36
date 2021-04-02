@@ -204,6 +204,14 @@ h3 {
     animation: PrizeMove 3s infinite;
     animation-delay: 2s;
 }
+@media screen and (max-width: 960px) {
+	.Prizes {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+	}
+}
 
 @media only screen and (max-width: 600px) {
     .prizeHolder {
