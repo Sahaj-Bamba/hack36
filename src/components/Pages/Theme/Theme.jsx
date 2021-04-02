@@ -18,13 +18,8 @@ class Theme extends Component {
 	};
 
 	render() {
-		const elements = [
-			"CyberSecurity",
-			"Education",
-			"Women Safety",
-			"E-Administration",
-			"Life in Pandemic",
-		];
+		const elements1 = ["CyberSecurity", "Education", "Women Safety"];
+		const elements2 = ["E-Administration", "Life in Pandemic"];
 		const content = {
 			"Life in Pandemic":
 				"If there wouldn't have been technology, we could never have survived the pandemic this strongly, but there is always a scope of progress.",
@@ -46,7 +41,12 @@ class Theme extends Component {
 				<div className="Theme">
 					{/* <ThemeMain activeTheme={this.state.activeTheme} /> */}
 					<ThemeElement
-						elements={elements}
+						elements={elements1}
+						updateTheme={this.updateTheme}
+						content={content}
+					/>
+					<ThemeElement
+						elements={elements2}
 						updateTheme={this.updateTheme}
 						content={content}
 					/>
