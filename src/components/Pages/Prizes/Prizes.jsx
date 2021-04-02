@@ -328,7 +328,7 @@ class Prizes extends Component {
 							</div>
 						</div>
 
-						<div className="box ppbox">
+						{/* <div className="box ppbox">
 							<span></span>
 							<div className="pcontent">
 								<center>
@@ -343,9 +343,9 @@ class Prizes extends Component {
 									</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-								</center>
+								{/* </center>
 							</div>
-						</div>
+						</div>  */}
 						<div className="box ppbox">
 							<span></span>
 							<div className="pcontent">
@@ -547,7 +547,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="images/1password.svg"
+										src="images/1password.png"
 										alt=""
 									/>
 									<h3>
@@ -566,7 +566,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="images/1password.svg"
+										src="images/1password.png"
 										alt=""
 									/>
 									<h3>
@@ -586,7 +586,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg"
+										src="https://www.digikey.in/-/media/Images/Header/logo_dk.png?la=en-IN&ts=1a773fa3-b656-418a-8e50-67fff895081a"
 										alt=""
 									/>
 									<h3>Grove Beginner Kit </h3>
@@ -604,7 +604,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg"
+										src="images/linode.png"
 										alt=""
 									/>
 									<h3>
@@ -622,7 +622,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg"
+										src="images/GoDaddy.png"
 										alt=""
 									/>
 									<h3>Hack from Home Kit </h3>
