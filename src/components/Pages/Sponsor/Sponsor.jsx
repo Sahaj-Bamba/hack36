@@ -271,7 +271,7 @@ class Sponsor extends Component {
                 </a>
               </div>
             </div>
-            <h3 className="Sponsor-head">
+            {/* <h3 className="Sponsor-head">
               Industrial Training & Live Project Partner
             </h3>
             <div id="sponsors-logo">
@@ -280,7 +280,7 @@ class Sponsor extends Component {
                   <img className="sponsor-img" src="images/inmovidu.png" />
                 </a>
               </div>
-            </div>
+            </div> */}
             <h3 className="Sponsor-head">
               Merchandise Partner
             </h3>

@@ -328,7 +328,7 @@ class Prizes extends Component {
 							</div>
 						</div>
 
-						<div className="box ppbox">
+						{/* <div className="box ppbox">
 							<span></span>
 							<div className="pcontent">
 								<center>
@@ -343,9 +343,9 @@ class Prizes extends Component {
 									</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
-								</center>
+								{/* </center>
 							</div>
-						</div>
+						</div>  */}
 						<div className="box ppbox">
 							<span></span>
 							<div className="pcontent">
