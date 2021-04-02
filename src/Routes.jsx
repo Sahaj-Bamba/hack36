@@ -7,6 +7,7 @@ import About from "./components/Pages/About/About";
 import Back from "./components/Pages/Back/Back";
 
 import Contact from "./components/Pages/Contact/Contact";
+import Theme from "./components/Pages/Theme/Theme";
 import Team from "./components/Pages/Team/Team";
 import Sponsor from "./components/Pages/Sponsor/Sponsor";
 import Prizes from "./components/Pages/Prizes/Prizes";
@@ -32,6 +33,7 @@ class Routes extends Component {
 							<Main />
 							{/* <About /> */}
 							<About />
+							<Theme />
 							<Prizes />
 							{/* <Panel /> */}
 

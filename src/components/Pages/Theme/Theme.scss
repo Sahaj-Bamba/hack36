@@ -7,7 +7,7 @@
 }
 
 .ThemeElement {
-	border: 2px solid blue;
+	// border: 2px solid blue;
 	display: grid;
 	grid-template-rows: auto auto auto;
 	height: 100%;
@@ -17,7 +17,7 @@
 }
 
 .ThemeSubElement {
-	border: 2px solid greenyellow;
+	// border: 2px solid greenyellow;
 	height: 100%;
 	width: 100%;
 	display: grid;
@@ -33,6 +33,11 @@
 }
 .ThemeSubElement:nth-child(3n) {
 	animation-delay: 2s;
+}
+
+.themePhoto {
+	height: 100%;
+	width: 100%;
 }
 
 @keyframes fadeIn {
@@ -55,10 +60,11 @@
 }
 
 .ThemeMain {
-	border: 2px solid red;
-	border-radius: 50%;
+	// border: 2px solid red;
+	border-radius: 30%;
 	height: 95%;
-	width: 80%;
+	width: 70%;
+	overflow: hidden;
 }
 
 @media only screen and (max-width: 960px) {
