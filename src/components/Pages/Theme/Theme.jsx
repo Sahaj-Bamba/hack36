@@ -23,8 +23,20 @@ class Theme extends Component {
 			"Education",
 			"Women Safety",
 			"E-Administration",
-			"life in Pandemic",
+			"Life in Pandemic",
 		];
+		const content = {
+			"Life in Pandemic":
+				"If there wouldn't have been technology, we could never have survived the pandemic this strongly, but there is always a scope of progress.",
+			Education:
+				"Technology is already playing a huge role in education. Brainstorm and get a unique idea to reform the education system for the better.",
+			"Women Safety":
+				"Come up with an idea which increases women safety and feel proud of being a technocrat.",
+			"E-Administration":
+				"Nobody likes to stand in queues or visit the offices for some paper work daily, but Administrative work is something which requires both, So why not find a solution for this?",
+			CyberSecurity:
+				"Hackers use attacks like ransomware to threaten people with their sensitive information. Brainstorm to find a solution to move towards a safer and secure internet!!",
+		};
 
 		return (
 			<>
@@ -32,10 +44,11 @@ class Theme extends Component {
 				<br />
 
 				<div className="Theme">
-					<ThemeMain activeTheme={this.state.activeTheme} />
+					{/* <ThemeMain activeTheme={this.state.activeTheme} /> */}
 					<ThemeElement
 						elements={elements}
 						updateTheme={this.updateTheme}
+						content={content}
 					/>
 				</div>
 			</>

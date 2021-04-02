@@ -14,13 +14,13 @@ class ThemeElement extends Component {
 	}
 
 	render() {
-		const { elements, type, updateTheme } = this.props;
+		const { elements, type, updateTheme, content } = this.props;
 		const themeMap = {
 			CyberSecurity: p1,
 			Education: p2,
 			"Women Safety": p3,
 			"E-Administration": p4,
-			"life in Pandemic": p5,
+			"Life in Pandemic": p5,
 			"": p1,
 		};
 
@@ -35,11 +35,13 @@ class ThemeElement extends Component {
 								onClick={() => updateTheme(item)}
 								onMouseLeave={() => updateTheme("")}
 							>
+								{/* {item} */}
 								<img
 									src={themeMap[item]}
 									className="ThemeSubPhoto"
 									alt=""
 								/>
+								<div className="ImageText">{content[item]}</div>
 							</div>
 						);
 					})}
