@@ -80,6 +80,7 @@ class Prizes extends Component {
 								</center>
 							</div>
 						</div>
+						
 						<div className="box ppbox">
 							<span></span>
 							<div className="pcontent">

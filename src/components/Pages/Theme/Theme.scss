@@ -1,9 +1,11 @@
 .Theme {
 	// height: 100vh;
+	position: relative;
 	width: 100vw;
 	display: grid;
 	grid-template-rows: 1fr auto;
 	place-items: center;
+	z-index: 10001;
 }
 
 .ThemeElement {
@@ -122,37 +124,37 @@
 }
 
 @media only screen and (max-width: 960px) {
-	.Theme {
-		grid-template-columns: auto;
-		grid-template-rows: auto 1fr auto;
-	}
+	// .Theme {
+	// 	grid-template-columns: auto;
+	// 	grid-template-rows: auto 1fr auto;
+	// }
 
-	.ThemeSubElement {
-		// align-items: left;
-		left: 0px;
-		text-align: left;
-		place-items: initial;
-		padding-left: 10%;
-	}
+	// .ThemeSubElement {
+	// 	// align-items: left;
+	// 	left: 0px;
+	// 	text-align: left;
+	// 	place-items: initial;
+	// 	padding-left: 10%;
+	// }
 
-	.SpecialThemeSubElement1 {
-		align-items: left;
-		left: 0px;
-		text-align: left;
-		place-items: end;
-		padding-right: 10%;
-	}
+	// .SpecialThemeSubElement1 {
+	// 	align-items: left;
+	// 	left: 0px;
+	// 	text-align: left;
+	// 	place-items: end;
+	// 	padding-right: 10%;
+	// }
 
-	.SpecialThemeSubElement2 {
-		align-items: right;
-		left: 0px;
-		text-align: right;
-		place-items: end;
-		padding-right: 10%;
-	}
+	// .SpecialThemeSubElement2 {
+	// 	align-items: right;
+	// 	left: 0px;
+	// 	text-align: right;
+	// 	place-items: end;
+	// 	padding-right: 10%;
+	// }
 
-	.ThemeMain {
-		height: 100%;
-		width: 100%;
-	}
+	// .ThemeMain {
+	// 	height: 100%;
+	// 	width: 100%;
+	// }
 }
