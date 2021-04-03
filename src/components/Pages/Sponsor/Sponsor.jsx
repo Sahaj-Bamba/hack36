@@ -223,7 +223,7 @@ class Sponsor extends Component {
                 >
                   <img
                     className="sponsor-img"
-                    src="images/cc.png"                    
+                    src="images/imageedit_22_5923189656.png"                    
                   />
                 </a>
               </div>
@@ -336,7 +336,7 @@ class Sponsor extends Component {
                 <a href="https://www.echoar.xyz/" target="_blank">
                   <img
                     className="sponsor-img"
-                    src="images/echoAR-Icon2020.jpg"
+                    src="images/echoAR - Logo 2020 - Dark.png"
                   />
                 </a>
               </div>
@@ -383,7 +383,7 @@ class Sponsor extends Component {
               </div>
               <div>
                 <a href="https://1password.com/" target="_blank">
-                  <img className="sponsor-img" src="images/1P-wordmark-134px-tall.png" />
+                  <img className="sponsor-img" src="images/1password.png" />
                 </a>
               </div>
             </div>

@@ -358,7 +358,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="images/echoAR-Icon2020.jpg"
+										src="images/echoAR - Logo 2020 - Dark.png"
 										alt=""
 									/>
 									<h3>$50 Amazon Gift Card </h3>
@@ -376,7 +376,7 @@ class Prizes extends Component {
 								<center>
 									<img
 										className="pphoto"
-										src="images/echoAR-Icon2020.jpg"
+										src="images/echoAR - Logo 2020 - Dark.png"
 										alt=""
 									/>
 									<h3> 3 month business tier access </h3>

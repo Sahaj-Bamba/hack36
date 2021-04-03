@@ -12,7 +12,7 @@ import Team from "./components/Pages/Team/Team";
 import Sponsor from "./components/Pages/Sponsor/Sponsor";
 import Prizes from "./components/Pages/Prizes/Prizes";
 import Panel from "./components/Pages/Panel/Panel";
-
+import Footer from "./components/Footer/Footer";
 // import Timeline from "./components/Pages/Timeline_temp/Timeline";
 class Routes extends Component {
 	constructor(props) {
@@ -41,6 +41,7 @@ class Routes extends Component {
 							<FAQ />
 							{/* <Timeline/> */}
 							<Contact />
+							<Footer />
 						</React.Fragment>
 					)}
 				/>

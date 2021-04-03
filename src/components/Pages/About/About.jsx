@@ -98,14 +98,7 @@ class About extends Component {
 						>
 							<div className="AboutButton a1"> Sponsor Us </div>
 						</a>
-						<a
-							href="https://forms.gle/rTwV4R2Es5UJR7v3A"
-							target="_blank"
-						>
-							<div className="AboutButton a2">
-								Become A Campus Ambassador
-							</div>
-						</a>
+						
 					</div>
 				</div>
 			</section>

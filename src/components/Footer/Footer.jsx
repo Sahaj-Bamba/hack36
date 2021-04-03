@@ -10,8 +10,8 @@ class Footer extends Component {
 
 	render() {
 		return (
-			<div className="FooterContainer"> 
-                Copyright © Hack36 2021 	
+			<div className="FooterContainer" style={{textAlign:"center"}}> 
+                2021 All Rights Reserved © Hack36 MNNIT	
             </div>
 		);
 	}
