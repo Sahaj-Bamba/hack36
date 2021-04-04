@@ -129,7 +129,7 @@ function Content() {
               ></div>
             </center>
 			<center>
-				<Button variant="contained" color="primary" href="http://discord.gg/K8bfdvPR" target="_blank" style={{height: "44px", width: "312px", textTransform:"unset", backgroundColor:"#7289da"}}>
+				<Button variant="contained" color="primary" href="https://discord.com/invite/ax7ABZkNU2" target="_blank" style={{height: "44px", width: "312px", textTransform:"unset", backgroundColor:"#7289da"}}>
 				<FontAwesomeIcon icon={faDiscord} style={{marginRight:"10px"}}/>Discord Server
 				</Button>
 			</center>
