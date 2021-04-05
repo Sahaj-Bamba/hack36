@@ -387,6 +387,40 @@ class Prizes extends Component {
 								</center>
 							</div>
 						</div>
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/echoAR - Logo 2020 - Dark.png"
+										alt=""
+									/>
+									<h3> 1 month business tier access </h3>
+									<br />
+									<p className="Top">All participants</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/GMC_logo.png"
+										alt=""
+									/>
+									<h3> Hardcopy Certificates + Goodies</h3>
+									<br />
+									<p className="Top">Winning Teams</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
 
 						{/* <div className="box ppbox">
 							<span></span>
@@ -694,6 +728,79 @@ class Prizes extends Component {
 								</center>
 							</div>
 						</div>
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="https://miro.medium.com/fit/c/262/262/1*sNM0yLWusnKnsaT7FzhUGw.png"
+										alt=""
+									/>
+									<h3>$120 worth credits </h3>
+									<p className="Top">
+									All participants
+									</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/GoDaddy.png"
+										alt=""
+									/>
+									<h3>Hack from Home Kit </h3>
+									<p className="Top">
+										Best domain name from GoDaddy Registery
+									</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/GoDaddy.png"
+										alt=""
+									/>
+									<h3>Hack from Home Kit </h3>
+									<p className="Top">
+										Best domain name from GoDaddy Registery
+									</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+						<div className="box ppbox">
+							<span></span>
+							<div className="pcontent">
+								<center>
+									<img
+										className="pphoto"
+										src="images/GoDaddy.png"
+										alt=""
+									/>
+									<h3>Hack from Home Kit </h3>
+									<p className="Top">
+										Best domain name from GoDaddy Registery
+									</p>
+									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
+                    <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
+								</center>
+							</div>
+						</div>
+					
 					</div>
 				</section>
 			</>
