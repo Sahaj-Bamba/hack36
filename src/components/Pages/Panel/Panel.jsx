@@ -14,9 +14,13 @@ import git from "../../../files/Team/icons/github-01.svg";
 
 function Panel() {
 	const [show, setShow] = useState(false);
-  
+	const [con, setcon] = useState("");
+	const [txt, settxt] = useState("");
+	const [image, setimage] = useState("");
+
 	const handleClose = () => setShow(false);
-	const handleShow = () => setShow(true);
+	const handleShow = (ab,txt,image) => {setShow(true);
+		  setcon(ab);settxt(txt);setimage(image)}
   
 	
 		return (
@@ -29,7 +33,7 @@ function Panel() {
 							<div className="panel_content">
 								<h2>Ashish Dubey</h2>
 								<p>Principal Senior Architect <br/>Amazon Web Services</p>
-								<a variant="primary" onClick={handleShow}>Read More</a>
+								<a variant="primary" onClick={() => handleShow("Ashish Dubey","Ashish Dubey graduated in Computer Science from MNNIT Allahabad in 2004. He started his professional career with Hughes Software Systems and later joined companies like Microsoft, Lunexa ( Acquired by Teradata ), Qubole. He is currently working for AWS in Singapore. In the last 17 years, Ashish has had a mix of Enterprise and Early Stage Startup experience in the Data Analytics and Cloud Computing domains. For the last 10 years, Ashish has been leading global teams of Technical Architects in different geographies such as the US, EMEA, and the Asia Pacific.","images/AshishHeadshot.png")}>Read More</a>
 							</div>
 							<img src="images/AshishHeadshot.png" alt="" srcset=""/>
 						</div>
@@ -37,7 +41,7 @@ function Panel() {
 							<div className="panel_content">
 								<h2>Gundeep Singh </h2>
 								<p>Founder, Honcho</p>
-								<a variant="primary" onClick={handleShow}>Read More</a>
+								<a variant="primary" onClick={() => handleShow("Gundeep Singh","","images/Gundeep.png")}>Read More</a>
 							</div>
 							<img src="images/Gundeep.png"  alt="" srcset=""/>
 						</div>
@@ -48,7 +52,7 @@ function Panel() {
 							<div className="panel_content">
 								<h2>Shyam Jha</h2>
 								<p>Senior VP of Engineering <br/>NetSPI</p>
-								<a variant="primary" onClick={handleShow}>Read More</a>
+								<a variant="primary" onClick={() => handleShow("Shyam Jha","Shyam P Jha, an alumnus of the National Institute Of Technology, Kurukshetra, is currently serving as the Senior Vice President Of Engineering at NetSPI,  a Threat and Vulnerability Management and Penetration Testing company. Prior to this, he has worked with major multinational companies such as Siemens, Wipro, Symantec Corporation (now Broadcom) and FireEye (thru the acquisition of iSight Partners). Shyam P Jha boasts more than 22 years of experience in various software engineering roles, particularly cybersecurity, cyber threat intelligence, data protection & telecom domain. We are so honoured to present him as our first judge of Hack36.","images/Shyam.png")}>Read More</a>
 							</div>
 							<img src="images/Shyam.png" alt="" srcset=""/>
 						</div>
@@ -67,10 +71,11 @@ function Panel() {
         </center> */}
 					</Modal.Header>
 					<Modal.Body>
-						<h1 className="heading">Faculty Co-ordinators</h1>
-						<hr className="hr1" />
-						<hr className="hr2" />
-
+						<h1 className="heading ">{con} </h1>
+						
+						<center>						<img className="panelimg" src={image} alt="" srcset=""/>
+</center>
+						 <p>{txt}</p>
 						</Modal.Body>
 				</Modal>
 		
