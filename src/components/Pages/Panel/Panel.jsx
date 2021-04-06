@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component,useState,useEffect } from "react";
 import "./Panel.scss";
 import p1 from "../../../files/Prizes/1st-png.png";
 import p2 from "../../../files/Prizes/2nd-png.png";
@@ -12,13 +12,13 @@ import mailimg from "../../../files/Team/icons/mail-01.svg";
 import code from "../../../files/Team/icons/codechef.svg";
 import git from "../../../files/Team/icons/github-01.svg";
 
-class Prizes extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
-
-	render() {
+function Panel() {
+	const [show, setShow] = useState(false);
+  
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
+  
+	
 		return (
 			<>
 				<section id="Prize">
@@ -29,7 +29,7 @@ class Prizes extends Component {
 							<div className="panel_content">
 								<h2>Ashish Dubey</h2>
 								<p>Principal Senior Architect <br/>Amazon Web Services</p>
-								<a href="http://">Read More</a>
+								<a variant="primary" onClick={handleShow}>Read More</a>
 							</div>
 							<img src="images/AshishHeadshot.png" alt="" srcset=""/>
 						</div>
@@ -37,7 +37,7 @@ class Prizes extends Component {
 							<div className="panel_content">
 								<h2>Gundeep Singh </h2>
 								<p>Founder, Honcho</p>
-								<a href="http://">Read More</a>
+								<a variant="primary" onClick={handleShow}>Read More</a>
 							</div>
 							<img src="images/Gundeep.png"  alt="" srcset=""/>
 						</div>
@@ -48,7 +48,7 @@ class Prizes extends Component {
 							<div className="panel_content">
 								<h2>Shyam Jha</h2>
 								<p>Senior VP of Engineering <br/>NetSPI</p>
-								<a href="http://">Read More</a>
+								<a variant="primary" onClick={handleShow}>Read More</a>
 							</div>
 							<img src="images/Shyam.png" alt="" srcset=""/>
 						</div>
@@ -57,8 +57,7 @@ class Prizes extends Component {
 				</section>
 				<Modal
 
-					dialogClassName="modal-90"
-					aria-labelledby="example-custom-modal-styling-title"
+					show={show} onHide={handleClose} animation={true}
 				>
 					<Modal.Header closeButton>
 						{/* <center>
@@ -78,6 +77,6 @@ class Prizes extends Component {
 			</>
 		);
 	}
-}
 
-export default Prizes;
+
+export default Panel;
