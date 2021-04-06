@@ -91,7 +91,7 @@ class About extends Component {
 						<img src={milo} className="milo" />
 						<img src={hello} className="hello" />
 					</div>
-					<div className="AboutButtons">
+					{/* <div className="AboutButtons">
 						<a
 							href="https://drive.google.com/file/d/1_UcQL0piklxf3ku5ildXB73LWkXmHFWv"
 							target="_blank"
@@ -99,7 +99,7 @@ class About extends Component {
 							<div className="AboutButton a1"> Sponsor Us </div>
 						</a>
 						
-					</div>
+					</div> */}
 				</div>
 			</section>
 		);

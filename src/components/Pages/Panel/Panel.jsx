@@ -1,4 +1,4 @@
-import React, { Component,useState,useEffect } from "react";
+import React, { Component, useState, useEffect } from "react";
 import "./Panel.scss";
 import p1 from "../../../files/Prizes/1st-png.png";
 import p2 from "../../../files/Prizes/2nd-png.png";
@@ -11,6 +11,7 @@ import wwwimg from "../../../files/Team/icons/web-01.svg";
 import mailimg from "../../../files/Team/icons/mail-01.svg";
 import code from "../../../files/Team/icons/codechef.svg";
 import git from "../../../files/Team/icons/github-01.svg";
+import $ from "jquery";
 
 function Panel() {
 	const [show, setShow] = useState(false);
@@ -18,70 +19,115 @@ function Panel() {
 	const [txt, settxt] = useState("");
 	const [image, setimage] = useState("");
 
-	const handleClose = () => setShow(false);
-	const handleShow = (ab,txt,image) => {setShow(true);
-		  setcon(ab);settxt(txt);setimage(image)}
-  
-	
-		return (
-			<>
-				<section id="Prize">
-					<h1 style={{ "font-family": "Jura" }}>Panel</h1>
-					<br />
-					<div className="panel_container">
-						<div className="panel_card">
-							<div className="panel_content">
-								<h2>Ashish Dubey</h2>
-								<p>Principal Senior Architect <br/>Amazon Web Services</p>
-								<a variant="primary" onClick={() => handleShow("Ashish Dubey","Ashish Dubey graduated in Computer Science from MNNIT Allahabad in 2004. He started his professional career with Hughes Software Systems and later joined companies like Microsoft, Lunexa ( Acquired by Teradata ), Qubole. He is currently working for AWS in Singapore. In the last 17 years, Ashish has had a mix of Enterprise and Early Stage Startup experience in the Data Analytics and Cloud Computing domains. For the last 10 years, Ashish has been leading global teams of Technical Architects in different geographies such as the US, EMEA, and the Asia Pacific.","images/AshishHeadshot.png")}>Read More</a>
-							</div>
-							<img src="images/AshishHeadshot.png" alt="" srcset=""/>
+	const handleClose = () => {
+		setShow(false);
+		$("html, body").css("overflowY", "auto");
+	};
+	const handleShow = (ab, txt, image) => {
+		setShow(true);
+		setcon(ab);
+		settxt(txt);
+		setimage(image);
+	};
+
+	return (
+		<>
+			<section id="Prize">
+				<h1 style={{ "font-family": "Jura" }}>Panel</h1>
+				<br />
+				<div className="panel_container">
+					<div className="panel_card">
+						<div className="panel_content">
+							<h2>Ashish Dubey</h2>
+							<p>
+								Principal Senior Architect <br />
+								Amazon Web Services
+							</p>
+							<a
+								variant="primary"
+								onClick={() =>
+									handleShow(
+										"Ashish Dubey",
+										"Ashish Dubey graduated in Computer Science from MNNIT Allahabad in 2004. He started his professional career with Hughes Software Systems and later joined companies like Microsoft, Lunexa ( Acquired by Teradata ), Qubole. He is currently working for AWS in Singapore. In the last 17 years, Ashish has had a mix of Enterprise and Early Stage Startup experience in the Data Analytics and Cloud Computing domains. For the last 10 years, Ashish has been leading global teams of Technical Architects in different geographies such as the US, EMEA, and the Asia Pacific.",
+										"images/AshishHeadshot.png"
+									)
+								}
+							>
+								Read More
+							</a>
 						</div>
-						<div className="panel_card">
-							<div className="panel_content">
-								<h2>Gundeep Singh </h2>
-								<p>Founder, Honcho</p>
-								<a variant="primary" onClick={() => handleShow("Gundeep Singh","","images/Gundeep.png")}>Read More</a>
-							</div>
-							<img src="images/Gundeep.png"  alt="" srcset=""/>
+						<img src="images/AshishHeadshot.png" alt="" srcset="" />
+					</div>
+					<div className="panel_card">
+						<div className="panel_content">
+							<h2>Gundeep Singh </h2>
+							<p>Founder, Honcho</p>
+							<a
+								variant="primary"
+								onClick={() =>
+									handleShow(
+										"Gundeep Singh",
+										"",
+										"images/Gundeep.png"
+									)
+								}
+							>
+								Read More
+							</a>
 						</div>
-					
+						<img src="images/Gundeep.png" alt="" srcset="" />
+					</div>
 				</div>
 				<div className="panel_container">
-							<div className="panel_card">
-							<div className="panel_content">
-								<h2>Shyam Jha</h2>
-								<p>Senior VP of Engineering <br/>NetSPI</p>
-								<a variant="primary" onClick={() => handleShow("Shyam Jha","Shyam P Jha, an alumnus of the National Institute Of Technology, Kurukshetra, is currently serving as the Senior Vice President Of Engineering at NetSPI,  a Threat and Vulnerability Management and Penetration Testing company. Prior to this, he has worked with major multinational companies such as Siemens, Wipro, Symantec Corporation (now Broadcom) and FireEye (thru the acquisition of iSight Partners). Shyam P Jha boasts more than 22 years of experience in various software engineering roles, particularly cybersecurity, cyber threat intelligence, data protection & telecom domain. We are so honoured to present him as our first judge of Hack36.","images/Shyam.png")}>Read More</a>
-							</div>
-							<img src="images/Shyam.png" alt="" srcset=""/>
+					<div className="panel_card">
+						<div className="panel_content">
+							<h2>Shyam Jha</h2>
+							<p>
+								Senior VP of Engineering <br />
+								NetSPI
+							</p>
+							<a
+								variant="primary"
+								onClick={() =>
+									handleShow(
+										"Shyam Jha",
+										"Shyam P Jha, an alumnus of the National Institute Of Technology, Kurukshetra, is currently serving as the Senior Vice President Of Engineering at NetSPI,  a Threat and Vulnerability Management and Penetration Testing company. Prior to this, he has worked with major multinational companies such as Siemens, Wipro, Symantec Corporation (now Broadcom) and FireEye (thru the acquisition of iSight Partners). Shyam P Jha boasts more than 22 years of experience in various software engineering roles, particularly cybersecurity, cyber threat intelligence, data protection & telecom domain. We are so honoured to present him as our first judge of Hack36.",
+										"images/Shyam.png"
+									)
+								}
+							>
+								Read More
+							</a>
 						</div>
+						<img src="images/Shyam.png" alt="" srcset="" />
+					</div>
 				</div>
-				
-				</section>
-				<Modal
-
-					show={show} onHide={handleClose} animation={true}
-				>
-					<Modal.Header closeButton>
-						{/* <center>
+			</section>
+			<Modal show={show} onHide={handleClose} animation={true}>
+				<Modal.Header closeButton>
+					{/* <center>
           <Modal.Title id="example-custom-modal-styling-title">
             Hack36 Team
           </Modal.Title>
         </center> */}
-					</Modal.Header>
-					<Modal.Body>
-						<h1 className="heading ">{con} </h1>
-						
-						<center>						<img className="panelimg" src={image} alt="" srcset=""/>
-</center>
-						 <p>{txt}</p>
-						</Modal.Body>
-				</Modal>
-		
-			</>
-		);
-	}
+				</Modal.Header>
+				<Modal.Body>
+					<h1 className="heading ">{con} </h1>
 
+					<center>
+						{" "}
+						<img
+							className="panelimg"
+							src={image}
+							alt=""
+							srcset=""
+						/>
+					</center>
+					<p>{txt}</p>
+				</Modal.Body>
+			</Modal>
+		</>
+	);
+}
 
 export default Panel;

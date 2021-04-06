@@ -201,7 +201,7 @@ class Prizes extends Component {
 										T-shirts <br />& <br />
 										Goodies{" "}
 									</h3>
-									<p className="Top">Top 15 teams</p>
+									<p className="Top">Top 20 teams</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 								</center>
@@ -720,9 +720,7 @@ class Prizes extends Component {
 										alt=""
 									/>
 									<h3>$120 worth credits </h3>
-									<p className="Top">
-									All participants
-									</p>
+									<p className="Top">All participants</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 								</center>
@@ -756,9 +754,7 @@ class Prizes extends Component {
 										alt=""
 									/>
 									<h3>Free Access to Speechly </h3>
-									<p className="Top">
-									All Participants
-									</p>
+									<p className="Top">All Participants</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 								</center>
@@ -773,17 +769,15 @@ class Prizes extends Component {
 										src="https://d33wubrfki0l68.cloudfront.net/1e70457a60b0627de6ab966f1e0a40cf56f465f5/bf0f3/img/logo-speechly.svg"
 										alt=""
 									/>
-									<h3>$100 Amazon Gift Card
- </h3>
+									<h3>$100 Amazon Gift Card</h3>
 									<p className="Top">
-									Top 3 Hacks build on Speechly
+										Top 3 Hacks build on Speechly
 									</p>
 									{/* <a target="_blank" href="https://mayukh@mnnit.ac.in"><img src={mailimg} /></a>
                     <a target="_blank" href="http://www.mnnit.ac.in/images/newstories/2017/facpropic/Mayukh_CV_new.pdf"><img src={wwwimg} /></a> */}
 								</center>
 							</div>
 						</div>
-				
 					</div>
 				</section>
 			</>

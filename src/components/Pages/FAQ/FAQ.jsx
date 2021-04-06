@@ -63,12 +63,12 @@ class FAQ extends Component {
 								answer="Anyone having a knack of solving real life problems can apply for the hackathon."
 							/>
 						</li>
-						<li>
+						{/* <li>
 							<FAQitem
 								question="Where’s the schedule?"
 								answer="We’ll release a detailed timeline in March."
 							/>
-						</li>
+						</li> */}
 						<li>
 							<FAQitem
 								question="What Is The Procedure Of Forming A Team?"
@@ -77,10 +77,16 @@ class FAQ extends Component {
 						</li>
 						<li>
 							<FAQitem
+								question="What We Can Build?"
+								answer="You can build anything you are passionate about like some web app, mobile app or something using hardware."
+							/>
+						</li>
+						{/* <li>
+							<FAQitem
 								question="When will timeline release?"
 								answer="Very soon, stay tuned!"
 							/>
-						</li>
+						</li> */}
 					</ul>
 				</div>
 				<div className="faq_right ">
@@ -113,12 +119,6 @@ class FAQ extends Component {
 							<FAQitem
 								question="What Is The Criteria For Selection Of A Team?"
 								answer="If 75% members of a team have a decent profile, the team will get shortlisted. In a rare case where a team is not shortlisted, that team can contact us for the re-evaluation of their team."
-							/>
-						</li>
-						<li>
-							<FAQitem
-								question="What We Can Build?"
-								answer="You can build anything you are passionate about like some web app, mobile app or something using hardware."
 							/>
 						</li>
 					</ul>

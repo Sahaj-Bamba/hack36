@@ -14,6 +14,10 @@ class Timeline extends Component {
 		return (
 			<div id="timeline">
 				<h1 style={{ "font-family": "Jura" }}>Timeline</h1>
+				<br />
+				<br />
+				<br />
+
 				<div className="TimelineContent">
 					<div className="TimelineElement">
 						<img src={p1} className="TimelinePhoto" alt="" />
