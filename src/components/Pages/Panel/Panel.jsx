@@ -43,7 +43,7 @@ function Panel() {
 								Principal Senior Architect <br />
 								Amazon Web Services
 							</p>
-							<a
+							<a style={{"cursor": "pointer"}}
 								variant="primary"
 								onClick={() =>
 									handleShow(
@@ -62,7 +62,7 @@ function Panel() {
 						<div className="panel_content">
 							<h2>Gundeep Singh </h2>
 							<p>Founder, Honcho</p>
-							<a
+							<a style={{"cursor": "pointer"}}
 								variant="primary"
 								onClick={() =>
 									handleShow(
@@ -86,7 +86,7 @@ function Panel() {
 								Senior VP of Engineering <br />
 								NetSPI
 							</p>
-							<a
+							<a style={{"cursor": "pointer"}}
 								variant="primary"
 								onClick={() =>
 									handleShow(
