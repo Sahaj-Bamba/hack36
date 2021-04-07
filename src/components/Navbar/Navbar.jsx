@@ -86,6 +86,16 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
+						<a href="#timeline">
+							<div
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								Timeline
+							</div>
+						</a>
+					</li>
+					<li className="nav-item">
 						<a href="#Prize">
 							<div
 								className="nav-links"
