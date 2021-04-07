@@ -67,7 +67,7 @@ function Panel() {
 								onClick={() =>
 									handleShow(
 										"Gundeep Singh",
-										"",
+										"The next judge of our Hack36 panel is a man who dons quite a few feathers on his cap. With a Master’s degree in Computer Science from Columbia University and an MBA from Harvard, Mr. Gundeep S has worked at tech giants such as Amazon, Microsoft, IBM and Cisco, while being a teaching staff at Harvard, also co-founded 3 companies one of them being Custard-Apple Technologies (CAT),  which has trained 40,000+ individuals on Information and Cyber Security and the other one is JOTdown, he is currently engaged with Honcho. He is also a TEDx speaker having proud privilege of being a keynote speaker to eminent gatherings at prestigious institutes such as IIT, CBI, IMA and a gold awardee with the International Award for Young People. He has to his credit today, several articles, and over thirty research publications. His role in various international IEEE and WASET conferences includes being the Chair and Reviewer.  Earlier he as been a part of Hackathons conducted by ADi (application development initiative) at Columbia University, Northeastern University, New York University, Suny Buffalo University.",
 										"images/Gundeep.png"
 									)
 								}
