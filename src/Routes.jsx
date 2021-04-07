@@ -13,6 +13,7 @@ import Sponsor from "./components/Pages/Sponsor/Sponsor";
 import Prizes from "./components/Pages/Prizes/Prizes";
 import Panel from "./components/Pages/Panel/Panel";
 import Footer from "./components/Footer/Footer";
+import Timeline from "./components/Pages/Timeline/Timeline";
 // import Timeline from "./components/Pages/Timeline_temp/Timeline";
 class Routes extends Component {
 	constructor(props) {
@@ -34,8 +35,9 @@ class Routes extends Component {
 							{/* <About /> */}
 							<About />
 							<Theme />
+							<Timeline />
 							<Prizes />
-							{/* <Panel /> */}
+							<Panel />
 
 							<Sponsor />
 							<FAQ />
