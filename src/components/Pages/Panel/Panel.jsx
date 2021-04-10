@@ -83,6 +83,32 @@ function Panel() {
 				<div className="panel_container">
 					<div className="panel_card">
 						<div className="panel_content">
+							<h2>Shakti Goap</h2>
+							<p>
+								Founder and CEO
+								<br />
+								Devfolio
+							</p>
+							<a
+								style={{ cursor: "pointer" }}
+								variant="primary"
+								onClick={() =>
+									handleShow(
+										"Shakti Goap",
+										"Shakti Goap, is an NIT Surat Alumni, he has also founded Devfolio, which helps organizers to host hackathons all over the world, and Fold, which is a mobile-first bank for the internet-native Indians. Apart from these, he is a founder of Hack InOut and ETHIndia, which are India's largest hackathon communities.",
+										"images/pi.png"
+									)
+								}
+							>
+								Read More
+							</a>
+						</div>
+						<img src="images/pi.png" alt="" srcset="" />
+					</div>
+				</div>
+				<div className="panel_container">
+					<div className="panel_card">
+						<div className="panel_content">
 							<h2>Shyam Jha</h2>
 							<p>
 								Senior VP of Engineering <br />
