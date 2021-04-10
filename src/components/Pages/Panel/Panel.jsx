@@ -43,7 +43,8 @@ function Panel() {
 								Principal Senior Architect <br />
 								Amazon Web Services
 							</p>
-							<a style={{"cursor": "pointer"}}
+							<a
+								style={{ cursor: "pointer" }}
 								variant="primary"
 								onClick={() =>
 									handleShow(
@@ -62,7 +63,8 @@ function Panel() {
 						<div className="panel_content">
 							<h2>Gundeep Singh </h2>
 							<p>Founder, Honcho</p>
-							<a style={{"cursor": "pointer"}}
+							<a
+								style={{ cursor: "pointer" }}
 								variant="primary"
 								onClick={() =>
 									handleShow(
@@ -86,7 +88,8 @@ function Panel() {
 								Senior VP of Engineering <br />
 								NetSPI
 							</p>
-							<a style={{"cursor": "pointer"}}
+							<a
+								style={{ cursor: "pointer" }}
 								variant="primary"
 								onClick={() =>
 									handleShow(
@@ -100,6 +103,29 @@ function Panel() {
 							</a>
 						</div>
 						<img src="images/Shyam.png" alt="" srcset="" />
+					</div>
+					<div className="panel_card">
+						<div className="panel_content">
+							<h2>Mahesh Kumar</h2>
+							<p>
+								Director of Engineering <br />
+								Flipkart
+							</p>
+							<a
+								style={{ cursor: "pointer" }}
+								variant="primary"
+								onClick={() =>
+									handleShow(
+										"Mahesh Kumar",
+										"Mahesh Kumar is an alumnus of BITS Pilani and has worked with some of the most reputed companies including Oracle and Tech Mahindra. <br />Currently, he serves as the Director of Engineering at Flipkart where he leads the Data Science and Engineering for Flipkart Fintech Insights. With over two decades of experience, he is a veteran of the software world who loves to build, scale and lead high-performance engineering.",
+										"images/pn.png"
+									)
+								}
+							>
+								Read More
+							</a>
+						</div>
+						<img src="images/pn.png" alt="" srcset="" />
 					</div>
 				</div>
 			</section>
