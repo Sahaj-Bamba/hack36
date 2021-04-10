@@ -117,7 +117,7 @@ function Panel() {
 								onClick={() =>
 									handleShow(
 										"Mahesh Kumar",
-										"Mahesh Kumar is an alumnus of BITS Pilani and has worked with some of the most reputed companies including Oracle and Tech Mahindra. <br />Currently, he serves as the Director of Engineering at Flipkart where he leads the Data Science and Engineering for Flipkart Fintech Insights. With over two decades of experience, he is a veteran of the software world who loves to build, scale and lead high-performance engineering.",
+										"Mahesh Kumar is an alumnus of BITS Pilani and has worked with some of the most reputed companies including Oracle and Tech Mahindra. Currently, he serves as the Director of Engineering at Flipkart where he leads the Data Science and Engineering for Flipkart Fintech Insights. With over two decades of experience, he is a veteran of the software world who loves to build, scale and lead high-performance engineering.",
 										"images/pn.png"
 									)
 								}
