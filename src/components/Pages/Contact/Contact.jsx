@@ -13,7 +13,7 @@ import linkedInimg from "../../../files/ContactUs/linkedInimg.jpg";
 import wwwimg from "../../../files/ContactUs/wwwimg.jpg";
 class Contact extends Component {
 	componentDidMount() {
-		var endTime = new Date("19 April 2021 00:00:00 GMT+01:00");
+		var endTime = new Date("9 April 2021 18:00:00 GMT+05:30");
 		endTime = Date.parse(endTime) / 1000;
 
 		var now = new Date();
@@ -44,7 +44,7 @@ class Contact extends Component {
 		$("#seconds").html(seconds + "<span>Seconds</span>");
 
 		setInterval(() => {
-			var endTime = new Date("19 April 2021 00:00:00 GMT+01:00");
+			var endTime = new Date("28 February 2022 18:00:00 GMT+05:30");
 			endTime = Date.parse(endTime) / 1000;
 
 			var now = new Date();
@@ -171,7 +171,14 @@ class Contact extends Component {
 							</Grid>
 						</Grid>
 					</div>
+				<div>
+					<a href="http://bit.ly/Hack36COC" target="_blank" style={{color:"white", fontSize:"1.3rem"}}>Code of Conduct</a>
 				</div>
+				<div style={{paddingBottom:"15px"}}>
+					<a href="http://mlh.io/code-of-conduct" target="_blank" style={{color:"white", fontSize:"1.3rem"}}>MLH Code of Conduct</a>
+				</div>
+				</div>
+				
 			</section>
 		);
 	}

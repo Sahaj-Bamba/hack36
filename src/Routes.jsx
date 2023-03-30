@@ -7,8 +7,14 @@ import About from "./components/Pages/About/About";
 import Back from "./components/Pages/Back/Back";
 
 import Contact from "./components/Pages/Contact/Contact";
+import Theme from "./components/Pages/Theme/Theme";
 import Team from "./components/Pages/Team/Team";
-
+import Sponsor from "./components/Pages/Sponsor/Sponsor";
+import Prizes from "./components/Pages/Prizes/Prizes";
+import Panel from "./components/Pages/Panel/Panel";
+import Footer from "./components/Footer/Footer";
+import Timeline from "./components/Pages/Timeline/Timeline";
+// import Timeline from "./components/Pages/Timeline_temp/Timeline";
 class Routes extends Component {
 	constructor(props) {
 		super(props);
@@ -28,8 +34,16 @@ class Routes extends Component {
 							<Main />
 							{/* <About /> */}
 							<About />
+							<Theme />
+							<Timeline />
+							<Prizes />
+							<Panel />
+
+							<Sponsor />
 							<FAQ />
+							{/* <Timeline/> */}
 							<Contact />
+							<Footer />
 						</React.Fragment>
 					)}
 				/>
@@ -37,9 +51,7 @@ class Routes extends Component {
 					path="/about"
 					exact
 					render={(props) => (
-						<React.Fragment>
-							{/* <About /> */}
-						</React.Fragment>
+						<React.Fragment>{/* <About /> */}</React.Fragment>
 					)}
 				/>
 				<Route

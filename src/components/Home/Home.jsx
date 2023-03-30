@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
-import Content from "./Content"
+import Content from "./Content";
 import Base from "./Base";
-import './Home.scss';
-
+import "./Home.scss";
+import $ from "jquery";
 class Home extends Component {
 	constructor(props) {
 		super(props);
@@ -11,9 +11,31 @@ class Home extends Component {
 		this.state = {};
 	}
 
+	componentDidMount() {
+		var intersectionOptions = {
+			root: null, // use the viewport
+			rootMargin: "0px",
+			threshold: 0.3,
+		};
+
+		function intersectionCallback(entries, observer) {
+			entries.forEach((entry) => {
+				if (entry.intersectionRatio >= 0.3) {
+				} else {
+				}
+			});
+		}
+		var observer = new IntersectionObserver(
+			intersectionCallback,
+			intersectionOptions
+		);
+		var target = document.getElementById("Home");
+		observer.observe(target);
+	}
+
 	render() {
 		return (
-			<div className="home-bg">
+			<div className="home-bg" id="Home">
 				<Navbar></Navbar>
 				<Content></Content>
 				<Base></Base>

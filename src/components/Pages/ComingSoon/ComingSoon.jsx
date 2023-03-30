@@ -66,6 +66,7 @@ class ComingSoon extends Component {
 		return (
 			<div id="ComingSoon">
 				<div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+				
             </div>
 		);
 	}

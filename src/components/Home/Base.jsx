@@ -72,8 +72,8 @@ class Base extends Component {
 			var newq = this.makeNewPosition();
 
 			if (true) {
-				document.getElementById(id).style.left = newq[1] + "px";
-				document.getElementById(id).style.top = newq[0] + "px";
+				document.getElementById(id) && (document.getElementById(id).style.left = newq[1] + "px");
+				document.getElementById(id) && (document.getElementById(id).style.top = newq[0] + "px");
 
 				$("#" + id).fadeIn(500);
 				$("#" + id).fadeOut(tm - 500);
@@ -107,7 +107,7 @@ class Base extends Component {
 
 	render() {
 		return (
-			<div className="Base" id="Home">
+			<div className="Base" >
 				<div id="a">
 					<img src={vir1} alt="" srcSet="" />{" "}
 				</div>
